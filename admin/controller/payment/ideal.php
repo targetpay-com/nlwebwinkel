@@ -108,6 +108,10 @@ class ControllerPaymentideal extends Controller {
 			} else {
 			$this->data['ideal_total'] = $this->config->get('ideal_total');
 	   		}
+	   		
+   		if (!isset($this->data['ideal_total'])) {
+   			$this->data['ideal_total'] = 1;
+   			}	   		
 
 		if (isset($this->request->post['ideal_order_status_id'])) {
 			$this->data['ideal_order_status_id'] = $this->request->post['ideal_order_status_id'];
@@ -144,6 +148,10 @@ class ControllerPaymentideal extends Controller {
 			} else {
 			$this->data['ideal_sort_order'] = $this->config->get('ideal_sort_order');
 			}
+			
+		if (!isset($this->data['ideal_sort_order'])) {
+			$this->data['ideal_sort_order'] = 1;
+			}			
 
 		$this->template = 'payment/ideal.tpl';
 		$this->children = array(

@@ -26,7 +26,7 @@ $bankList = $targetPay->getBankList();
     <tr>
       <td><?php echo $entry_bank_id; ?></td>
       <td><select name="bank_id">
-          <?
+          <?php 
           foreach ($bankList as $id => $name) {
           	echo "<option value=\"".$id."\">".$name."</option>\r\n";
           	}

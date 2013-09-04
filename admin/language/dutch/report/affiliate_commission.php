@@ -2,14 +2,14 @@
 // Heading
 $_['heading_title']     = 'Affiliate Commissie Rapport';
 
-// Column
+// Kolom
 $_['column_affiliate']  = 'Affiliate Naam';
 $_['column_email']      = 'E-mail';
 $_['column_status']     = 'Status';
 $_['column_commission'] = 'Commissie';
 $_['column_orders']     = 'Aantal bestellingen';
 $_['column_total']      = 'Totaal';
-$_['column_action']     = 'Aktie';
+$_['column_action']     = 'Actie';
 
 // Entry
 $_['entry_date_start']  = 'Begindatum:';

@@ -9,7 +9,7 @@ $_['text_week']         = 'Weken';
 $_['text_day']          = 'Dagen';
 $_['text_all_status']   = 'Alle Statussen';
 
-// Column
+// Kolom
 $_['column_date_start'] = 'Begindatum';
 $_['column_date_end']   = 'Einddatum';
 $_['column_title']      = 'BTW groep';

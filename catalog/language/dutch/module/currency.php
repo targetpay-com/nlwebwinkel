@@ -1,4 +1,4 @@
 <?php
 // Text
-$_['text_currency'] = 'Valuta';
+$_['text_currency'] = 'Muntsoort';
 ?>

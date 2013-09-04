@@ -5,7 +5,7 @@ $_['heading_title']     = 'Verkochte producten rapport';
 // Text
 $_['text_all_status']   = 'Alle statussen';
 
-// Column
+// Kolom
 $_['column_date_start'] = 'Begindatum';
 $_['column_date_end']   = 'Eindatum';
 $_['column_name']       = 'Naam';

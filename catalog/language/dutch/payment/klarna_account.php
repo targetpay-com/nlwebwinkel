@@ -1,31 +1,28 @@
-<?
-
-// Toegevoegd 23-08-2013 (EvdB)
-
+<?                  
 $_['text_title']           = 'Klarna Account';
-$_['text_pay_month']       = 'Klarna Account - Pay from %s/month <span id="klarna_account_toc_link"></span><script text="javascript">$.getScript(\'http://cdn.klarna.com/public/kitt/toc/v1.0/js/klarna.terms.min.js\', function(){ var terms = new Klarna.Terms.Account({ el: \'klarna_account_toc_link\', eid: \'%s\',   country: \'%s\'});})</script>';
-$_['text_information']     = 'Klarna Account Information';
-$_['text_additional']      = 'Klarna Account requires some additional information before they can proccess your order.';
-$_['text_wait']            = 'Please wait!';
-$_['text_male']            = 'Male';
-$_['text_female']          = 'Female';
-$_['text_year']            = 'Year';
-$_['text_month']           = 'Month';
-$_['text_day']             = 'Day';
-$_['text_payment_option']  = 'Payment options';
-$_['text_single_payment']  = 'Single Payment';
-$_['text_monthly_payment'] = '%s - %s per month';
-$_['text_comment']         = 'Klarna\'s Invoice ID: %s
+$_['text_pay_month']       = 'Klarna Account - Betalen vanaf %s/maand <span id="klarna_account_toc_link"></span><script text="javascript">$.getScript(\'http://cdn.klarna.com/public/kitt/toc/v1.0/js/klarna.terms.min.js\', function(){ var terms = new Klarna.Terms.Account({ el: \'klarna_account_toc_link\', eid: \'%s\',   country: \'%s\'});})</script>';
+$_['text_information']     = 'Klarna Account informatie';
+$_['text_additional']      = 'Klarna heeft wat extra gegevens nodig voordat ze je betaling kunnen verwerken.';
+$_['text_wait']            = 'Even geduld a.u.b.';
+$_['text_male']            = 'Man';
+$_['text_female']          = 'Vrouw';
+$_['text_year']            = 'Jaar';
+$_['text_month']           = 'Maand';
+$_['text_day']             = 'Dag';
+$_['text_payment_option']  = 'Betaal opties';
+$_['text_single_payment']  = 'Eenmalige betaling';
+$_['text_monthly_payment'] = '%s - %s per maand';
+$_['text_comment']         = 'Klarna\'s factuurnummer: %s
 %s/%s: %.4f';
-$_['entry_gender']         = 'Gender:';
-$_['entry_pno']            = 'Personal Number:<br /><span class="help">Please enter your Social Security number here.</span>';
-$_['entry_dob']            = 'Date of Birth:';
-$_['entry_phone_no']       = 'Phone number:<br /><span class="help">Please enter your phone number.</span>';
-$_['entry_street']         = 'Street:<br /><span class="help">Please note that delivery can only take place to the registered address when paying with Klarna.</span>';
-$_['entry_house_no']       = 'House No.:<br /><span class="help">Please enter your house number.</span>';
-$_['entry_house_ext']      = 'House Ext.:<br /><span class="help">Please submit your house extension here. E.g. A, B, C, Red, Blue ect.</span>';
-$_['entry_company']        = 'Company Registration Number:<br /><span class="help">Please enter your Company\'s registration number</span>';
-$_['error_deu_terms']      = 'You must agree to Klarna\'s privacy policy (Datenschutz)';
-$_['error_address_match']  = 'Billing and Shipping addresses must match if you want to use Klarna Payments';
-$_['error_network']        = 'Error occurred while connecting to Klarna. Please try again later.';
+$_['entry_gender']         = 'Geslacht:';
+$_['entry_pno']            = 'BSN:<br /><span class="help">Toets hier je burgerservicenummer (BSN)</span>';
+$_['entry_dob']            = 'Geboortedatum:';
+$_['entry_phone_no']       = 'Telefoonnummer:';
+$_['entry_street']         = 'Straat:<br /><span class="help">Let op: dit moet gelijk zijn aan het bezorgadres.</span>';
+$_['entry_house_no']       = 'Huisnummer';
+$_['entry_house_ext']      = 'Toevoeging<br /><span class="help">Huisnummer toevoeging (bijv. A, B, C, 2hoog)</span>';
+$_['entry_company']        = 'KvK nummer:';
+$_['error_deu_terms']      = 'Je dient akkoord te gaan met de privacy policy van Klarna';
+$_['error_address_match']  = 'Factuur en bezorgadres moeten hetzelfde zijn als je Klarna wil gebruiken als betaalwijze';
+$_['error_network']        = 'Er kon geen verbinding gemaakt worden met Klarna, probeer het later opnieuw.';
 ?>

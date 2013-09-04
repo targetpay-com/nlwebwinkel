@@ -2,9 +2,9 @@
 
 // Toegevoegd 23-08-2013 (EvdB)
 
-$_['heading_title']        = 'Extension Manager';
-$_['text_success']         = 'Success: You have installed your extension!';
-$_['error_permission']     = 'Warning: You do not have permission to modify extension manager!';
-$_['error_upload']         = 'Upload required!';
-$_['error_filetype']       = 'Invalid file type!';
+$_['heading_title']        = 'Extensie beheer';
+$_['text_success']         = 'Gelukt: je hebt de extensie ge&iuml;stalleerd!';
+$_['error_permission']     = 'Waarschuwing: je hebt geen rechten voor extensie beheer!';
+$_['error_upload']         = 'Upload is verplicht!';
+$_['error_filetype']       = 'Ongeldig bestandstype!';
 ?>

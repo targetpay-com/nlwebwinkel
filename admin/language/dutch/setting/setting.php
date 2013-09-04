@@ -1,9 +1,9 @@
 <?php
 // Heading
-$_['heading_title']         = 'Winkel-instellingen';
+$_['heading_title']         = 'Winkel instellingen';
 
 // Text
-$_['text_success']          = 'Succes: Instellingen gewijzigd!';
+$_['text_success']          = 'Gelukt: instellingen gewijzigd';
 $_['text_items']            = 'Items';
 $_['text_product']          = 'Producten';
 $_['text_voucher']          = 'Tegoedbonnen';
@@ -13,10 +13,10 @@ $_['text_checkout']         = 'Afrekenen';
 $_['text_stock']            = 'Voorraad';
 $_['text_affiliate']        = 'Affiliates';
 $_['text_return']           = 'Retourzendingen';
-$_['text_image_manager']    = 'Image Manager';
+$_['text_image_manager']    = 'Beheer afbeeldingen';
 $_['text_browse']           = 'Doorzoek bestanden';
 $_['text_clear']            = 'Afbeelding verwijderen';
-$_['text_shipping']         = 'Afleveradres';
+$_['text_shipping']         = 'Bezorgadres';
 $_['text_payment']          = 'Factuuradres';
 $_['text_mail']             = 'Mail';
 $_['text_smtp']             = 'SMTP';
@@ -33,11 +33,11 @@ $_['entry_meta_description']  = 'Meta-Tag omschrijving:<br /><span class="help">
 $_['entry_layout']            = 'Standaard Layout:';
 $_['entry_template']          = 'Template:<br /><span class="help">Kies de template zoals de voorkant van de winkel wordt weegegeven.</span>';
 $_['entry_country']           = 'Land:<br /><span class="help">Het land waarin de winkel zich bevind.</span>';
-$_['entry_zone']              = 'Regio / Provincie:<br /><span class="help">De regio en/of provincie waarin de winkel zich bevind.</span>';
+$_['entry_zone']              = 'Regio:<br /><span class="help">De regio en/of provincie waarin de winkel zich bevind.</span>';
 $_['entry_language']          = 'Taal winkel:<br /><span class="help">De standaard taal waarin de voorkant van de winkel wordt weergegeven.</span>';
 $_['entry_admin_language']    = 'Taal administratie:<br /><span class="help">De taal waarin de administratie wordt weergegeven.</span>';
-$_['entry_currency']          = 'Valuta administratie:<br /><span class="help">Standaard valuta in de administratie.</span>';
-$_['entry_currency_auto']     = 'Autoupdate valuta:<br /><span class="help">Valutakoersen automatisch bijwerken.</span>';
+$_['entry_currency']          = 'Muntsoort administratie:<br /><span class="help">Standaard Muntsoort in de administratie.</span>';
+$_['entry_currency_auto']     = 'Autoupdate Muntsoort:<br /><span class="help">Muntsoortkoersen automatisch bijwerken.</span>';
 $_['entry_length_class']      = 'Lengte-eenheid:<br /><span class="help">De eenheid waarin de grootte van de producten worden berekend.</span>';
 $_['entry_weight_class']      = 'Gewichts-eenheid:<br /><span class="help">De eenheid waarin het gewicht van de producten worden berekend.</span>';
 $_['entry_catalog_limit'] 	  = 'Aantal per pagina (Winkel):<br /><span class="help">Hoeveel items per pagina (producten, categorie&euml;n, etc)</span>';
@@ -50,11 +50,11 @@ $_['entry_voucher_min']       = 'Tegoedbon Min:<br /><span class="help">Minimum 
 $_['entry_voucher_max']       = 'Tegoedbon Max:<br /><span class="help">Maximum aankoopwaarde van een tegoedbon.</span>';
 $_['entry_tax']               = 'Toon prijzen inclusief BTW:<br /><span class="help">De prijzen in de winkel worden inclusief BTW weergegeven.</span>';
 $_['entry_vat']               = 'BTW nr. controleren:<br /><span class="help">Controleer het BTW nr. op http://ec.europa.eu service.</span>';
-$_['entry_tax_default']       = 'BTW in winkel:<br /><span class="help">Gebruik het adres van de Winkel (Kies: Afleveradres)) om de BTW te berekenen op de website. Of kies Factuuradres (van de klant) en de BTW is pas zichtbaar nadat klant is inlogd.</span>';
-$_['entry_tax_customer']      = 'BTW voor klant:<br /><span class="help">Gebruik het adres van de klant om de BTW te berekenen nadat deze is ingelogd. U heeft de keuze uit het Factuur- of Afleveradres van de klant.</span>';
+$_['entry_tax_default']       = 'BTW in winkel:<br /><span class="help">Gebruik het adres van de Winkel (Kies: Bezorgadres)) om de BTW te berekenen op de website. Of kies Factuuradres (van de klant) en de BTW is pas zichtbaar nadat klant is inlogd.</span>';
+$_['entry_tax_customer']      = 'BTW voor klant:<br /><span class="help">Gebruik het adres van de klant om de BTW te berekenen nadat deze is ingelogd. je hebt de keuze uit het Factuur- of Bezorgadres van de klant.</span>';
 $_['entry_customer_online']   = 'Klanten online:<br /><span class="help">Volg klanten online via de Klanten online rapportage.</span>';
-$_['entry_customer_group']    = 'Klanten groep:<br /><span class="help">Standaard groep van klant bij registreren.</span>';
-$_['entry_customer_group_display'] = 'Klantengroep(en):<br /><span class="help">Klantengroepen weergeven waaruit nieuwe klanten kunnen kiezen tijdens registratie.</span>';
+$_['entry_customer_group']    = 'Klantgroep:<br /><span class="help">Standaard groep van klant bij registreren.</span>';
+$_['entry_customer_group_display'] = 'Klantgroep(en):<br /><span class="help">Klantgroepen weergeven waaruit nieuwe klanten kunnen kiezen tijdens registratie.</span>';
 $_['entry_customer_price']    = 'Toon prijzen na inloggen:<br /><span class="help">Laat alleen de prijzen zien als de klant is ingelogd.</span>';
 $_['entry_account']           = 'Account Voorwaarden:<br /><span class="help">Bij het aanmaken van een account dient de klant hiermee accoord te gaan.</span>';
 $_['entry_cart_weight']       = 'Gewicht in winkelwagen:<br /><span class="help">Geef het totaalgewicht van de verzending weer in de header van de winkelwagen.</span>';
@@ -63,7 +63,7 @@ $_['entry_checkout']          = 'Checkout Voorwaarden:<br /><span class="help">B
 $_['entry_order_edit']        = 'Order Edit:<br /><span class="help">Aantal dagen dat een bestelling gewijzigd kan worden na het plaatsten. Dit omdat prijzen en kortingen kunnen wijzigen.</span>';
 $_['entry_invoice_prefix']    = 'Factuurnummer prefix:<br /><span class="help">Factuurnummer prefix bv. 2010-</span>';
 $_['entry_order_status']      = 'Bestelstatus:<br /><span class="help">Standaard status van een nieuwe bestelling.</span>';
-$_['entry_complete_status']   = 'Complete Order Status:<br /><span class="help">Bestelstatus waarna een klant zijn bestelling kan downloaden en cadeaubonnen kan printen.</span>';
+$_['entry_complete_status']   = 'Complete Status na betaling:<br /><span class="help">Bestelstatus waarna een klant zijn bestelling kan downloaden en cadeaubonnen kan printen.</span>';
 $_['entry_stock_display']     = 'Toon voorraad:<br /><span class="help">Toon het aantal op voorraad op de productpagina.</span>';
 $_['entry_stock_warning']     = 'Melding Niet op voorraad weergeven:<br /><span class="help">Geeft een melding in de winkelwagen als het product niet op voorraad is maar er toch afgerekend mag worden. (Deze melding komt altijd als "Afrekenen indien niet op voorraad" op Nee staat.)</span>';
 $_['entry_stock_checkout']    = 'Afrekenen indien niet op voorraad:<br /><span class="help">Sta afrekenen toe ook al is het product niet op voorraad.</span>';
@@ -117,7 +117,7 @@ $_['entry_google_analytics']  = 'Google Analytics Code:<br /><span class="help">
 
 // Error
 $_['error_warning']                = 'Waarschuwing: Controleer of alle verplichte velden volledig zijn ingevuld!';
-$_['error_permission']             = 'Waarschuwing: U heeft geen rechten deze instellingen te wijzigen!';
+$_['error_permission']             = 'Waarschuwing: je hebt geen rechten deze instellingen te wijzigen!';
 $_['error_name']                   = 'Waarschuwing: Winkelnaam dient tussen de 3 en 32 tekens lang te zijn!';
 $_['error_owner']                  = 'Waarschuwing: Winkeleigenaar dient tussen de 3 en 64 tekens lang te zijn!';
 $_['error_address']                = 'Waarschuwing: Winkeladres dient tussen de 10 en 256 tekens lang te zijn!';
@@ -125,7 +125,7 @@ $_['error_email']                  = 'Waarschuwing: Ongeldig e-mail adres!';
 $_['error_telephone']              = 'Waarschuwing: Telefoon dient tussen de 3 en 32 tekens lang te zijn!';
 $_['error_title']                  = 'Waarschuwing: Titel dient tussen de 3 en 32 tekens lang te zijn!';
 $_['error_limit']       	       = 'Waarschuwing: Aantal per pagina verplicht!';
-$_['error_customer_group_display'] = 'Waarschuwing: Minimaal de standaard klantengroep toevoegen bij gebruik van deze functie!';
+$_['error_customer_group_display'] = 'Waarschuwing: Minimaal de standaard klantgroep toevoegen bij gebruik van deze functie!';
 $_['error_voucher_min']            = 'Waarschuwing: Minimum waarde tegoedbon verplicht!';
 $_['error_voucher_max']            = 'Waarschuwing: Maximum waarde tegoedbon verplicht!';
 $_['error_image_thumb']            = 'Waarschuwing: Afmeting product miniatuur afbeelding verplicht!';
@@ -139,17 +139,15 @@ $_['error_image_wishlist']         = 'Waarschuwing: Afmeting afbeeldingen in ver
 $_['error_image_cart']             = 'Waarschuwing: Afmeting afbeelding in winkelwagen is verplicht!';
 $_['error_error_filename']         = 'Waarschuwing: Naam log bestand is verplicht!';
 
-// Toegevoegd 23-08-2013 (EvdB)
-
-$_['entry_ftp_host']               = 'FTP Host:';
-$_['entry_ftp_port']               = 'FTP Port:';
-$_['entry_ftp_username']           = 'FTP Username:';
-$_['entry_ftp_password']           = 'FTP Password:';
-$_['entry_ftp_root']               = 'FTP Root:<span class="help">The directory your opencart installation is stored in normally \'public_html/\'.</span>';
-$_['entry_ftp_status']             = 'Enable FTP:';
-$_['error_ftp_host']               = 'FTP Host required!';
-$_['error_ftp_port']               = 'FTP Port required!';
-$_['error_ftp_username']           = 'FTP Username required!';
-$_['error_ftp_password']           = 'FTP Password required!';
-$_['error_encryption']             = 'Encryption must be between 3 and 32 characters!';
+$_['entry_ftp_host']               = 'FTP Hostnaam:';
+$_['entry_ftp_port']               = 'FTP Poort:';
+$_['entry_ftp_username']           = 'FTP Gebruikersnaam:';
+$_['entry_ftp_password']           = 'FTP Wachtwoord:';
+$_['entry_ftp_root']               = 'FTP Root:<span class="help">Opencart wil nog wel eens in de directory \'public_html/\' geinstalleerd staan.</span>';
+$_['entry_ftp_status']             = 'FTP inschakelen:';
+$_['error_ftp_host']               = 'FTP hostnaam verplicht';
+$_['error_ftp_port']               = 'FTP poort verplicht';
+$_['error_ftp_username']           = 'FTP gebruikersnaam verplicht';
+$_['error_ftp_password']           = 'FTP wachtwoord verplicht';
+$_['error_encryption']             = 'Encryptie moet tussen de 3 en 32 tekens zijn';
 ?>

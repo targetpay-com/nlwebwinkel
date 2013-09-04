@@ -9,17 +9,14 @@ $_['text_my_orders']     = 'Mijn bestellingen';
 $_['text_my_newsletter'] = 'Nieuwsbrief';
 $_['text_edit']  		 = 'Gegevens wijzigen';
 $_['text_password']      = 'Wachtwoord wijzigen';
-$_['text_address']       = 'Adres(sen) wijzigen';
+$_['text_address']       = 'Adressen wijzigen';
 $_['text_wishlist']      = 'Verlanglijst aanpassen';
-$_['text_order']         = 'Mijn bestelling(en)';
+$_['text_order']         = 'Mijn bestellingen';
 $_['text_download']      = 'Mijn downloads';
 $_['text_reward']        = 'Mijn spaarpunten'; 
 $_['text_return']        = 'Mijn retouraanvragen'; 
 $_['text_transaction']   = 'Mijn transacties'; 
-$_['text_newsletter']    = 'Aanmelden / Afmelden nieuwsbrief';
-
-// Toegevoegd 23-08-2013 (EvdB)
-
-$_['text_recurring']       = 'Terugkerende betalingen';
+$_['text_newsletter']    = 'Aan/afmelden nieuwsbrief';
+$_['text_recurring']       = 'Abonnementen';
 $_['text_transactions']    = 'Transacties';
 ?>

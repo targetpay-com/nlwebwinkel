@@ -13,7 +13,7 @@ Ofwel een gratis basispakket voor de Nederlandse webwinkelier.
 Installatie
 ===========
 
-* Plaats de bestanden in de hoofdmap van de hosting
+* Plaats de bestanden in de hoofdmap van Opencart
 * Kopieer config-dist.php naar config.php en admin\config-dist.php naar admin\config.php
 * Geef beide config.php's schrijfrechten (chmod 777)
 * Start de installatie door naar de URL van je webwinkel te gaan. De installer zal zelf wijzen op eventueel niet geinstalleerde modules

@@ -2,12 +2,12 @@
 // Heading
 $_['heading_title']    = 'Kortingsbonnen Rapport';
 
-// Column
+// Kolom
 $_['column_name']      = 'Kortingsbon naam';
 $_['column_code']      = 'Code';
 $_['column_orders']    = 'Bestellingen';
 $_['column_total']     = 'Totaal';
-$_['column_action']    = 'Aktie';
+$_['column_action']    = 'Actie';
 
 // Entry
 $_['entry_date_start'] = 'Begindatum:';

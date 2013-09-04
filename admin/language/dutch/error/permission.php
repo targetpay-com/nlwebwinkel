@@ -3,5 +3,5 @@
 $_['heading_title'] = 'Toegang geweigerd!';
 
 // Text
-$_['text_permission'] = 'U heeft geen toegang tot deze pagina. Neem desnoods contact met ons op.';
+$_['text_permission'] = 'Je hebt geen toegang tot deze pagina.';
 ?>

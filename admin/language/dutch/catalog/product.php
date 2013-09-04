@@ -3,11 +3,11 @@
 $_['heading_title']        = 'Producten';
 
 // Text  
-$_['text_success']       = 'Succes: Instellingen gewijzigd!';
+$_['text_success']       = 'Gelukt: instellingen gewijzigd';
 $_['text_plus']          = '+';
 $_['text_minus']         = '-';
 $_['text_default']       = 'Hoofdwinkel';
-$_['text_image_manager'] = 'Image Manager';
+$_['text_image_manager'] = 'Beheer afbeeldingen';
 $_['text_browse']        = 'Afbeelding zoeken';
 $_['text_clear']         = 'Afbeelding verwijderen';
 $_['text_option']        = 'Optie';
@@ -15,14 +15,14 @@ $_['text_option_value']  = 'Optie waarde';
 $_['text_percent']       = 'Percentage';
 $_['text_amount']        = 'Vast bedrag';
 
-// Column
+// Kolom
 $_['column_name']     = 'Naam';
 $_['column_model']    = 'Model';
 $_['column_image']    = 'Afbeelding';
 $_['column_price']    = 'Prijs';
 $_['column_quantity'] = 'Aantal beschikbaar:';
 $_['column_status']   = 'Status';
-$_['column_action']   = 'Aktie';
+$_['column_action']   = 'Actie';
 
 // Entry
 $_['entry_name']             = 'Naam:';
@@ -55,7 +55,7 @@ $_['entry_weight']           = 'Gewicht:';
 $_['entry_length']           = 'Lengte-eenheid:';
 $_['entry_dimension']        = 'Afmetingen (L x B x H):';
 $_['entry_image']            = 'Afbeelding:';
-$_['entry_customer_group']   = 'Klantengroep:<br /><span class="help">Klantengroep waarop deze van toepassing is.</span>';
+$_['entry_customer_group']   = 'Klantgroep:<br /><span class="help">Klantgroep waarop deze van toepassing is.</span>';
 $_['entry_date_start']       = 'Startdatum:';
 $_['entry_date_end']         = 'Einddatum:';
 $_['entry_priority']         = 'Prioriteit:';
@@ -66,7 +66,7 @@ $_['entry_option']           = 'Optie:';
 $_['entry_option_value']     = 'Optiewaarde:';
 $_['entry_required']         = 'Verplicht:';
 $_['entry_status']           = 'Status:';
-$_['entry_sort_order']       = 'Sorteervolgorde:<br /><span class="help">Op welke plaats in de categorie is het product zichtbaar.</span>';
+$_['entry_sort_order']       = 'Volgorde:<br /><span class="help">Op welke plaats in de categorie is het product zichtbaar.</span>';
 $_['entry_category']         = 'Categorie&euml;n:<br /><span class="help">In welke categorie(&euml;n) moet het product zichtbaar zijn.</span>';
 $_['entry_download']         = 'Downloads:<br /><span class="help">Hoort er bij dit product een download.</span>';
 $_['entry_related']          = 'Gerelateerde Producten:<br /><span class="help">Heeft dit product gerelateerde producten. <b>Let op: </b>Werkt vice versa!</span>';
@@ -75,8 +75,8 @@ $_['entry_reward']           = 'Spaarpunten:<br/><span class="help">Spaarpunten 
 $_['entry_layout']           = 'Layout Override:';
 
 // Error
-$_['error_warning']        = 'Waarschuwing: Controlleer of alle verplichte velden volledig zijn ingevuld!';
-$_['error_permission']     = 'Waarschuwing: U heeft geen rechten deze instellingen te wijzigen!';
+$_['error_warning']        = 'Waarschuwing: Controleer of alle verplichte velden volledig zijn ingevuld!';
+$_['error_permission']     = 'Waarschuwing: je hebt geen rechten deze instellingen te wijzigen!';
 $_['error_name']           = 'Waarschuwing: Productnaam dient tussen de 3 en 255 tekens lang te zijn!';
 $_['error_model']          = 'Waarschuwing: Model dient tussen de 3 en 64 tekens lang te zijn!';
 
@@ -84,8 +84,8 @@ $_['error_model']          = 'Waarschuwing: Model dient tussen de 3 en 64 tekens
 
 $_['entry_filter']           = 'Filters:<br /><span class="help">(Automatisch aanvullen)</span>';
 $_['entry_profile']          = 'Profiel:';
-$_['text_recurring_help']    = 'Terugkerende bedragen worden berekend op basis van de basis en frequentie. <br />Bijv. een basis van wekelijks en een frequentie van 2 betekent dat elke twee weken gefactureerd wordt. <br />Aantal is het aantal keer dat er gefactureerd wordt, 0 betekent doorlopend tot wederopzegging.';
-$_['text_recurring_title']   = 'Terugkerende betalingen';
+$_['text_recurring_help']    = 'Abonnementen worden berekend op basis van de basis en frequentie. <br />Bijv. een basis van wekelijks en een frequentie van 2 betekent dat elke twee weken gefactureerd wordt. <br />Aantal is het aantal keer dat er gefactureerd wordt, 0 betekent doorlopend tot wederopzegging.';
+$_['text_recurring_title']   = 'Abonnementen';
 $_['text_recurring_trial']   = 'Proefperiode';
 $_['entry_recurring']        = 'Terugkerende betaling:';
 $_['entry_recurring_price']  = 'Prijs per keer:';

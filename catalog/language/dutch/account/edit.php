@@ -6,7 +6,7 @@ $_['heading_title']     = 'Mijn gegevens';
 $_['text_account']      = 'Account';
 $_['text_edit']         = 'Wijzig gegevens';
 $_['text_your_details'] = 'Persoonlijke gegevens';
-$_['text_success']      = 'Succes: Uw gegevens zijn bijgewerkt.';
+$_['text_success']      = 'Gelukt: je gegevens zijn bijgewerkt.';
 
 // Entry
 $_['entry_firstname']  = 'Voornaam:';

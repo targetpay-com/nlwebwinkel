@@ -9,12 +9,12 @@ $_['text_address']   = 'Adres:';
 $_['text_email']     = 'E-mail adres:';
 $_['text_telephone'] = 'Telefoon:';
 $_['text_fax']       = 'Fax:';
-$_['text_message']   = '<p>Uw vraag of opmerking is verstuurd!</p>';
+$_['text_message']   = '<p>Je vraag of opmerking is verstuurd!</p>';
 
 // Entry Fields
-$_['entry_name']     = 'Uw naam:';
-$_['entry_email']    = 'Uw e-mail adres:';
-$_['entry_enquiry']  = 'Uw vraag:';
+$_['entry_name']     = 'Je naam:';
+$_['entry_email']    = 'Je e-mail adres:';
+$_['entry_enquiry']  = 'Je vraag:';
 $_['entry_captcha']  = 'Voer de onderstaande code in:';
 
 // Email

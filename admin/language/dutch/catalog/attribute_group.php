@@ -1,22 +1,22 @@
 <?php
 // Heading
-$_['heading_title']     = 'Attribuut groepen';
+$_['heading_title']     = 'Kenmerkgroepen';
 
 // Text
-$_['text_success']      = 'Succes: Instellingen gewijzigd!';
+$_['text_success']      = 'Gelukt: instellingen gewijzigd';
 
-// Column
-$_['column_name']       = 'Attribuut groepsnaam';
-$_['column_sort_order'] = 'Sorteervolgorde';
-$_['column_action']     = 'Aktie';
+// Kolom
+$_['column_name']       = 'Groep';
+$_['column_sort_order'] = 'Volgorde';
+$_['column_action']     = 'Actie';
 
 // Entry
-$_['entry_name']        = 'Attribuut groepsnaam:';
-$_['entry_sort_order']  = 'Sorteervolgorde:';
+$_['entry_name']        = 'Groep:';
+$_['entry_sort_order']  = 'Volgorde:';
 
 // Error
-$_['error_permission']  = 'Waarschuwing: U heeft geen rechten deze instellingen te wijzigen!';
-$_['error_name']        = 'Waarschuwing: Attribuut groepsnaam dient tussen de 3 en 64 tekens lang te zijn!';
-$_['error_attribute']   = 'Waarschuwing: Deze groep kan niet worden verwijderd omdat hij gekoppeld is aan %s attributen!';
+$_['error_permission']  = 'Waarschuwing: je hebt geen rechten deze instellingen te wijzigen!';
+$_['error_name']        = 'Waarschuwing: kenmerkgroep dient tussen de 3 en 64 tekens lang te zijn!';
+$_['error_attribute']   = 'Waarschuwing: Deze groep kan niet worden verwijderd omdat hij gekoppeld is aan %s kenmerken!';
 $_['error_product']     = 'Waarschuwing: Deze groep kan niet worden verwijderd omdat hij gekoppeld is aan %s product(en)!';
 ?>

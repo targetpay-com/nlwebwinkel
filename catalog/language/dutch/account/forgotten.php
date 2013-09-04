@@ -5,13 +5,13 @@ $_['heading_title']   = 'Wachtwoord vergeten?';
 // Text
 $_['text_account']    = 'Account';
 $_['text_forgotten']  = 'Wachtwoord vergeten';
-$_['text_your_email'] = 'Uw e-mail adres';
-$_['text_email']      = 'Bent u uw wachtwoord vergeten? Vul dan hieronder het e-mail adres in wat aan uw account gekoppeld is. Klik vervolgens op <b>Verder</b> en u ontvangt van ons een nieuw wachtwoord.';
-$_['text_success']    = 'Succes: Er is een nieuw wachtwoord naar het door u opgegeven e-mail adres gestuurd.';
+$_['text_your_email'] = 'E-mailadres';
+$_['text_email']      = 'Wachtwoord vergeten? Vul dan hieronder je e-mail adres in en je ontvangt van ons een nieuw wachtwoord.';
+$_['text_success']    = 'Gelukt: er is een nieuw wachtwoord naar het opgegeven e-mail adres verstuurd.';
 
 // Entry
-$_['entry_email']     = 'E-mail adres:';
+$_['entry_email']     = 'E-mailadres:';
 
 // Error
-$_['error_email']     = 'Het door u opgegeven e-mail adres is niet gevonden in onze database, probeer het opnieuw.';
+$_['error_email']     = 'Het opgegeven e-mailadres is niet gevonden in ons systeem, probeer het opnieuw.';
 ?>

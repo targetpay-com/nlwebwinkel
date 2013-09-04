@@ -3,8 +3,8 @@
 $_['heading_title']                            = 'Fedex';
 
 // Text
-$_['text_shipping']                            = 'Shipping';
-$_['text_success']                             = 'Success: You have modified Fedex shipping!';
+$_['text_shipping']                            = 'Verzending';
+$_['text_success']                             = 'Gelukt: instellingen zijn gewijzigd';
 $_['text_europe_first_international_priority'] = 'Europe First International Priority';
 $_['text_fedex_1_day_freight']                 = 'Fedex 1 Day Freight';
 $_['text_fedex_2_day']                         = 'Fedex 2 Day';
@@ -43,28 +43,28 @@ $_['text_account_rate']                        = 'Account Rate';
 
 // Entry
 $_['entry_key']                                = 'Key:';
-$_['entry_password']                           = 'Password:';
+$_['entry_password']                           = 'Wachtwoord:';
 $_['entry_account']                            = 'Account Number:';
 $_['entry_meter']                              = 'Meter Number:';
 $_['entry_postcode']                           = 'Post Code:';
-$_['entry_test']                               = 'Test Mode:';
+$_['entry_test']                               = 'Testmode:';
 $_['entry_service']                            = 'Services:';
 $_['entry_dropoff_type']                       = 'Drop Off Type:';
-$_['entry_packaging_type']                     = 'Packaging Type:';
+$_['entry_packaging_type']                     = 'Verpakking:';
 $_['entry_rate_type']                          = 'Rate Type:';
-$_['entry_display_time']                       = 'Display Delivery Time:<br /><span class="help">Do you want to display the shipping time? (e.g. Ships within 3 to 5 days)</span>';
-$_['entry_display_weight']                     = 'Display Delivery Weight:<br /><span class="help">Do you want to display the shipping weight? (e.g. Delivery Weight : 2.7674 Kg\'s)</span>';
-$_['entry_weight_class']                       = 'Weight Class:<span class="help">Set to kilograms or pounds.</span>';
-$_['entry_tax_class']                          = 'Tax Class:';
-$_['entry_geo_zone']                           = 'Geo Zone:';
+$_['entry_display_time']                       = 'Levertijd vermelden:<br /><span class="help">Wil je de levertijd vermelden? (wordt geleverd binnen 3 tot 5 dagen)</span>';
+$_['entry_display_weight']                     = 'Vermeld aflever gewicht:<br /><span class="help">Wil je het aflevergewicht vermelden? </span>';
+$_['entry_weight_class']                       = 'Gewichtsklasse:<span class="help">Set to kilograms or pounds.</span>';
+$_['entry_tax_class']                          = 'Belastingcategorie:';
+$_['entry_geo_zone']                           = 'Land/gebied:';
 $_['entry_status']                             = 'Status:';
-$_['entry_sort_order']                         = 'Sort Order:';
+$_['entry_sort_order']                         = 'Volgorde:';
 
 // Error
-$_['error_permission']                         = 'Warning: You do not have permission to modify Fedex shipping!';
-$_['error_key']                                = 'Key Required!';
-$_['error_password']                           = 'Password Required!';
-$_['error_account']                            = 'Account Required!';
-$_['error_meter']                              = 'Meter Required!';
-$_['error_postcode']                           = 'Post Code Required!';
+$_['error_permission']                         = 'Waarschuwing: je hebt geen rechten om deze gegevens aan te passen';
+$_['error_key']                                = 'Key is verplicht';
+$_['error_password']                           = 'Wachtwoord is verplicht';
+$_['error_account']                            = 'Account is verplicht';
+$_['error_meter']                              = 'Meter is verplicht';
+$_['error_postcode']                           = 'Post Code is verplicht';
 ?>

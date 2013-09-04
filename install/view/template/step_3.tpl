@@ -17,13 +17,13 @@
     <fieldset>
       <table class="form">
         <tr>
-          <td>Database Driver:</td>
+          <td>Database type:</td>
           <td><select name="db_driver">
               <option value="mysql">MySQL</option>
             </select></td>
         </tr>
         <tr>
-          <td><span class="required">*</span> Database Host:</td>
+          <td><span class="required">*</span> Database hostname:</td>
           <td><input type="text" name="db_host" value="<?php echo $db_host; ?>" />
             <br />
             <?php if ($error_db_host) { ?>
@@ -60,7 +60,7 @@
         </tr>
       </table>
     </fieldset>
-    <p>2. Geef een admin gebruikersnaam en wachtwoord op.</p>
+    <p>2. Gebruikersnaam en wachtwoord voor je beheerdersaccount in OpenCart</p>
     <fieldset>
       <table class="form">
         <tr>
@@ -91,7 +91,7 @@
     </fieldset>
     
     <p>3. Betaalinstellingen</p>
-    <p>Ga naar <a href="https://www.targetpay.com/signup?p_actiecode=YM3R2A">www.targetpay.com</a> (opent in nieuw venster) en leg een account aan 
+    <p>Ga naar <a href="https://www.targetpay.com/signup?p_actiecode=YM3R2A" target="_blank">www.targetpay.com</a> (opent in nieuw venster) en leg een account aan 
     voor het afhandelen van de iDEAL betalingen. Vul de layoutcode uit de bevestigingsmail hieronder in:</p> 
     <fieldset>
       <table class="form">

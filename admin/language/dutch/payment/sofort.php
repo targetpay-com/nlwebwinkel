@@ -14,9 +14,9 @@ $_['entry_test']         = 'Test Mode:<br /><span class="help">Als JA, dan worde
 $_['entry_transaction']  = 'Betaalmethode:';
 $_['entry_total']        = 'Minimum bedrag:<br /><span class="help">Betaalwijze wordt ingeschakeld vanaf dit bedrag.</span>';
 $_['entry_order_status'] = 'Status na betaling:';
-$_['entry_geo_zone']     = 'Gebied:';
+$_['entry_geo_zone']     = 'Land/gebied:';
 $_['entry_status']       = 'Status:';
-$_['entry_sort_order']   = 'Sorteer volgorde:';
+$_['entry_sort_order']   = 'Volgorde:';
 
 // Error
 $_['error_permission']   = 'Waarschuwing: je hebt geen rechten om deze gegevens aan te passen.';

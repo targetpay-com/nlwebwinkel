@@ -108,6 +108,10 @@ class ControllerPaymentmrcash extends Controller {
 			} else {
 			$this->data['mrcash_total'] = $this->config->get('mrcash_total');
 	   		}
+	   		
+	   	if (!isset($this->data['mrcash_total'])) {
+	   			$this->data['mrcash_total'] = 1;
+	   		}	   		
 
 		if (isset($this->request->post['mrcash_order_status_id'])) {
 			$this->data['mrcash_order_status_id'] = $this->request->post['mrcash_order_status_id'];
@@ -144,6 +148,11 @@ class ControllerPaymentmrcash extends Controller {
 			} else {
 			$this->data['mrcash_sort_order'] = $this->config->get('mrcash_sort_order');
 			}
+			
+		if (!isset($this->data['mrcash_sort_order'])) {
+				$this->data['mrcash_sort_order'] = 2;
+			}
+				
 
 		$this->template = 'payment/mrcash.tpl';
 		$this->children = array(

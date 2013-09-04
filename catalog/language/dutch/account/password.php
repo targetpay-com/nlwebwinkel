@@ -5,7 +5,7 @@ $_['heading_title']  = 'Wijzig wachtwoord';
 // Text
 $_['text_account']   = 'Account';
 $_['text_password']  = 'Mijn wachtwoord';
-$_['text_success']   = 'Succes: Uw wachtwoord is gewijzigd.';
+$_['text_success']   = 'Gelukt: je wachtwoord is gewijzigd.';
 
 // Entry
 $_['entry_password'] = 'Nieuw wachtwoord:';

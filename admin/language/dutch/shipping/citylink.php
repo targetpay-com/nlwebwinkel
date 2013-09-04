@@ -3,16 +3,16 @@
 $_['heading_title']    = 'Citylink';
 
 // Text
-$_['text_shipping']    = 'Shipping';
-$_['text_success']     = 'Success: You have modified Citylink shipping!';
+$_['text_shipping']    = 'Verzending';
+$_['text_success']     = 'Gelukt: instellingen zijn gewijzigd';
 
 // Entry
-$_['entry_rate']       = 'Citylink Rates:<br /><span class="help">Enter values upto 5,2 decimal places. (12345.67) Example: .1:1,.25:1.27 - Weights less than or equal to 0.1Kg would cost &pound;1.00, Weights less than or equal to 0.25g but more than 0.1Kg will cost 1.27. Do not enter KG or symbols.</span>';
-$_['entry_tax_class']  = 'Tax Class:';
-$_['entry_geo_zone']   = 'Geo Zone:';
+$_['entry_rate']       = 'Citylink tarief:<br /><span class="help">Geef waarden op tot aan 5,2 decimalen. (12345.67) Voorbeeld: .1:1,.25:1.27 - Gewicht tot en met 0.1Kg kost &pound;1.00, Gewicht minder of gelijk aan 0.25g maar meer dan 0.1Kg kost 1.27. Vermeld geen KG of symbolen.</span>';
+$_['entry_tax_class']  = 'Belastingcategorie:';
+$_['entry_geo_zone']   = 'Land/gebied:';
 $_['entry_status']     = 'Status:';
-$_['entry_sort_order'] = 'Sort Order:';
+$_['entry_sort_order'] = 'Volgorde:';
 
 // Error
-$_['error_permission'] = 'Warning: You do not have permission to modify Citylink shipping!';
+$_['error_permission'] = 'Waarschuwing: je hebt geen rechten om deze gegevens aan te passen';
 ?>

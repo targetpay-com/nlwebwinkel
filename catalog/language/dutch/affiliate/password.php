@@ -4,8 +4,8 @@ $_['heading_title']  = 'Wijzig wachtwoord';
 
 // Text
 $_['text_account']   = 'Account';
-$_['text_password']  = 'Uw wachtwoord wijzigen';
-$_['text_success']   = 'Succes: Uw wachtwoord is gewijzigd.';
+$_['text_password']  = 'Wachtwoord wijzigen';
+$_['text_success']   = 'Gelukt: wachtwoord is gewijzigd.';
 
 // Entry
 $_['entry_password'] = 'Nieuw wachtwoord:';

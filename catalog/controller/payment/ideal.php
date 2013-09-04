@@ -159,7 +159,7 @@ class ControllerPaymentideal extends Controller {
 
 		$targetPay = new TargetPayCore ("IDE", $rtlo, "e59dbd219e068daade7139be42c5dfd5", "nl", false);
 		$targetPay->checkPayment ($targetPayTx["ideal_txid"]);
-
+		
 		$order_status_id = $this->config->get('ideal_order_status_id');
         if (!$order_status_id) {
         	$order_status_id = 1; // Default to 'pending' after payment

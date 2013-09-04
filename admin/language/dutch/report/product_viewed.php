@@ -3,9 +3,9 @@
 $_['heading_title']  = 'Bekeken producten rapport';
 
 // Text
-$_['text_success']   = 'Succes: Rapport ge-reset!';
+$_['text_success']   = 'Gelukt: rapport gereset!';
 
-// Column
+// Kolom
 $_['column_name']    = 'Naam';
 $_['column_model']   = 'Model';
 $_['column_viewed']  = 'Bekeken';

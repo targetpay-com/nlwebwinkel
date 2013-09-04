@@ -1,10 +1,10 @@
 <?php
 // header
-$_['heading_title']  = 'Administratie';
+$_['heading_title']  = 'Beheer';
 
 // Text
-$_['text_heading']   = 'Administratie login';
-$_['text_login']     = 'Voer uw inloggegevens in.';
+$_['text_heading']   = 'Beheerder login';
+$_['text_login']     = 'Inloggen';
 $_['text_forgotten'] = 'Wachtwoord vergeten';
 
 // Entry
@@ -15,6 +15,6 @@ $_['entry_password'] = 'Wachtwoord:';
 $_['button_login']   = 'Inloggen';
 
 // Error
-$_['error_login']    = 'Attentie: Het door u opgegeven e-mail adres en/of wachtwoord is niet gevonden in onze database, probeer het opnieuw.';
-$_['error_token']    = 'Attentie: Ongeldige sessie-token. Log opnieuw in.';
+$_['error_login']    = 'Let op: het opgegeven e-mail adres en/of wachtwoord is niet gevonden in onze database, probeer het opnieuw.';
+$_['error_token']    = 'Let op: de sessie is verlopen, log opnieuw in.';
 ?>

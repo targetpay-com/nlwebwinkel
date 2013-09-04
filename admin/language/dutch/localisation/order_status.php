@@ -3,20 +3,20 @@
 $_['heading_title']    = 'Bestelstatussen';
 
 // Text
-$_['text_success']     = 'Succes: Instellingen gewijzigd!';
+$_['text_success']     = 'Gelukt: instellingen gewijzigd';
 
-// Column
+// Kolom
 $_['column_name']      = 'Bestelstatus';
-$_['column_action']    = 'Aktie';
+$_['column_action']    = 'Actie';
 
 // Entry
 $_['entry_name']       = 'Bestelstatus:';
 
 // Error
-$_['error_permission'] = 'Waarschuwing: U heeft geen rechten deze instellingen te wijzigen!';
-$_['error_name']       = 'Waarschuwing: Naam bestelstatus dient tussen de 3 en 32 tekens lang te zijn!';
-$_['error_default']    = 'Waarschuwing: Deze bestelstatus kan niet worden verwijderd omdat deze is ingesteld als de standaard bestel status!';
-$_['error_download']   = 'Waarschuwing: Deze bestelstatus kan niet worden verwijderd omdat deze is ingesteld als de standaard download status!';
-$_['error_store']      = 'Waarschuwing: Deze bestelstatus kan niet worden verwijderd omdat deze is gekoppeld aan %s winkel(s)!';
-$_['error_order']      = 'Waarschuwing: Deze bestelstatus kan niet worden verwijderd omdat deze is gekoppeld aan %s bestelling(en)!';
+$_['error_permission'] = 'Waarschuwing: je hebt geen rechten deze instellingen te wijzigen!';
+$_['error_name']       = 'Waarschuwing: naam bestelstatus dient tussen de 3 en 32 tekens lang te zijn!';
+$_['error_default']    = 'Waarschuwing: deze bestelstatus kan niet worden verwijderd omdat deze is ingesteld als de standaard bestel status!';
+$_['error_download']   = 'Waarschuwing: deze bestelstatus kan niet worden verwijderd omdat deze is ingesteld als de standaard download status!';
+$_['error_store']      = 'Waarschuwing: deze bestelstatus kan niet worden verwijderd omdat deze is gekoppeld aan %s winkel(s)!';
+$_['error_order']      = 'Waarschuwing: deze bestelstatus kan niet worden verwijderd omdat deze is gekoppeld aan %s bestelling(en)!';
 ?>

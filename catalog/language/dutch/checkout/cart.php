@@ -3,26 +3,27 @@
 $_['heading_title']         = 'Winkelwagen';
 
 // Text
-$_['text_success']     	     = 'U heeft <a href="%s">%s</a> in uw <a href="%s">winkelwagen</a> geplaatst.';
-$_['text_remove']            = 'Succes: Uw winkelwagen is aangepast!';
-$_['text_coupon']            = 'Succes: Uw kortingsbon is toegepast!';
-$_['text_voucher']           = 'Succes: Uw cadeaubon is toegepast!';
-$_['text_reward']            = 'Succes: Uw spaarpunten zijn toegepast!';
-$_['text_shipping']          = 'Succes: De verzendkosten zijn berekend en toegepast!';
-$_['text_login']             = 'U moet <a href="%s">inloggen</a> of u <a href="%s">registreren</a> om de prijzen te bekijken!';
+$_['text_success']     	     = '<a href="%s"></a>%s is in de winkelwagen geplaatst: <a href="%s">Afrekenen</a>';
+$_['text_remove']            = 'Winkelwagen is aangepast';
+$_['text_coupon']            = 'Kortingsbon is verrekend';
+$_['text_voucher']           = 'Cadeaubon is verwerkt';
+$_['text_reward']            = 'De spaarpunten zijn verwerkt!';
+$_['text_shipping']          = 'Verzendkosten zijn nu meegerekend';
+$_['text_login']             = 'Om de prijzen te bekijken <a href="%s">log je in</a> of leg je een <a href="%s">nieuw account</a> aan';
 $_['text_points']            = 'Spaarpunten: %s';
 $_['text_items']             = '%s product(en) - %s';
-$_['text_next']              = 'Wat wilt u nu doen?';
-$_['text_next_choice']       = 'Wilt u uw kortingsbon of spaarpunten gebruiken, of uw verzendkosten bereken? Maak dan de door uw gewenste keuze(s)';
-$_['text_use_coupon']        = 'Gebruik uw kortingsbon';
-$_['text_use_voucher']       = 'Gebruik uw cadeaubon';
-$_['text_use_reward']        = 'Gebruik uw spaarpunten (beschikbaar %s)';
+// $_['text_next']              = 'Wat wil je nu doen?';
+$_['text_next']              = '';
+$_['text_next_choice']       = 'Wil je een kortingsbon of spaarpunten inwisselen of verzendkosten berekenen?';
+$_['text_use_coupon']        = 'Verzilver een kortingsbon';
+$_['text_use_voucher']       = 'Verzilver een cadeaubon';
+$_['text_use_reward']        = 'Verzilver spaarpunten (beschikbaar %s)';
 $_['text_shipping_estimate'] = 'Bereken verzendkosten';
-$_['text_shipping_detail']   = 'Geef hieronder de juiste gegevens in om de verzendkosten te kunnen berekenen.';
+$_['text_shipping_detail']   = 'Vul de volgende gegevensin om de verzendkosten te kunnen berekenen.';
 $_['text_shipping_method']   = 'Kies de gewenste verzendmethode voor deze bestelling.';
-$_['text_empty']             = 'Uw winkelwagen is leeg!';
+$_['text_empty']             = 'Je winkelwagen is leeg!';
 
-// Column
+// Kolom
 $_['column_image']    = 'Afbeelding';
 $_['column_name']     = 'Product';
 $_['column_model']    = 'Model';
@@ -31,44 +32,42 @@ $_['column_price']    = 'Prijs';
 $_['column_total']    = 'Totaal';
 
 // Entry
-$_['entry_coupon']   = 'Voer de code van uw kortingsbon in:';
-$_['entry_voucher']  = 'Voer de code van uw cadeaubon in:';
+$_['entry_coupon']   = 'Voer de code van je kortingsbon in:';
+$_['entry_voucher']  = 'Voer de code van je cadeaubon in:';
 $_['entry_reward']   = 'Te gebruiken spaarpunten (Max. %s):';
 $_['entry_country']  = 'Land:';
-$_['entry_zone']     = 'Regio / Provincie:';
+$_['entry_zone']     = 'Regio:';
 $_['entry_postcode'] = 'Postcode:';
 
 // Error
 $_['error_stock']       = 'Producten met een *** zijn niet beschikbaar in de door u gewenste hoeveelheid.';
-$_['error_minimum']     = 'Minimum te bestellen aantal voor product %s is %s.';	
-$_['error_required']    = '%s verplicht.';	
-$_['error_product']     = 'Uw winkelwagen is leeg.';
-$_['error_coupon']      = 'Uw kortingsbon is niet (meer) geldig, volledig verbruikt of de code is niet correct.';
-$_['error_voucher']     = 'Uw cadeaubon is niet (meer) geldig, volledig verbruikt of de code is niet correct.';
-$_['error_reward']      = 'Geef het aantal te gebruiken spaarpunten op.';	
-$_['error_points']      = 'U heeft geen %s spaarpunten.';
+$_['error_minimum']     = 'Minimum te bestellen aantal voor product %s is %s.';
+$_['error_required']    = '%s verplicht.';
+$_['error_product']     = 'Je winkelwagen is leeg.';
+$_['error_coupon']      = 'De kortingsbon is niet (meer) geldig, volledig verbruikt of de code is niet correct.';
+$_['error_voucher']     = 'De cadeaubon is niet (meer) geldig, volledig verbruikt of de code is niet correct.';
+$_['error_reward']      = 'Geef het aantal te gebruiken spaarpunten op.';
+$_['error_points']      = 'Je hebt geen %s spaarpunten.';
 $_['error_maximum']     = 'Het maximaal te gebruiken spaarpunten is %s.';
 $_['error_postcode']    = 'Postcode moet minimaal 2 en maximaal 10 tekens lang zijn.';
 $_['error_country']     = 'Selecteer een land.';
 $_['error_zone']        = 'Selecteer een regio / provincie.';
 $_['error_shipping']    = 'Geen verzendmethode geselecteerd!';
-$_['error_no_shipping'] = 'Geen verzendmethode(s) beschikbaar! Neem <a href="%s">contact</a> met ons op.';
+$_['error_no_shipping'] = 'Geen verzendmethode beschikbaar! Neem <a href="%s">contact</a> met ons op.';
 
-// Toegevoegd 23-08-2013 (EvdB)
-
-$_['text_until_cancelled']                    = 'until cancelled';
-$_['text_recurring_item']                     = 'Recurring item';
-$_['text_payment_profile']                    = 'Payment Profile';
-$_['text_trial_description']                  = '%s every %d %s(s) for %d payment(s) then';
-$_['text_payment_description']                = '%s every %d %s(s) for %d payment(s)';
-$_['text_payment_until_canceled_description'] = '%s every %d %s(s) until canceled';
-$_['text_day']                                = 'day';
+$_['text_until_cancelled']                    = 'tot wederopzegging';
+$_['text_recurring_item']                     = 'Abonnement';
+$_['text_payment_profile']                    = 'Betaal profiel';
+$_['text_trial_description']                  = '%s elke %d %s(s) voor %d betaling(en), daarna ';
+$_['text_payment_description']                = '%s elke %d %s(s) voor %d betaling(en)';
+$_['text_payment_until_canceled_description'] = '%s elke %d %s(s) tot wederopzegging';
+$_['text_day']                                = 'dag';
 $_['text_week']                               = 'week';
-$_['text_semi_month']                         = 'half-month';
-$_['text_month']                              = 'month';
-$_['text_year']                               = 'year';
-$_['error_profile_required']                  = 'Please select a payment profile!';
-$_['text_trial']                              = '%s every %s %s for %s payments then ';
-$_['text_recurring']                          = '%s every %s %s';
-$_['text_length']                             = ' for %s payments';
+$_['text_semi_month']                         = 'halve maand';
+$_['text_month']                              = 'maand';
+$_['text_year']                               = 'jaar';
+$_['error_profile_required']                  = 'Kies een betalingsprofiel!';
+$_['text_trial']                              = '%s elke %s %s voor %s payments, daarna ';
+$_['text_recurring']                          = '%s elke %s %s';
+$_['text_length']                             = ' voor %s betalingen';
 ?>

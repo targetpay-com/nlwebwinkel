@@ -3,13 +3,13 @@
 $_['heading_title']          = 'Landen';
 
 // Text
-$_['text_success']           = 'Succes: Instellingen gewijzigd!';
+$_['text_success']           = 'Gelukt: instellingen gewijzigd';
 
-// Column
+// Kolom
 $_['column_name']            = 'Land';
 $_['column_iso_code_2']      = 'ISO Code (2)';
 $_['column_iso_code_3']      = 'ISO Code (3)';
-$_['column_action']          = 'Aktie';
+$_['column_action']          = 'Actie';
 
 // Entry
 $_['entry_name']             = 'Land:';
@@ -30,9 +30,9 @@ $_['entry_postcode_required'] = 'Postcode verplicht:';
 $_['entry_status']            = 'Status:';
 
 // Error
-$_['error_permission']       = 'Waarschuwing: U heeft geen rechten deze instellingen te wijzigen!';
+$_['error_permission']       = 'Waarschuwing: je hebt geen rechten deze instellingen te wijzigen!';
 $_['error_name']             = 'Waarschuwing: Land dient tussen de 3 en 128 tekens lang te zijn!!';
-$_['error_default']          = 'Waarschuwing: Dit land kan niet verwijderd worden omdat deze is ingesteld als de standaard taal!';
+$_['error_default']          = 'Waarschuwing: Dit land kan niet verwijderd worden omdat deze is ingesteld als de standaardtaal!';
 $_['error_store']            = 'Waarschuwing: Dit land kan niet verwijderd worden omdat deze is gekoppeld aan %s winkel(s)!';
 $_['error_address']          = 'Waarschuwing: Dit land kan niet worden verwijderd omdat deze is gekoppeld aan %s adres(sen)!';
 $_['error_affiliate']        = 'Waarschuwing: Dit land kan niet worden verwijderd omdat deze is gekoppeld aan %s affiliate(s)!';

@@ -5,7 +5,7 @@ $_['heading_title']         = 'Klant bestellingen rapport';
 // Text
 $_['text_all_status']       = 'Alle Statussen';
 
-// Column
+// Kolom
 $_['column_customer']       = 'Klantnaam';
 $_['column_email']          = 'E-mail';
 $_['column_customer_group'] = 'Klantgroep';
@@ -13,7 +13,7 @@ $_['column_status']         = 'Status';
 $_['column_orders']         = 'Aantal bestellingen';
 $_['column_products']       = 'Aantal producten';
 $_['column_total']          = 'Totaal';
-$_['column_action']         = 'Aktie';
+$_['column_action']         = 'Actie';
 
 // Entry
 $_['entry_date_start']      = 'Begindatum:';

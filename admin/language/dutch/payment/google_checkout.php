@@ -3,22 +3,22 @@
 $_['heading_title']      = 'Google Checkout';
 
 // Text
-$_['text_payment']       = 'Payment';
-$_['text_success']       = 'Success: You have modified Google Checkout!';
+$_['text_payment']       = 'Betaling';
+$_['text_success']       = 'Gelukt: instellingen zijn gewijzigd';
 
 // Entry
 $_['entry_merchant_id']  = 'Merchant ID:';
 $_['entry_merchant_key'] = 'Merchant Key:';
-$_['entry_callback']     = 'API callback URL:<br /><span class="help">URL for Google to notify you of new orders and changes in order state. Use Notification as HTML.</span>';
-$_['entry_test']         = 'Test Mode:';
-$_['entry_total']        = 'Total:<br /><span class="help">The checkout total the order must reach before this payment method becomes active.</span>';
+$_['entry_callback']     = 'API terugmeld URL:<br /><span class="help">URL waarop Google de status terugmeld van de betaling. Kies voor Terugmelden als HTML</span>';
+$_['entry_test']         = 'Testmode:';
+$_['entry_total']        = 'Minimum bedrag:<br /><span class="help">Betaalwijze wordt ingeschakeld vanaf dit bedrag.</span>';
 $_['entry_order_status'] = 'Order Status:';
-$_['entry_geo_zone']	 = 'Geo Zone:';
+$_['entry_geo_zone']	 = 'Land/gebied:';
 $_['entry_status']       = 'Status:';
-$_['entry_sort_order']	 = 'Sorteervolgorde:';
+$_['entry_sort_order']	 = 'Volgorde:';
 
 // Error
-$_['error_permission']   = 'Warning: You do not have permission to modify Google Checkout!';
-$_['error_merchant_id']  = 'Merchant ID Required!';
-$_['error_merchant_key'] = 'Merchant Key Required!';
+$_['error_permission']   = 'Waarschuwing: je hebt geen rechten om deze instellingen te wijzigen';
+$_['error_merchant_id']  = 'Merchant ID is verplicht';
+$_['error_merchant_key'] = 'Merchant Key is verplicht';
 ?>

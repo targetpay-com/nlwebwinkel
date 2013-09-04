@@ -4,21 +4,21 @@ $_['heading_title']       = 'Slideshow';
 
 // Text
 $_['text_module']         = 'Modules';
-$_['text_success']        = 'Succes: Instellingen gewijzigd!';
+$_['text_success']        = 'Gelukt: instellingen gewijzigd';
 $_['text_content_top']    = 'Content bovenaan';
 $_['text_content_bottom'] = 'Content onderaan';
-$_['text_column_left']    = 'Column links';
-$_['text_column_right']   = 'Column rechts';
+$_['text_column_left']    = 'Linker kolom';
+$_['text_column_right']   = 'Rechter kolom';
 
 // Entry
 $_['entry_banner']        = 'Banner:';
-$_['entry_dimension']     = 'Afmeeting (B x H):';
+$_['entry_dimension']     = 'Afmeting (B x H):';
 $_['entry_layout']        = 'Layout:';
 $_['entry_position']      = 'Positie:';
 $_['entry_status']        = 'Status:';
-$_['entry_sort_order']    = 'Sorteervolgorde:';
+$_['entry_sort_order']    = 'Volgorde:';
 
 // Error
-$_['error_permission']    = 'Waarschuwing: U heeft geen rechten deze instellingen te wijzigen!';
-$_['error_dimension']     = 'Waarschuwing: Afmeeting (B x H) verplicht!';
+$_['error_permission']    = 'Waarschuwing: je hebt geen rechten deze instellingen te wijzigen!';
+$_['error_dimension']     = 'Waarschuwing: Afmeting (B x H) verplicht!';
 ?>

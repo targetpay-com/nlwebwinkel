@@ -1,21 +1,18 @@
 <?
-
-// Toegevoegd 23-08-2013 (EvdB)
-
-$_['lang_openbay_new']          = 'Create new listing';
-$_['lang_openbay_edit']         = 'View / Edit listing';
-$_['lang_openbay_fix']          = 'Fix errors';
-$_['lang_openbay_processing']   = 'Processing';
-$_['lang_amazonus_saved']       = 'Saved (not uploaded)';
-$_['lang_amazon_saved']         = 'Saved (not uploaded)';
-$_['lang_play_pending_new']     = 'Pending (new)';
-$_['lang_play_pending_updated'] = 'Pending (updated)';
-$_['lang_play_warning']         = 'Warning messages';
-$_['lang_play_pending_delete']  = 'Pending delete';
-$_['lang_play_stock_updating']  = 'Stock updating';
-$_['lang_markets']              = 'Markets';
+$_['lang_openbay_new']          = 'Nieuwe lijst maken';
+$_['lang_openbay_edit']         = 'Bekijk/bewerk lijst';
+$_['lang_openbay_fix']          = 'Probleemoplossing';
+$_['lang_openbay_processing']   = 'Wordt verwerkt';
+$_['lang_amazonus_saved']       = 'Opgeslagen (niet geupload)';
+$_['lang_amazon_saved']         = 'Opgeslagen (niet geupload)';
+$_['lang_play_pending_new']     = 'In behandeling (nieuw)';
+$_['lang_play_pending_updated'] = 'In behandeling (gewijzigd)';
+$_['lang_play_warning']         = 'Waarschuwingen';
+$_['lang_play_pending_delete']  = 'Wordt verwijderd';
+$_['lang_play_stock_updating']  = 'Voorraad bijwerken';
+$_['lang_markets']              = 'Markten';
 $_['lang_bulk_btn']             = 'eBay bulk upload';
-$_['lang_marketplace']          = 'Marketplace';
+$_['lang_marketplace']          = 'Marktplaats';
 $_['lang_status']               = 'Status';
-$_['lang_option']               = 'Option';
+$_['lang_option']               = 'Optie';
 ?>

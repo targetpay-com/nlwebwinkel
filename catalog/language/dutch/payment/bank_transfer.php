@@ -2,6 +2,6 @@
 // Text
 $_['text_title']       = 'Overschrijving';
 $_['text_instruction'] = 'Instructies.';
-$_['text_description'] = 'Maak het volledige bedrag van uw bestelling over naar de volgende bankrekening, geef uw bestelnummer mee als referentie.';
-$_['text_payment']     = 'Uw bestelling wordt pas verzonden nadat uw betaling is ontvangen.';
+$_['text_description'] = 'Maak het volledige bedrag van je bestelling over naar het volgende bankrekening nummer, geef je bestelnummer mee als referentie.';
+$_['text_payment']     = 'Je bestelling wordt pas verzonden nadat de betaling is ontvangen.';
 ?>

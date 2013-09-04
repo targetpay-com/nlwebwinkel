@@ -1,20 +1,20 @@
 <?php
 // Heading
-$_['heading_title']     = 'Vind je favoriete merk!';
+$_['heading_title']     = 'Vind je favoriete merk';
 
 // Text
 $_['text_brand']        = 'Merk';
 $_['text_index']        = 'Index:';
 $_['text_error']        = 'Merk niet gevonden!';
-$_['text_empty']        = 'Er zijn geen producten van dit merk.';
+$_['text_empty']        = 'Er zijn geen producten van dit merk';
 $_['text_quantity']     = 'Aantal:';
 $_['text_manufacturer'] = 'Merk:';
-$_['text_model']        = 'Model:'; 
-$_['text_points']       = 'Spaarpunten:'; 
-$_['text_price']        = 'Prijs:'; 
-$_['text_tax']          = 'Excl. BTW:'; 
-$_['text_reviews']      = 'Gebaseerd op %s beoordeling(en).'; 
-$_['text_compare']      = 'Product vergelijk (%s)'; 
+$_['text_model']        = 'Model:';
+$_['text_points']       = 'Spaarpunten:';
+$_['text_price']        = 'Prijs:';
+$_['text_tax']          = 'Excl. BTW:';
+$_['text_reviews']      = 'Gebaseerd op %s beoordeling(en).';
+$_['text_compare']      = 'Vergelijken (%s)';
 $_['text_display']      = 'Weergave:';
 $_['text_list']         = 'Lijst';
 $_['text_grid']         = 'Rooster';

@@ -3,36 +3,34 @@
 $_['heading_title']      = 'PayPal Website Payment Pro (UK)';
 
 // Text 
-$_['text_payment']       = 'Payment';
-$_['text_success']       = 'Success: You have modified PayPal Direct (UK) account details!';
+$_['text_payment']       = 'Betaling';
+$_['text_success']       = 'Gelukt: instellingen zijn gewijzigd';
 $_['text_pp_pro_uk']     = '<a onclick="window.open(\'https://www.paypal.com/uk/mrb/pal=W9TBB5DTD6QJW\');"><img src="view/image/payment/paypal.png" alt="PayPal Website Payment Pro (UK)" title="PayPal Website Payment Pro (UK)" style="border: 1px solid #EEEEEE;" /></a>';
-$_['text_authorization'] = 'Authorization';
-$_['text_sale']          = 'Sale';
+$_['text_authorization'] = 'Autorisatie';
+$_['text_sale']          = 'Verkoop';
 
 // Entry
-$_['entry_vendor']       = 'Vendor:<br /><span class="help">Your merchant login ID that you created when you registered for the Website Payments Pro account.</span>';
-$_['entry_user']         = 'User:<br /><span class="help">If you set up one or more additional users on the account, this value is the ID of the user authorised to process transactions. If, however, you have not set up additional users on the account, USER has the same value as VENDOR.</span>';
-$_['entry_password']     = 'Password:<br /><span class="help">The 6 to 32 character password that you defined while registering for the account.</span>';
-$_['entry_partner']      = 'Partner:<br /><span class="help">The ID provided to you by the authorised PayPal Reseller who registered you for the Payflow SDK. If you purchased your account directly from PayPal, use PayPalUK.</span>';
-$_['entry_test']         = 'Test Mode:<br /><span class="help">Use the live or testing (sandbox) gateway server to process transactions?</span>';
-$_['entry_transaction']  = 'Transaction Method:';
-$_['entry_total']        = 'Total:<br /><span class="help">The checkout total the order must reach before this payment method becomes active.</span>';
-$_['entry_order_status'] = 'Order Status:';
-$_['entry_geo_zone']     = 'Geo Zone:';
+$_['entry_vendor']       = 'Aanbieder:<br /><span class="help">Merchant login ID</span>';
+$_['entry_user']         = 'Gebruiker:<br /><span class="help">Als je meerdere gebruikers hebt op dit account, het ID van de gebruiker die transacties mag verwerken. Als je geen extra accounts hebt moet GEBRUIKER en AANBIEDER hetzelfde zijn.</span>';
+$_['entry_password']     = 'Wachtwoord:';
+$_['entry_partner']      = 'Partner:<br /><span class="help">ID van het PayPal reseller account, verkregen vanuit het Payflow SDK</span>';
+$_['entry_test']         = 'Testmode:<br /><span class="help">Live of testmode gebruiken</span>';
+$_['entry_transaction']  = 'Transactie methode:';
+$_['entry_total']        = 'Minimum bedrag:<br /><span class="help">Betaalwijze wordt ingeschakeld vanaf dit bedrag.</span>';
+$_['entry_order_status'] = 'Status na betaling:';
+$_['entry_geo_zone']     = 'Land/gebied:';
 $_['entry_status']       = 'Status:';
-$_['entry_sort_order']   = 'Sort Order:';
+$_['entry_sort_order']   = 'Volgorde:';
 
 // Error
-$_['error_permission']   = 'Warning: You do not have permission to modify payment PayPal Website Payment Pro (UK)!';
-$_['error_vendor']       = 'Vendor Required!'; 
-$_['error_user']         = 'User Required!'; 
-$_['error_password']     = 'Password Required!'; 
-$_['error_partner']      = 'Partner Required!'; 
-
-// Toegevoegd 23-08-2013 (EvdB)
+$_['error_permission']   = 'Waarschuwing: je hebt geen rechten om deze gegevens aan te passen';
+$_['error_vendor']       = 'Aanbieder is verplicht'; 
+$_['error_user']         = 'User is verplicht'; 
+$_['error_password']     = 'Wachtwoord is verplicht'; 
+$_['error_partner']      = 'Partner is verplicht'; 
 
 $_['entry_username']       = 'API Username:';
 $_['entry_signature']      = 'API Signature:';
-$_['error_username']       = 'API Username Required!';
-$_['error_signature']      = 'API Signature Required!';
+$_['error_username']       = 'API Gebruikersnaam is verplicht';
+$_['error_signature']      = 'API Signature is verplicht';
 ?>

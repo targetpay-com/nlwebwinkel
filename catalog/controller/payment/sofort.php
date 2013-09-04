@@ -99,7 +99,7 @@ class ControllerPaymentsofort extends Controller {
             $json['error'] = "Invalid currency code ".$order_info['currency_code'];
         	} else {
 
-			$targetPay = new TargetPayCore ("DEB", $rtlo, "e59dbd219e068daade7139be42c5dfd5", "nl", false);
+			$targetPay = new TargetPayCore ("DEB", $rtlo, "d949975cfdf8b2f037d393be79da93cb", "nl", false);
 			$targetPay->setAmount ( round($order_info['total'] * 100));
 			$targetPay->setDescription ( "Order #". $this->session->data['order_id'] );
 			if (!empty($this->request->post['bank_id'])) {
@@ -157,7 +157,7 @@ class ControllerPaymentsofort extends Controller {
         	}
         $rtlo = ($this->config->get('sofort_rtlo')) ? $this->config->get('sofort_rtlo') : 93929; // Default TargetPay
 
-		$targetPay = new TargetPayCore ("DEB", $rtlo, "e59dbd219e068daade7139be42c5dfd5", "nl", false);
+		$targetPay = new TargetPayCore ("DEB", $rtlo, "d949975cfdf8b2f037d393be79da93cb", "nl", false);
 		$targetPay->checkPayment ($targetPayTx["sofort_txid"]);
 
 		$order_status_id = $this->config->get('sofort_order_status_id');

@@ -3,11 +3,11 @@
 $_['heading_title']       = 'Kortingsbonnen';
 
 // Text
-$_['text_success']        = 'Succes: Instellingen gewijzigd!';
+$_['text_success']        = 'Gelukt: instellingen gewijzigd';
 $_['text_percent']        = '%';
 $_['text_amount']         = 'Vast bedrag';
 
-// Column
+// Kolom
 $_['column_name']         = 'Naam';
 $_['column_code']         = 'Code';
 $_['column_discount']     = 'Korting';
@@ -18,7 +18,7 @@ $_['column_order_id']     = 'Bestelnummer';
 $_['column_customer']     = 'Klant';
 $_['column_amount']       = 'Bedrag';
 $_['column_date_added']   = 'Aanmaakdatum';
-$_['column_action']       = 'Aktie';
+$_['column_action']       = 'Actie';
 
 // Entry
 $_['entry_name']          = 'Naam:';
@@ -37,7 +37,7 @@ $_['entry_uses_customer'] = 'Maximaal aantal keren per klant:<br /><span class="
 $_['entry_status']        = 'Status:';
 
 // Error
-$_['error_permission']    = 'Waarschuwing: U heeft geen rechten om deze instellingen te wijzigen!';
+$_['error_permission']    = 'Waarschuwing: je hebt geen rechten om deze instellingen te wijzigen';
 $_['error_exists']        = 'Waarschuwing: Kortingsbon-code is al in gebruik!';
 $_['error_name']          = 'Waarschuwing: Kortingsbon naam dient tussen de 3 en 128 tekens lang te zijn!';
 $_['error_code']          = 'Waarschuwing: Code dient tussen de 3 en 10 tekens lang te zijn!';

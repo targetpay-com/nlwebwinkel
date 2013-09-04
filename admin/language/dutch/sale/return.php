@@ -5,7 +5,7 @@ $_['heading_title']       = 'Retouren';
 // Text
 $_['text_opened']         = 'Geopend';
 $_['text_unopened']       = 'Ongeopend';
-$_['text_success']        = 'Succes: Instellingen gewijzigd!';
+$_['text_success']        = 'Gelukt: instellingen gewijzigd';
 $_['text_wait']           = 'Even wachten a.u.b.';
 
 // Text
@@ -22,10 +22,10 @@ $_['text_product']        = 'Product:';
 $_['text_model']          = 'Model:';
 $_['text_quantity']       = 'Aantal:';
 $_['text_return_reason']  = 'Reden van retour:';
-$_['text_return_action']  = 'Aktie:';
+$_['text_return_action']  = 'Actie:';
 $_['text_comment']        = 'Opmerkingen:';
 
-// Column
+// Kolom
 $_['column_return_id']     = 'Retournummer';
 $_['column_order_id']      = 'Bestelnummer';
 $_['column_customer']      = 'Klant';
@@ -36,7 +36,7 @@ $_['column_date_added']    = 'Datum toegevoegd';
 $_['column_date_modified'] = 'Datum gewijzigd';
 $_['column_comment']       = 'Opmerkingen';
 $_['column_notify']        = 'Klant ge&iuml;nformeerd';
-$_['column_action']        = 'Aktie';
+$_['column_action']        = 'Actie';
 
 // Entry
 $_['entry_customer']      = 'Klant:';
@@ -57,8 +57,8 @@ $_['entry_notify']        = 'Informeer klant:';
 $_['entry_action']        = 'Retour actie:';
 
 // Error
-$_['error_warning']       = 'Waarschuwing: Controlleer of alle verplichte velden volledig zijn ingevuld!';
-$_['error_permission']    = 'Waarschuwing: U heeft geen rechten deze instellingen te wijzigen!';
+$_['error_warning']       = 'Waarschuwing: Controleer of alle verplichte velden volledig zijn ingevuld!';
+$_['error_permission']    = 'Waarschuwing: je hebt geen rechten deze instellingen te wijzigen!';
 $_['error_order_id']      = 'Waarschuwing: Bestelnummer verplivht!';
 $_['error_firstname']     = 'Waarschuwing: Voornaam dient tussen de 1 en 32 tekens lang te zijn!';
 $_['error_lastname']      = 'Waarschuwing: Achternaam mdient tussen de 1 en 32 tekens lang te zijn!';

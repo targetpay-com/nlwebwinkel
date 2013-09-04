@@ -1,22 +1,23 @@
 <?php
 // Text
-$_['text_title']       = 'Klarna Part Payment';
-$_['text_information'] = 'Klarna Information';
-$_['text_additional']  = 'Klarna requires some additional information before they can proccess your order.';
-$_['text_wait']        = 'Please wait!';
-$_['text_male']        = 'Male';
-$_['text_female']      = 'Female';
+$_['text_title']       = 'Klarna Deelbetaling';
+$_['text_information'] = 'Klarna Informatie';
+$_['text_additional']  = 'Klarna heeft wat extra gegevens nodig voordat ze je betaling kunnen verwerken.';
+$_['text_wait']        = 'Even geduld a.u.b.';
+$_['text_male']        = 'Man';
+$_['text_female']      = 'Vrouw';
 
 // Entry
-$_['entry_gender']     = 'Gender:';
-$_['entry_dob']        = 'PNO/BIRTH DATA:';
-$_['entry_house_no']   = 'House No.:';
-$_['entry_house_ext']  = 'House Ext.:';
-$_['entry_mobile']     = 'Cell Phone:';
+$_['entry_gender']     = 'Geslacht:';
+$_['entry_dob']        = 'Geboortedatum:';
+$_['entry_house_no']   = 'Huisnummer:';
+$_['entry_house_ext']  = 'Toevoeging:';
+$_['entry_mobile']     = 'Mobiel telefoonnumme:';
+
 
 // Error
-$_['error_gender']     = 'Gender Required!';
-$_['error_dob']        = 'PNO/BIRTH DATA Required!';
-$_['error_house_no']   = 'House No. Required!';
-$_['error_house_ext']  = 'House Extension Required!';
+$_['error_gender']     = 'Geslacht is verplicht';
+$_['error_dob']        = 'Geboortedatum is verplicht';
+$_['error_house_no']   = 'Huisnummer is verplicht';
+$_['error_house_ext']  = 'Huisnummer toevoeging is verplicht';
 ?>

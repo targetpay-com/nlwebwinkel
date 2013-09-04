@@ -1,16 +1,16 @@
 <?php
 // Heading
-$_['heading_title'] = 'Producten Feeds';
+$_['heading_title'] = 'Producten feed';
 
 // Text
 $_['text_install']   = 'Installeren';
 $_['text_uninstall'] = 'De&iuml;nstalleren';
 
-// Column
-$_['column_name']   = 'Producten Feeds';
+// Kolom
+$_['column_name']   = 'Producten feed';
 $_['column_status'] = 'Status';
-$_['column_action'] = 'Aktie';
+$_['column_action'] = 'Actie';
 
 // Error
-$_['error_permission'] = 'Waarschuwing: U heeft geen rechten deze instellingen te wijzigen!';
+$_['error_permission'] = 'Waarschuwing: je hebt geen rechten deze instellingen te wijzigen!';
 ?>

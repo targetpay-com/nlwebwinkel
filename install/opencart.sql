@@ -1075,7 +1075,7 @@ CREATE TABLE `oc_currency` (
 INSERT INTO `oc_currency` (`currency_id`, `title`, `code`, `symbol_left`, `symbol_right`, `decimal_place`, `value`, `status`, `date_modified`) VALUES
 (1, 'Pound Sterling', 'GBP', '£', '', '2', 0.61979997, 1, '2011-07-16 10:30:52'),
 (2, 'US Dollar', 'USD', '$', '', '2', 1.00000000, 1, '2011-07-16 16:55:46'),
-(3, 'Euro', 'EUR', '', '€', '2', 0.70660001, 1, '2011-07-16 10:30:52');
+(3, 'Euro', 'EUR', '€ ', '', '2', 0.70660001, 1, '2011-07-16 10:30:52');
 
 -- --------------------------------------------------------
 
@@ -7624,7 +7624,7 @@ UPDATE `oc_weight_class_description` SET `language_id`='2';
 -- 		Echt toevoegen (mag in vorige lijst niet voorkomen)
 
 INSERT IGNORE INTO `oc_order_status` (`order_status_id`, `language_id`, `name`) VALUES
-	(1, 2, 'Lopend (Pending)'),
+	(1, 2, 'In behandeling (Pending)'),
 	(2, 2, 'Wordt verwerkt (Processing)'),
 	(3, 2, 'Verzonden (Shipped)'),
 	(7, 2, 'Geannuleerd (Canceled)'),
@@ -7785,33 +7785,32 @@ UPDATE `oc_setting` SET `value` = '0' WHERE `key` = 'cod_status';
 UPDATE `oc_setting` SET `value` = '0' WHERE `key` = 'free_checkout_status';
 UPDATE `oc_setting` SET `value` = '0' WHERE `key` = 'pp_standard';
 
-CREATE TABLE IF NOT EXISTS `oc_ideal` (
+CREATE TABLE `oc_ideal` (
   	`order_id` varchar(64) NOT NULL DEFAULT '',
   	`method` varchar(6) DEFAULT NULL,
   	`ideal_txid` varchar(64) DEFAULT NULL,
   	`ideal_response` varchar(128) DEFAULT NULL,
   	`paid` datetime DEFAULT NULL,
   	PRIMARY KEY (`order_id`)
-	) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+	) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
 
-CREATE TABLE IF NOT EXISTS `oc_mrcash` (
+CREATE TABLE `oc_mrcash` (
   	`order_id` varchar(64) NOT NULL DEFAULT '',
   	`method` varchar(6) DEFAULT NULL,
   	`mrcash_txid` varchar(64) DEFAULT NULL,
   	`mrcash_response` varchar(128) DEFAULT NULL,
   	`paid` datetime DEFAULT NULL,
   	PRIMARY KEY (`order_id`)
-	) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+	) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
 
-CREATE TABLE IF NOT EXISTS `oc_sofort` (
+CREATE TABLE `oc_sofort` (
   	`order_id` varchar(64) NOT NULL DEFAULT '',
   	`method` varchar(6) DEFAULT NULL,
   	`sofort_txid` varchar(64) DEFAULT NULL,
   	`sofort_response` varchar(128) DEFAULT NULL,
   	`paid` datetime DEFAULT NULL,
   	PRIMARY KEY (`order_id`)
-	) ENGINE=InnoDB DEFAULT CHARSET=latin1;
-
+	) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;   
 
 DELETE FROM `oc_extension` WHERE `code` = 'pp_standard';
 DELETE FROM `oc_extension` WHERE `code` = 'free_checkout';
@@ -7829,4 +7828,9 @@ UPDATE `oc_setting` SET `value` = '1' WHERE `key` = 'config_seo_url';
 -- Disable other currencies (for now)
 
 UPDATE `oc_currency` SET status='0' WHERE `code` IN ('GBP', 'USD');
+
+-- Select other template
+
+UPDATE `oc_setting` SET `value` = 'nlwebwinkel' WHERE `key` = 'config_template';
+DELETE FROM `oc_banner`;
 

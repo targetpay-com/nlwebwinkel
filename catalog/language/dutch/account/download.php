@@ -10,5 +10,5 @@ $_['text_date_added'] = 'Datum toegevoegd:';
 $_['text_name']       = 'Naam:';
 $_['text_remaining']  = 'Overgebleven:';
 $_['text_size']       = 'Grootte:';
-$_['text_empty']      = 'U heeft geen beschikbare downloads.';
+$_['text_empty']      = 'Je hebt geen beschikbare downloads.';
 ?>

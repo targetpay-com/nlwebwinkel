@@ -11,8 +11,8 @@ $_['text_voucher']      = 'Cadeaubon';
 $_['text_affiliate']    = 'Affiliates';
 $_['text_special']      = 'Aanbiedingen';
 $_['text_account']      = 'Mijn account';
-$_['text_order']        = 'Bestelhistorie';
+$_['text_order']        = 'Overzicht bestellingen';
 $_['text_wishlist']     = 'Verlanglijst';
 $_['text_newsletter']   = 'Nieuwsbrief';
-$_['text_powered']      = '&copy; <a href="http://nlwebwinkel.org" target="_blank">NL Webwinkel</a>. Betalingen via <a href="https://www.targetpay.com">TargetPay.com</a>';
+$_['text_powered']      = 'Powered by <a href="http://nlwebwinkel.org" target="_blank">NL Webwinkel</a>';
 ?>

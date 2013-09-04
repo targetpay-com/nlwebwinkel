@@ -3,21 +3,21 @@
 $_['heading_title']      = 'Australia Post';
 
 // Text
-$_['text_shipping']      = 'Shipping';
-$_['text_success']       = 'Success: You have modified Australia Post shipping!';
+$_['text_shipping']      = 'Verzending';
+$_['text_success']       = 'Gelukt: instellingen zijn gewijzigd';
 
 // Entry
-$_['entry_postcode']     = 'Post Code:';
-$_['entry_express']      = 'Express Postage:';
-$_['entry_standard']     = 'Standard Postage:';
-$_['entry_display_time'] = 'Display Delivery Time:<br /><span class="help">Do you want to display the shipping time? (e.g. Ships within 3 to 5 days)</span>';
-$_['entry_weight_class'] = 'Weight Class:<span class="help">Set to grams.</span>';
-$_['entry_tax_class']    = 'Tax Class:';
-$_['entry_geo_zone']     = 'Geo Zone:';
+$_['entry_postcode']     = 'Postcode:';
+$_['entry_express']      = 'Express postage:';
+$_['entry_standard']     = 'Standard postage:';
+$_['entry_display_time'] = 'Toon verzendtijd:<br /><span class="help">Wil je de verzendtijd opnemen? (bijv. verzending binnen 3 tot 5 dagen)</span>';
+$_['entry_weight_class'] = 'Gewichtsklasse:<span class="help">Zet op gram</span>';
+$_['entry_tax_class']    = 'Belastingcategorie:';
+$_['entry_geo_zone']     = 'Land/gebied:';
 $_['entry_status']       = 'Status:';
-$_['entry_sort_order']   = 'Sort Order:';
+$_['entry_sort_order']   = 'Volgorde:';
 
 // Error
-$_['error_permission']   = 'Warning: You do not have permission to modify Australia Post shipping!';
-$_['error_postcode']     = 'Post Code must be 4 digits!';
+$_['error_permission']   = 'Waarschuwing: je hebt geen rechten om deze gegevens aan te passen';
+$_['error_postcode']     = 'Postcode moet 4 tekens zijn';
 ?>

@@ -108,6 +108,10 @@ class ControllerPaymentsofort extends Controller {
 			} else {
 			$this->data['sofort_total'] = $this->config->get('sofort_total');
 	   		}
+	   		
+	   	if (!isset($this->data['sofort_sort_order'])) {
+	   			$this->data['sofort_sort_order'] = 1;
+	   		}	   		
 
 		if (isset($this->request->post['sofort_order_status_id'])) {
 			$this->data['sofort_order_status_id'] = $this->request->post['sofort_order_status_id'];
@@ -144,6 +148,10 @@ class ControllerPaymentsofort extends Controller {
 			} else {
 			$this->data['sofort_sort_order'] = $this->config->get('sofort_sort_order');
 			}
+			
+		if (!isset($this->data['sofort_sort_order'])) {
+				$this->data['sofort_sort_order'] = 3;
+			}			
 
 		$this->template = 'payment/sofort.tpl';
 		$this->children = array(

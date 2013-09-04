@@ -1,5 +1,4 @@
 <?php
-// Version 1.5.4 - 16-08-2012
 // Locale
 $_['code']              = 'nl';
 $_['direction']         = 'ltr';
@@ -47,7 +46,7 @@ $_['button_upload']           = 'Uploaden';
 $_['button_submit']           = 'Uitvoeren';
 $_['button_invoice']          = 'Factuur printen';
 $_['button_add_address']      = 'Adres toevoegen';
-$_['button_add_attribute']    = 'Attribuut toevoegen';
+$_['button_add_attribute']    = 'Kenmerk toevoegen';
 $_['button_add_banner']       = 'Banner toevoegen';
 $_['button_add_product']      = 'Product toevoegen';
 $_['button_add_voucher']      = 'Cadeaubon toevoegen';
@@ -72,7 +71,7 @@ $_['button_reset']            = 'Reset';
 // Tab
 $_['tab_address']             = 'Adres';
 $_['tab_admin']               = 'Admin';
-$_['tab_attribute']           = 'Attribuut';
+$_['tab_attribute']           = 'Kenmerk';
 $_['tab_coupon_history']      = 'Coupon geschiedenis';
 $_['tab_customer']            = 'Klant';
 $_['tab_data']                = 'Gegevens';
@@ -98,7 +97,7 @@ $_['tab_product']             = 'Product(en)';
 $_['tab_return']              = 'Retour details';
 $_['tab_return_history']      = 'Retour geschiedenis';
 $_['tab_reward']              = 'Spaarpunten';
-$_['tab_shipping']            = 'Afleveradres';
+$_['tab_shipping']            = 'Bezorgadres';
 $_['tab_total']               = 'Totalen';
 $_['tab_transaction']         = 'Transacties';
 $_['tab_voucher']             = 'Tegoedbonnen';
