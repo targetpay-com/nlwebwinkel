@@ -1,7 +1,7 @@
 NL Webwinkel
 ============
 
-OpenCart v.1.5.6 met uitbreidingen:
+OpenCart v1.5.5.1 met uitbreidingen:
 
 * Nederlandse taal (als standaard)
 * Koppeling met iDEAL, Mister Cash (Belgie) en Sofort (Duitsland, Oostenrijk, Zwitserland)
