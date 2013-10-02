@@ -1,14 +1,20 @@
 <?php
-// Text
-$_['text_approve_subject']      = '%s - Je account is geactiveerd.';
-$_['text_approve_welcome']      = 'Welkom bij %s!';
-$_['text_approve_login']        = 'Je account is aangemaakt. Je kunt nu met je e-mailadres en wachtwoord inloggen op:';
-$_['text_approve_services']     = 'Na inloggen kan je bestellingen bekijken, facturen printen en persoonlijke gegevens aanpassen.';
-$_['text_approve_thanks']       = 'Met vriendelijke groeten,';
-$_['text_transaction_subject']  = '%s - Tegoed';
-$_['text_transaction_received'] = 'je hebt %s aan tegoed ontvangen!';
-$_['text_transaction_total']    = 'Je totale tegoed is: %s.' . "\n\n" . 'Dit wordt automatisch gebruikt bij uw volgende bestelling.';
+//
+//  Vertaling door: Yellow Melon B.V.
+//  www.nlwebwinkel.org
+//
+
+//  Bijgewerkt: 01-10-2013 18:08:05
+
+$_['text_approve_login']        = 'Je account is aangemaakt. Je kunt met je e-mail adres en wachtwoord inloggen op het volgende internet adres:';
+$_['text_approve_services']     = 'Na inloggen kun je jou tracking codes genereren, commissie betalingen controlleren en je accountgegevens aanpassen.';
+$_['text_approve_subject']      = '%s - Je Affiliate account is geactiveerd';
+$_['text_approve_thanks']       = 'Bedankt,';
+$_['text_approve_welcome']      = 'Welkom en bedankt voor het registreren bij %s';
+$_['text_reward_received']      = 'Je hebt %s Spaarpunten ontvangen';
 $_['text_reward_subject']       = '%s - Spaarpunten';
-$_['text_reward_received']      = 'je hebt %s spaarpunten ontvangen!';
-$_['text_reward_total']         = 'Totaal aantal spaarpunten: %s.';
-?>
+$_['text_reward_total']         = 'Aantal spaarpunten is nu %s.';
+$_['text_transaction_received'] = 'Je hebt %s krediet ontvangen';
+$_['text_transaction_subject']  = '%s - Account tegoed';
+$_['text_transaction_total']    = 'Opgebouwd krediet is nu %s.' . "\n\n" .';
+

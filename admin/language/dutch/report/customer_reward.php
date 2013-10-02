@@ -1,18 +1,20 @@
 <?php
-// Heading
-$_['heading_title']         = 'Spaarpunten rapport';
+//
+//  Vertaling door: Yellow Melon B.V.
+//  www.nlwebwinkel.org
+//
 
-// Kolom
-$_['column_customer']       = 'Klantnaam';
-$_['column_email']          = 'E-mail';
-$_['column_customer_group'] = 'Klantgroep';
-$_['column_status']         = 'Status';
-$_['column_points']         = 'Spaarpunten';
-$_['column_orders']         = 'Aantal bestellingen';
-$_['column_total']          = 'Totaal';
+//  Bijgewerkt: 01-10-2013 18:08:05
+
 $_['column_action']         = 'Actie';
-
-// Entry
-$_['entry_date_start']      = 'Begindatum:';
+$_['column_customer']       = 'Klant';
+$_['column_customer_group'] = 'Klantgroep';
+$_['column_email']          = 'E-Mail';
+$_['column_orders']         = 'Bestellingen';
+$_['column_points']         = 'Spaarpunten';
+$_['column_status']         = 'Status';
+$_['column_total']          = 'Totaal';
 $_['entry_date_end']        = 'Einddatum:';
-?>
+$_['entry_date_start']      = 'Startdatum:';
+$_['heading_title']         = 'Klantrapport spaarpunten';
+

@@ -1,9 +1,15 @@
 <?php
-// Text
-$_['text_subject']       = '%s - Update voor retouraanvraag %s';
-$_['text_return_id']     = 'Retournummer';
+//
+//  Vertaling door: Yellow Melon B.V.
+//  www.nlwebwinkel.org
+//
+
+//  Bijgewerkt: 01-10-2013 18:08:05
+
+$_['text_comment']       = 'Opmerkingen retouraanvraag:';
 $_['text_date_added']    = 'Retourdatum:';
-$_['text_return_status'] = 'Je retouraanvraag heeft de volgende nieuwe status:';
-$_['text_comment']       = 'Onze opmerkingen bij de aanvraag zijn:';
-$_['text_footer']        = 'Je kunt op deze e-mail reageren indien je vragen hebt.';
-?>
+$_['text_footer']        = 'Beantwoord deze email als je vragen hebt.';
+$_['text_return_id']     = 'Retour ID:';
+$_['text_return_status'] = 'Je retouraanvraag is bijgewerkt:';
+$_['text_subject']       = '%s - Retour update %s';
+

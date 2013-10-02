@@ -1,25 +1,23 @@
 <?php
-// Heading
-$_['heading_title']      = 'Cadeaubon gelegenheid';
+//
+//  Vertaling door: Yellow Melon B.V.
+//  www.nlwebwinkel.org
+//
 
-// Text
-$_['text_success']       = 'Gelukt: instellingen gewijzigd';
-$_['text_image_manager'] = 'Beheer afbeeldingen';
-$_['text_browse']        = 'Doorzoek bestanden';
-$_['text_clear']         = 'Afbeelding verwijderen';
+//  Bijgewerkt: 01-10-2013 18:08:05
 
-// Kolom
-$_['column_name']        = 'Ter gelegenheid van';
 $_['column_action']      = 'Actie';
-
-// Entry
-$_['entry_name']         = 'Ter gelegenheid van:';
-$_['entry_description']  = 'Omschrijving:';
+$_['column_name']        = 'Naam';
+$_['entry_description']  = 'Cadeaubon thema omschrijving:';
 $_['entry_image']        = 'Afbeelding:';
+$_['entry_name']         = 'Cadeaubon thema naam:';
+$_['error_image']       = 'Afbeelding verplicht';
+$_['error_name']        = 'Cadeaubon thema moet minimaal 3 karakters bevatten';
+$_['error_permission']  = 'Je hebt geen rechten deze instellingen te wijzigen';
+$_['error_voucher']     = 'Deze cadeaubon kan niet worden verwijderd als het toegewezen is aan %s cadeaubonnen';
+$_['heading_title']      = 'Gelegenheid cadeaubon';
+$_['text_browse']        = 'Bladeren';
+$_['text_clear']         = 'Klaar';
+$_['text_image_manager'] = 'Afbeelding Manager';
+$_['text_success']       = 'Instellingen gewijzigd';
 
-// Error
-$_['error_permission']  = 'Waarschuwing: je hebt geen rechten deze instellingen te wijzigen!';
-$_['error_name']        = 'Waarschuwing: gelegenheid dient tussen de 3 en 32 tekens lang te zijn!';
-$_['error_image']       = 'Waarschuwing: afbeelding vereist!';
-$_['error_voucher']     = 'Waarschuwing: gelegenheid kan niet worden verwijderd want het is gekoppeld aan %s cadeaubon(nen)!';
-?>

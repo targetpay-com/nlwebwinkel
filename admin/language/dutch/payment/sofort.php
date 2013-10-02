@@ -4,7 +4,7 @@ $_['heading_title']      = 'Sofort Banking';
 
 // Text
 $_['text_payment']       = 'Betaling';
-$_['text_success']       = 'Uw gegevens zijn bijgewerkt!';
+$_['text_success']       = 'Je gegevens zijn bijgewerkt!';
 $_['text_sofort']        = '<a href="https://www.targetpay.com/signup?p_actiecode=YM3R2A" target="_blank"><img src="view/image/payment/sofort.png" alt="Sofort Banking via TargetPay" title="Sofort Banking via TargetPay" style="border: none;" /></a>';
 $_['text_sale']          = 'Verkoop';
 

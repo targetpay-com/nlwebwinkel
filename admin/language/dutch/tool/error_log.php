@@ -1,7 +1,11 @@
 <?php
-// Heading
-$_['heading_title'] = 'Foutmeldingen';
+//
+//  Vertaling door: Yellow Melon B.V.
+//  www.nlwebwinkel.org
+//
 
-// Text
-$_['text_success'] = 'De foutlog is leeg gemaakt';
-?>
+//  Bijgewerkt: 01-10-2013 18:08:05
+
+$_['heading_title'] = 'Foutlog';
+$_['text_success']  = 'Foutlog leeggemaakt';
+

@@ -1,17 +1,21 @@
-<?
+<?php
+//
+//  Vertaling door: Yellow Melon B.V.
+//  www.nlwebwinkel.org
+//
 
-// Toegevoegd 23-08-2013 (EvdB)
+//  Bijgewerkt: 01-10-2013 18:08:05
 
-$_['heading_title']        = 'Filter';
-$_['text_module']          = 'Modules';
-$_['text_success']         = 'Gelukt: de module is bijgewerkt: filter!';
-$_['text_content_top']     = 'Content bovenaan';
-$_['text_content_bottom']  = 'Content onderaan';
-$_['text_column_left']     = 'Linker kolom';
-$_['text_column_right']    = 'Rechter kolom';
-$_['entry_layout']         = 'Layout:';
-$_['entry_position']       = 'Positie:';
-$_['entry_status']         = 'Status:';
-$_['entry_sort_order']     = 'Volgorde:';
-$_['error_permission']     = 'Waarschuwing: je bent niet gemachtigd de module bij te werken: filter!';
-?>
+$_['entry_layout']        = 'Layout:';
+$_['entry_position']      = 'Plaats:';
+$_['entry_sort_order']    = 'Volgorde:';
+$_['entry_status']        = 'Status:';
+$_['error_permission']    = 'Je hebt geen rechten deze instellingen te wijzigen';
+$_['heading_title']       = 'Filter';
+$_['text_column_left']    = 'Kolom Links';
+$_['text_column_right']   = 'Kolom Rechts';
+$_['text_content_bottom'] = 'Onderaan';
+$_['text_content_top']    = 'Bovenaan';
+$_['text_module']         = 'Modules';
+$_['text_success']        = 'Instellingen gewijzigd';
+

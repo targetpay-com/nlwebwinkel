@@ -1,17 +1,17 @@
 <?php
-// header
-$_['heading_title']  = 'Wachtwoord resetten';
+//
+//  Vertaling door: Yellow Melon B.V.
+//  www.nlwebwinkel.org
+//
 
-// Text
-$_['text_reset']     = 'Reset je wachtwoord';
-$_['text_password']  = 'Voer je nieuwe wachtwoord in.';
-$_['text_success']   = 'Het wachtwoord is gewijzigd.';
+//  Bijgewerkt: 01-10-2013 18:08:05
 
-// Entry
-$_['entry_password'] = 'Wachtwoord:';
 $_['entry_confirm']  = 'Bevestig wachtwoord:';
+$_['entry_password'] = 'Wachtwoord:';
+$_['error_confirm']  = 'Wachtwoord komt niet overeen';
+$_['error_password'] = 'Wachtwoord moet minimaal 5 karakters bevatten';
+$_['heading_title']  = 'Reset je wachtwoord';
+$_['text_password']  = 'Vul je nieuwe wachtwoord in.';
+$_['text_reset']     = 'Wachtwoord opnieuw instellen';
+$_['text_success']   = 'Wachtwoord is aangepast.';
 
-// Error
-$_['error_password'] = 'Let op: wachtwoord dient tussen de 5 en 20 tekens lang te zijn!!';
-$_['error_confirm']  = 'Let op: wachtwoorden komen niet overeen!';
-?>

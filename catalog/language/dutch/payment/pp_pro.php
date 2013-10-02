@@ -1,16 +1,20 @@
 <?php
-// Text
-$_['text_title']           = 'Credit or Debit Card (Processed securely by PayPal)';
-$_['text_credit_card']     = 'Credit Card Details';
-$_['text_start_date']      = '(indien beschikbaar)';
-$_['text_issue']           = '(alleen Maestro en Solo cards)';
-$_['text_wait']            = 'Even geduld a.u.b.';
+//
+//  Vertaling door: Yellow Melon B.V.
+//  www.nlwebwinkel.org
+//
 
-// Entry
-$_['entry_cc_type']        = 'Kaart type:';
-$_['entry_cc_number']      = 'Kaart nummer:';
-$_['entry_cc_start_date']  = 'Kaart uitgiftedatum:';
-$_['entry_cc_expire_date'] = 'Kaart vervaldatum:';
-$_['entry_cc_cvv2']        = 'Kaart veiligheidscode (CVV2):';
-$_['entry_cc_issue']       = 'Kaart uitgiftenummer:';
-?>
+//  Bijgewerkt: 01-10-2013 18:08:05
+
+$_['entry_cc_cvv2']        = 'Card Security Code (CVV2):';
+$_['entry_cc_expire_date'] = 'Card vervaldatum:';
+$_['entry_cc_issue']       = 'Card issue nummer:';
+$_['entry_cc_number']      = 'Card nummer:';
+$_['entry_cc_start_date']  = 'Card geldig vanaf:';
+$_['entry_cc_type']        = 'Card type:';
+$_['text_credit_card']     = 'Credit Card gegevens';
+$_['text_issue']           = '(Alleen voor Maestro en Solo kaarten)';
+$_['text_start_date']      = '(indien beschikbaar)';
+$_['text_title']           = 'Credit or Debit Card (Processed securely by PayPal)';
+$_['text_wait']            = 'Een ogenblik geduld';
+

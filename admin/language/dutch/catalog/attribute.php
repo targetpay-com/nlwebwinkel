@@ -1,23 +1,21 @@
 <?php
-// Heading
-$_['heading_title']          = 'Kenmerken';
+//
+//  Vertaling door: Yellow Melon B.V.
+//  www.nlwebwinkel.org
+//
 
-// Text
-$_['text_success']           = 'Gelukt: instellingen gewijzigd';
+//  Bijgewerkt: 01-10-2013 18:08:05
 
-// Kolom
-$_['column_name']            = 'Kenmerk';
-$_['column_attribute_group'] = 'Groep';
-$_['column_sort_order']      = 'Volgorde';
 $_['column_action']          = 'Actie';
-
-// Entry
-$_['entry_name']            = 'Kenmerk:';
-$_['entry_attribute_group'] = 'Groep:';
+$_['column_attribute_group'] = 'Kenmerk groep';
+$_['column_name']            = 'Naam';
+$_['column_sort_order']      = 'Volgorde';
+$_['entry_attribute_group'] = 'Kenmerk groep:';
+$_['entry_name']            = 'Kenmerk naam:';
 $_['entry_sort_order']      = 'Volgorde:';
+$_['error_name']            = 'Kenmerk naam moet minimaal 3 karakters bevatten';
+$_['error_permission']      = 'Je hebt geen rechten deze instellingen te wijzigen';
+$_['error_product']         = 'Kan atribuut niet verwijderen als deze gekoppeld is aan %s producten';
+$_['heading_title']          = 'Kenmerken';
+$_['text_success']           = 'Instellingen gewijzigd';
 
-// Error
-$_['error_permission']      = 'Waarschuwing: je hebt geen rechten deze instellingen te wijzigen!';
-$_['error_name']            = 'Waarschuwing: kenmerk dient tussen de 3 en 64 tekens lang te zijn!';
-$_['error_product']         = 'Waarschuwing: dit kenmerk kan niet worden verwijderd want het is gekoppeld aan %s product(en)!';
-?>

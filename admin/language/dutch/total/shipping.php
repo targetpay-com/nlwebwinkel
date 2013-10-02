@@ -1,16 +1,16 @@
 <?php
-// Heading
-$_['heading_title']    = 'Verzendkosten';
+//
+//  Vertaling door: Yellow Melon B.V.
+//  www.nlwebwinkel.org
+//
 
-// Text
-$_['text_total']       = 'Besteltotalen';
-$_['text_success']     = 'Gelukt: instellingen gewijzigd';
+//  Bijgewerkt: 01-10-2013 18:08:05
 
-// Entry
-$_['entry_estimator']  = 'Verzendkosten berekening:<br /><span class="help">Toon verzendkostenberekening tijdens afrekenen</span>';
-$_['entry_status']     = 'Status:';
+$_['entry_estimator']  = 'Inschatting levertijd:';
 $_['entry_sort_order'] = 'Volgorde:';
+$_['entry_status']     = 'Status:';
+$_['error_permission'] = 'Je hebt geen rechten deze instellingen te wijzigen';
+$_['heading_title']    = 'Bezorging';
+$_['text_success']     = 'Instellingen gewijzigd';
+$_['text_total']       = 'Besteltotalen';
 
-// Error
-$_['error_permission'] = 'Waarschuwing: je hebt geen rechten deze instellingen te wijzigen!';
-?>

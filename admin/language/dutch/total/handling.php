@@ -1,18 +1,18 @@
 <?php
-// Heading
-$_['heading_title']    = 'Administratiekosten';
+//
+//  Vertaling door: Yellow Melon B.V.
+//  www.nlwebwinkel.org
+//
 
-// Text
-$_['text_total']       = 'Besteltotalen';
-$_['text_success']     = 'Gelukt: instellingen gewijzigd';
+//  Bijgewerkt: 01-10-2013 18:08:05
 
-// Entry
-$_['entry_total']      = 'Toepassen bij bestelbedrag:';
 $_['entry_fee']        = 'Kosten:';
-$_['entry_tax_class']  = 'BTW:';
-$_['entry_status']     = 'Status:';
 $_['entry_sort_order'] = 'Volgorde:';
+$_['entry_status']     = 'Status:';
+$_['entry_tax_class']  = 'Belasting categorie:';
+$_['entry_total']      = 'Totaalbedrag:';
+$_['error_permission'] = 'Je hebt geen rechten deze instellingen te wijzigen';
+$_['heading_title']    = 'Administratiekosten';
+$_['text_success']     = 'Instellingen gewijzigd';
+$_['text_total']       = 'Besteltotalen';
 
-// Error
-$_['error_permission'] = 'Waarschuwing: je hebt geen rechten deze instellingen te wijzigen!';
-?>

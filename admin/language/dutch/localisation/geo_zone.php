@@ -1,24 +1,22 @@
 <?php
-// Heading
-$_['heading_title']      = 'Landen/gebieden';
+//
+//  Vertaling door: Yellow Melon B.V.
+//  www.nlwebwinkel.org
+//
 
-// Text
-$_['text_success']       = 'Gelukt: instellingen gewijzigd';
+//  Bijgewerkt: 01-10-2013 18:08:05
 
-// Kolom
-$_['column_name']        = 'Land/gebied';
-$_['column_description'] = 'Omschrijving';
 $_['column_action']      = 'Actie';
-
-// Entry
-$_['entry_name']         = 'Land/gebied:';
-$_['entry_description']  = 'Omschrijving:';
+$_['column_description'] = 'Omschrijving';
+$_['column_name']        = 'Naam';
 $_['entry_country']      = 'Land:';
-$_['entry_zone']         = 'Zone:';
+$_['entry_description']  = 'Omschrijving:';
+$_['entry_name']         = 'Naam gebied:';
+$_['entry_zone']         = 'Regio/staat:';
+$_['error_description']  = 'Beschrijving moet tussen de 3 en 255 karakter bevatten';
+$_['error_name']         = 'Naam gebied moet minimaal 3 karakters bevatten';
+$_['error_permission']   = 'Je hebt geen rechten deze instellingen te wijzigen';
+$_['error_tax_rate']     = 'Kan gebied niet verwijderen als deze gekoppeld is aan BTW-tarieven';
+$_['heading_title']      = 'Gebieden';
+$_['text_success']       = 'Instellingen gewijzigd';
 
-// Error
-$_['error_permission']   = 'Waarschuwing: je hebt geen rechten deze instellingen te wijzigen!';
-$_['error_name']         = 'Waarschuwing: land/gebied dient tussen de 3 en 32 tekens lang te zijn!';
-$_['error_description']  = 'Waarschuwing: omschrijving land/gebied dient tussen de 3 en 255 tekens lang te zijn!';
-$_['error_tax_rate']     = 'Waarschuwing: deze zone kan niet worden verwijderd omdat deze is gekoppeld aan een of meer belastinggroepen!';
-?>

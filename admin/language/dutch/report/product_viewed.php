@@ -1,13 +1,15 @@
 <?php
-// Heading
-$_['heading_title']  = 'Bekeken producten rapport';
+//
+//  Vertaling door: Yellow Melon B.V.
+//  www.nlwebwinkel.org
+//
 
-// Text
-$_['text_success']   = 'Gelukt: rapport gereset!';
+//  Bijgewerkt: 01-10-2013 18:08:05
 
-// Kolom
-$_['column_name']    = 'Naam';
 $_['column_model']   = 'Model';
+$_['column_name']    = 'Name';
+$_['column_percent'] = 'Procent';
 $_['column_viewed']  = 'Bekeken';
-$_['column_percent'] = 'Percentage';
-?>
+$_['heading_title']  = 'Rapport bekeken producten';
+$_['text_success']   = 'Instellingen gewijzigd';
+

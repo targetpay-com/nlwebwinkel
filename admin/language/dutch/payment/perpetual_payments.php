@@ -1,23 +1,23 @@
 <?php
-// Heading
-$_['heading_title']      = 'Perpetual Payments';
+//
+//  Vertaling door: Yellow Melon B.V.
+//  www.nlwebwinkel.org
+//
 
-// Text 
-$_['text_payment']       = 'Betaling';
-$_['text_success']       = 'Gelukt: instellingen zijn gewijzigd';
+//  Bijgewerkt: 01-10-2013 18:08:05
 
-// Entry
-$_['entry_auth_id']      = 'Authorization ID:';
-$_['entry_auth_pass']    = 'Authorization Wachtwoord:';
-$_['entry_test']         = 'Testmode:<span class="help">Deze module draaien in Test (Ja) of Productie (Nee)?</span>';
-$_['entry_total']        = 'Minimum bedrag:<br /><span class="help">Betaalwijze wordt ingeschakeld vanaf dit bedrag.</span>';
-$_['entry_order_status'] = 'Status na betaling:';
-$_['entry_geo_zone']     = 'Land/gebied:';
-$_['entry_status']       = 'Status:';
+$_['entry_auth_id']      = 'Authorisatie ID:';
+$_['entry_auth_pass']    = 'Authorisatie wachtwoord:';
+$_['entry_geo_zone']     = 'Gebied:';
+$_['entry_order_status'] = 'Status bestelling:';
 $_['entry_sort_order']   = 'Volgorde:';
+$_['entry_status']       = 'Status:';
+$_['entry_test']         = 'Testmode:<br /><span class="help">Gebruik de live (Ja) of testomgeving (Nee) voor het verwerken van betalingen</span>';
+$_['entry_total']        = 'Minimum bedrag:<br /><span class="help">Betaalwijze is alleen beschikbaar voor bedragen hoger dan dit minimum</span>';
+$_['error_auth_id']      = 'Authorization ID Verplicht';
+$_['error_auth_pass']    = 'Authorization wachtwoord Verplicht';
+$_['error_permission']   = 'Je hebt geen rechten deze instellingen te wijzigen';
+$_['heading_title']      = 'Terugkerende betalingen';
+$_['text_payment']       = 'Betaling';
+$_['text_success']       = 'Instellingen gewijzigd';
 
-// Error
-$_['error_permission']   = 'Waarschuwing: je hebt geen rechten om deze gegevens aan te passen';
-$_['error_auth_id']      = 'Authorization ID is verplicht'; 
-$_['error_auth_pass']    = 'Authorization Wachtwoord is verplicht'; 
-?>

@@ -1,15 +1,17 @@
 <?php
-// Heading 
-$_['heading_title']      = 'Transacties';
+//
+//  Vertaling door: Yellow Melon B.V.
+//  www.nlwebwinkel.org
+//
 
-// Kolom
-$_['column_date_added']  = 'Datum';
-$_['column_description'] = 'Omschrijving';
+//  Bijgewerkt: 01-10-2013 18:08:05
+
 $_['column_amount']      = 'Bedrag (%s)';
-
-// Text
+$_['column_date_added']  = 'Toegevoegd';
+$_['column_description'] = 'Omschrijving';
+$_['heading_title']      = 'Transacties';
 $_['text_account']       = 'Account';
-$_['text_transaction']   = 'Transacties';
-$_['text_balance']       = 'Huidig tegoed is:';
-$_['text_empty']         = 'Je hebt nog geen transacties!';
-?>
+$_['text_balance']       = 'Je huidige saldo is:';
+$_['text_empty']         = 'Je hebt geen transacties';
+$_['text_transaction']   = 'Jouw transacties';
+

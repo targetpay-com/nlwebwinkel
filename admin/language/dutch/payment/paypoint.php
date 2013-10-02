@@ -1,26 +1,26 @@
 <?php
-// Heading
-$_['heading_title']      = 'PayPoint';
+//
+//  Vertaling door: Yellow Melon B.V.
+//  www.nlwebwinkel.org
+//
 
-// Text
-$_['text_payment']       = 'Betaling';
-$_['text_success']       = 'Gelukt: instellingen zijn gewijzigd';
-$_['text_paypoint']      = '<a onclick="window.open(\'https://www.paypoint.net/partners/opencart\');"><img src="view/image/payment/paypoint.png" alt="PayPoint" title="PayPoint" style="border: 1px solid #EEEEEE;" /></a>';
-$_['text_live']          = 'Production';
-$_['text_successful']    = 'Altijd succesvol';
-$_['text_fail']          = 'Altijd afkeuren';
+//  Bijgewerkt: 01-10-2013 18:08:05
 
-// Entry
+$_['entry_geo_zone']     = 'Gebied:';
 $_['entry_merchant']     = 'Merchant ID:';
-$_['entry_password']     = 'Extern wachtwoord:<br /><span class="help">Leeglaten als je "Digest Key Authentication" niet ingeschakeld hebt.</span>';
-$_['entry_test']         = 'Testmode:';
-$_['entry_total']        = 'Minimum bedrag:<br /><span class="help">Betaalwijze wordt ingeschakeld vanaf dit bedrag.</span>';
-$_['entry_order_status'] = 'Status na betaling:';
-$_['entry_geo_zone']     = 'Land/gebied:';
-$_['entry_status']       = 'Status:';
+$_['entry_order_status'] = 'Status bestelling:';
+$_['entry_password']     = 'Extern wachtwoord:<br /><span class="help">Laat leeg als je geen "Digest Key Authentication" aan hebt staan voor je account</span>';
 $_['entry_sort_order']   = 'Volgorde:';
+$_['entry_status']       = 'Status:';
+$_['entry_test']         = 'Testmode:';
+$_['entry_total']        = 'Minimum bedrag:<br /><span class="help">Betaalwijze is alleen beschikbaar voor bedragen hoger dan dit minimum</span>';
+$_['error_merchant']     = 'Merchant ID Verplicht';
+$_['error_permission']   = 'Je hebt geen rechten deze instellingen te wijzigen!';
+$_['heading_title']      = 'PayPoint';
+$_['text_fail']          = 'Altijd op mislukt aanmerken';
+$_['text_live']          = 'Productie';
+$_['text_payment']       = 'Betaling';
+$_['text_paypoint']      = '<a href="https://www.paypoint.net/partners/opencart" target="_blank"><img src="view/image/payment/paypoint.png" alt="PayPoint" title="PayPoint" style="border: 1px solid #EEEEEE;" /></a>';
+$_['text_success']       = 'Instellingen gewijzigd';
+$_['text_successful']    = 'Altijd goed';
 
-// Error
-$_['error_permission']   = 'Waarschuwing: je hebt geen rechten om deze gegevens aan te passen';
-$_['error_merchant']     = 'Merchant ID is verplicht';
-?>

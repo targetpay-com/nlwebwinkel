@@ -199,6 +199,18 @@ class ControllerStep3 extends Controller {
 			$this->data['rtlo'] = '';
 		}
 		
+		if (isset($this->request->post['formfix_key'])) {
+			$this->data['formfix_key'] = $this->request->post['formfix_key'];
+		} else {
+			$this->data['formfix_key'] = '';
+		}
+		
+		if (isset($this->request->post['formfix_secret'])) {
+			$this->data['formfix_secret'] = $this->request->post['formfix_secret'];
+		} else {
+			$this->data['formfix_secret'] = '';
+		}	
+				
 		$this->data['back'] = $this->url->link('step_2');
 		
 		$this->template = 'step_3.tpl';

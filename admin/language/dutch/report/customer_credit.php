@@ -1,16 +1,18 @@
 <?php
-// Heading
-$_['heading_title']         = 'Klant krediet rapport';
+//
+//  Vertaling door: Yellow Melon B.V.
+//  www.nlwebwinkel.org
+//
 
-// Kolom
-$_['column_customer']       = 'Klantnaam';
-$_['column_email']          = 'E-mail';
-$_['column_customer_group'] = 'Klantgroup';
+//  Bijgewerkt: 01-10-2013 18:08:05
+
+$_['column_action']         = 'Actie';
+$_['column_customer']       = 'Klant';
+$_['column_customer_group'] = 'Klantgroep';
+$_['column_email']          = 'E-Mail';
 $_['column_status']         = 'Status';
 $_['column_total']          = 'Totaal';
-$_['column_action']         = 'Actie';
-
-// Entry
-$_['entry_date_start']      = 'Begindatum:';
 $_['entry_date_end']        = 'Einddatum:';
-?>
+$_['entry_date_start']      = 'Startdatum:';
+$_['heading_title']         = 'Klantrapport krediet';
+

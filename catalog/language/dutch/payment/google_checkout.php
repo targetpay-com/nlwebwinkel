@@ -1,5 +1,11 @@
 <?php
-// Entry
-$_['text_title'] = 'Google Checkout (inclusief Credit Cards en Debit Cards)';
-$_['error_shipping'] = 'Waarschuwing: bezorgmethode is verplicht';
-?>
+//
+//  Vertaling door: Yellow Melon B.V.
+//  www.nlwebwinkel.org
+//
+
+//  Bijgewerkt: 01-10-2013 18:08:05
+
+$_['error_shipping'] = 'Bezorgwijze verplicht';
+$_['text_title']     = 'Credit Card / Debit Card (Google Checkout)';
+

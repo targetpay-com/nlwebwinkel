@@ -1,31 +1,30 @@
 <?php
+//
+//  Vertaling door: Yellow Melon B.V.
+//  www.nlwebwinkel.org
+//
 
-// Heading
-$_['heading_title']      = 'Authorize.Net (AIM)';
+//  Bijgewerkt: 01-10-2013 18:08:05
 
-// Text 
-$_['text_payment']       = 'Betaling';
-$_['text_success']       = 'Gelukt: instellingen zijn gewijzigd';
-$_['text_test']          = 'Test';
-$_['text_live']          = 'Live';
-$_['text_authorization'] = 'Autorisatie';
-$_['text_capture']       = 'Incasso';
-
-// Entry
-$_['entry_login']        = 'Login ID:';
-$_['entry_key']          = 'Transactie sleutel:';
+$_['entry_geo_zone']     = 'Gebied:';
 $_['entry_hash']         = 'MD5 Hash:';
-$_['entry_server']       = 'Transactie server:';
-$_['entry_mode']         = 'Transactie mode:';
+$_['entry_key']          = 'Transaction Key:';
+$_['entry_login']        = 'Login ID:';
 $_['entry_method']       = 'Transactie methode:';
-$_['entry_total']        = 'Minimum bedrag:<br /><span class="help">Betaalwijze wordt ingeschakeld vanaf dit bedrag.</span>';
-$_['entry_order_status'] = 'Status na betaling:';
-$_['entry_geo_zone']     = 'Land/gebied:'; 
-$_['entry_status']       = 'Status:';
+$_['entry_mode']         = 'Transactie mode:';
+$_['entry_order_status'] = 'Status bestelling:';
+$_['entry_server']       = 'Transactie Server:';
 $_['entry_sort_order']   = 'Volgorde:';
+$_['entry_status']       = 'Status:';
+$_['entry_total']        = 'Minimum bedrag:<br /><span class="help">Betaalwijze is alleen beschikbaar voor bedragen hoger dan dit minimum</span>';
+$_['error_key']          = 'Transaction Key verplicht';
+$_['error_login']        = 'Login ID Verplicht';
+$_['error_permission']   = 'Je hebt geen rechten deze instellingen te wijzigen';
+$_['heading_title']      = 'Authorize.Net (AIM)';
+$_['text_authorization'] = 'Machtiging';
+$_['text_capture']       = 'Capture';
+$_['text_live']          = 'Live';
+$_['text_payment']       = 'Betaling';
+$_['text_success']       = 'Instellingen gewijzigd';
+$_['text_test']          = 'Test';
 
-// Error 
-$_['error_permission']   = 'Waarschuwing: je hebt geen rechten om deze gegevens aan te passen';
-$_['error_login']        = 'Login ID is verplicht';
-$_['error_key']          = 'Transactie sleutel is verplicht';
-?>

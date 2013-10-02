@@ -1,22 +1,22 @@
 <?php
-// Heading
-$_['heading_title']         = 'Klant bestellingen rapport';
+//
+//  Vertaling door: Yellow Melon B.V.
+//  www.nlwebwinkel.org
+//
 
-// Text
-$_['text_all_status']       = 'Alle Statussen';
+//  Bijgewerkt: 01-10-2013 18:08:05
 
-// Kolom
-$_['column_customer']       = 'Klantnaam';
-$_['column_email']          = 'E-mail';
-$_['column_customer_group'] = 'Klantgroep';
-$_['column_status']         = 'Status';
-$_['column_orders']         = 'Aantal bestellingen';
-$_['column_products']       = 'Aantal producten';
-$_['column_total']          = 'Totaal';
 $_['column_action']         = 'Actie';
-
-// Entry
-$_['entry_date_start']      = 'Begindatum:';
+$_['column_customer']       = 'Klant';
+$_['column_customer_group'] = 'Klantgroep';
+$_['column_email']          = 'E-Mail';
+$_['column_orders']         = 'Bestellingen';
+$_['column_products']       = 'Producten';
+$_['column_status']         = 'Status';
+$_['column_total']          = 'Totaal';
 $_['entry_date_end']        = 'Einddatum:';
-$_['entry_status']          = 'Orderstatus:';
-?>
+$_['entry_date_start']      = 'Startdatum:';
+$_['entry_status']          = 'Bestelstatus:';
+$_['heading_title']         = 'Klantrapport bestellingen';
+$_['text_all_status']       = 'Alle statussen';
+

@@ -1,19 +1,17 @@
 <?php
-// Heading
-$_['heading_title']    = 'Reden van retour';
+//
+//  Vertaling door: Yellow Melon B.V.
+//  www.nlwebwinkel.org
+//
 
-// Text
-$_['text_success']     = 'Gelukt: instellingen gewijzigd';
+//  Bijgewerkt: 01-10-2013 18:08:05
 
-// Kolom
-$_['column_name']      = 'Naam';
 $_['column_action']    = 'Actie';
+$_['column_name']      = 'Name';
+$_['entry_name']       = 'Retour reden naam:';
+$_['error_name']       = 'Retour status moet minimaal 3 karakters bevatten';
+$_['error_permission'] = 'Je hebt geen rechten deze instellingen te wijzigen';
+$_['error_return']     = 'Deze reden kan niet worden verwijderd omdat deze gekoppeld is aan %s geretourneerde product(en)';
+$_['heading_title']    = 'Retour redenen';
+$_['text_success']     = 'Instellingen gewijzigd';
 
-// Entry
-$_['entry_name']       = 'Naam:';
-
-// Error
-$_['error_permission'] = 'Waarschuwing: je hebt geen rechten deze instellingen te wijzigen!';
-$_['error_name']       = 'Waarschuwing: naam dient tussen de 3 en 32 tekens lang te zijn!';
-$_['error_return']     = 'Waarschuwing: deze reden kan niet worden verwijderd omdat hij gekoppeld is aan %s geretourneerde product(en)!';
-?>

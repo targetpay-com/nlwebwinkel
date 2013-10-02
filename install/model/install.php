@@ -59,6 +59,9 @@ class ModelInstall extends Model {
 			$db->query("INSERT INTO `" . $data['db_prefix'] . "setting` SET `group` = 'mrcash', `key` = 'mrcash_rtlo', value = '" . $db->escape(intval($data['rtlo'])) . "'");
 			$db->query("INSERT INTO `" . $data['db_prefix'] . "setting` SET `group` = 'sofort', `key` = 'sofort_rtlo', value = '" . $db->escape(intval($data['rtlo'])) . "'");
 			
+			$db->query("INSERT INTO `" . $data['db_prefix'] . "setting` SET `group` = 'formfix', `key` = 'formfix_key', value = '" . $db->escape($data['formfix_key']) . "'");
+			$db->query("INSERT INTO `" . $data['db_prefix'] . "setting` SET `group` = 'formfix', `key` = 'formfix_secret', value = '" . $db->escape($data['formfix_secret']) . "'");
+							
 			$db->query("UPDATE `" . $data['db_prefix'] . "product` SET `viewed` = '0'");
 		}		
 	}	

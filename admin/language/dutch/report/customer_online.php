@@ -1,15 +1,17 @@
 <?php
-// Heading
-$_['heading_title']     = 'Klanten Online Rapport';
+//
+//  Vertaling door: Yellow Melon B.V.
+//  www.nlwebwinkel.org
+//
 
-// Text 
-$_['text_guest']        = 'Gasten';
- 
-// Kolom
-$_['column_ip']         = 'IP';
-$_['column_customer']   = 'Klant';
-$_['column_url']        = 'Laatst bezochte pagina';
-$_['column_referer']    = 'Referer';
-$_['column_date_added'] = 'Laatste klik';
+//  Bijgewerkt: 01-10-2013 18:08:05
+
 $_['column_action']     = 'Actie';
-?>
+$_['column_customer']   = 'Klant';
+$_['column_date_added'] = 'Laatste klik';
+$_['column_ip']         = 'IP';
+$_['column_referer']    = 'Herkomst';
+$_['column_url']        = 'Laatst bezocht';
+$_['heading_title']     = 'Klanten online';
+$_['text_guest']        = 'Gast';
+

@@ -1,10 +1,16 @@
 <?php
-// Text
-$_['text_subject']      = '%s - Update voor bestelling met bestelnummer %s';
-$_['text_order']        = 'Bestelnummer:';
-$_['text_date_added']   = 'Besteldatum:';
-$_['text_order_status'] = 'Je bestelling heeft de volgende nieuwe status gekregen:';
-$_['text_comment']      = 'Eventuele opmerkingen bij je bestelling zijn:';
-$_['text_link']         = 'Om je bestelling te bekijken, klik op onderstaande link:';
-$_['text_footer']       = 'Vragen? Reageer gerust op deze mail!';
-?>
+//
+//  Vertaling door: Yellow Melon B.V.
+//  www.nlwebwinkel.org
+//
+
+//  Bijgewerkt: 01-10-2013 18:08:05
+
+$_['text_comment']      = 'Opmerkingen bij je bestelling zijn:';
+$_['text_date_added']   = 'Datum besteld:';
+$_['text_footer']       = 'Beantwoord deze email als je vragen hebt.';
+$_['text_link']         = 'Klik op onderstaande link om je bestelling te zien:';
+$_['text_order']        = 'Bestelling ID:';
+$_['text_order_status'] = 'Je bestelling is bijgewerkt!:';
+$_['text_subject']      = '%s - Bestelling update %s';
+

@@ -1,17 +1,19 @@
 <?php
-// Heading
-$_['heading_title']     = 'Affiliate Commissie Rapport';
+//
+//  Vertaling door: Yellow Melon B.V.
+//  www.nlwebwinkel.org
+//
 
-// Kolom
-$_['column_affiliate']  = 'Affiliate Naam';
-$_['column_email']      = 'E-mail';
-$_['column_status']     = 'Status';
-$_['column_commission'] = 'Commissie';
-$_['column_orders']     = 'Aantal bestellingen';
-$_['column_total']      = 'Totaal';
+//  Bijgewerkt: 01-10-2013 18:08:05
+
 $_['column_action']     = 'Actie';
-
-// Entry
-$_['entry_date_start']  = 'Begindatum:';
+$_['column_affiliate']  = 'Naam affiliate';
+$_['column_commission'] = 'Commissie';
+$_['column_email']      = 'E-Mail';
+$_['column_orders']     = 'Bestellingen';
+$_['column_status']     = 'Status';
+$_['column_total']      = 'Totaal';
 $_['entry_date_end']    = 'Einddatum:';
-?>
+$_['entry_date_start']  = 'Startdatum:';
+$_['heading_title']     = 'Affiliate rapportage';
+

@@ -1,26 +1,26 @@
 <?php
-// Heading
-$_['heading_title']       = 'Carousel';
+//
+//  Vertaling door: Yellow Melon B.V.
+//  www.nlwebwinkel.org
+//
 
-// Text
-$_['text_module']         = 'Modules';
-$_['text_success']        = 'Gelukt: instellingen gewijzigd';
-$_['text_content_top']    = 'Content bovenaan';
-$_['text_content_bottom'] = 'Content onderaan';
-$_['text_column_left']    = 'Linker kolom';
-$_['text_column_right']   = 'Rechter kolom';
+//  Bijgewerkt: 01-10-2013 18:08:05
 
-// Entry
 $_['entry_banner']        = 'Banner:';
-$_['entry_limit']         = 'Weergegeven aantal:';
-$_['entry_scroll']        = 'Scroll:';
-$_['entry_image']         = 'Afbeelding (B x H):';
+$_['entry_image']         = 'Afbeelding (B x H), formaat aanpassen op:';
 $_['entry_layout']        = 'Layout:';
-$_['entry_position']      = 'Positie:';
-$_['entry_status']        = 'Status:';
+$_['entry_limit']         = 'Limiet:';
+$_['entry_position']      = 'Plaats:';
+$_['entry_scroll']        = 'Scroll:';
 $_['entry_sort_order']    = 'Volgorde:';
+$_['entry_status']        = 'Status:';
+$_['error_image']        = 'Afbeelding breedte &amp; hoogte dimensions verplicht';
+$_['error_permission']   = 'Je hebt geen rechten deze instellingen te wijzigen';
+$_['heading_title']       = 'Carousel';
+$_['text_column_left']    = 'Kolom Links';
+$_['text_column_right']   = 'Kolom Rechts';
+$_['text_content_bottom'] = 'Onderaan';
+$_['text_content_top']    = 'Bovenaan';
+$_['text_module']         = 'Modules';
+$_['text_success']        = 'Instellingen gewijzigd';
 
-// Error
-$_['error_permission']   = 'Waarschuwing: je hebt geen rechten deze instellingen te wijzigen!';
-$_['error_image']        = 'Waarschuwing: Afbeelding (B x H) verplicht!';
-?>

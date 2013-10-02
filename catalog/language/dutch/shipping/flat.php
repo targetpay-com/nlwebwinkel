@@ -1,5 +1,11 @@
 <?php
-// Text
-$_['text_title']       = 'Vaste verzendkosten';
-$_['text_description'] = 'Vaste verzendkosten per bestelling';
-?>
+//
+//  Vertaling door: Yellow Melon B.V.
+//  www.nlwebwinkel.org
+//
+
+//  Bijgewerkt: 01-10-2013 18:08:05
+
+$_['text_description'] = 'Verzendkosten';
+$_['text_title']       = 'Gereduceerd Tarief';
+

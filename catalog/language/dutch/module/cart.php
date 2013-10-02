@@ -1,12 +1,14 @@
 <?php
-// Heading 
-$_['heading_title'] = 'Winkelwagen';
+//
+//  Vertaling door: Yellow Melon B.V.
+//  www.nlwebwinkel.org
+//
 
-// Text
-$_['text_items']    = '%s product(en) - %s';
-$_['text_empty']    = 'Je winkelwagen is leeg!';
-$_['text_cart']     = 'Bekijken';
+//  Bijgewerkt: 01-10-2013 18:08:05
+
+$_['heading_title'] = 'Winkelwagentje';
+$_['text_cart']     = 'Bekijk winkelwagentje';
 $_['text_checkout'] = 'Afrekenen';
+$_['text_empty']    = 'Winkelwagentje is leeg';
+$_['text_items']    = '%s item(s) - %s';
 
-$_['text_payment_profile'] = 'Machtigingen';
-?>

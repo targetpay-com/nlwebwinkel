@@ -1,5 +1,11 @@
 <?php
-// Text
+//
+//  Vertaling door: Yellow Melon B.V.
+//  www.nlwebwinkel.org
+//
+
+//  Bijgewerkt: 01-10-2013 18:08:05
+
+$_['text_description'] = 'Aantal stuks op %s bestelling: %s';
 $_['text_title']       = 'Credit Card / Debit Card (SagePay)';
-$_['text_description'] = 'Items op %s Bestelnummer: %s';
-?>
+

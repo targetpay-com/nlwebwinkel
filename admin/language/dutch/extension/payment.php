@@ -1,17 +1,17 @@
 <?php
-// Heading
-$_['heading_title']     = 'Betaalmethoden';
+//
+//  Vertaling door: Yellow Melon B.V.
+//  www.nlwebwinkel.org
+//
 
-// Text
-$_['text_install']      = 'Installeren';
-$_['text_uninstall']    = 'De&iuml;nstalleren';
+//  Bijgewerkt: 01-10-2013 18:08:05
 
-// Kolom
-$_['column_name']       = 'Betaalmethode';
-$_['column_status']     = 'Status';
-$_['column_sort_order'] = 'Volgorde';
 $_['column_action']     = 'Actie';
+$_['column_name']       = 'Naam';
+$_['column_sort_order'] = 'Volgorde';
+$_['column_status']     = 'Status';
+$_['error_permission']  = 'Je hebt geen rechten deze instellingen te wijzigen';
+$_['heading_title']     = 'Betaalwijzen';
+$_['text_install']      = 'Installeren';
+$_['text_uninstall']    = 'De-installeren';
 
-// Error
-$_['error_permission']  = 'Waarschuwing: je hebt geen rechten deze instellingen te wijzigen!';
-?>

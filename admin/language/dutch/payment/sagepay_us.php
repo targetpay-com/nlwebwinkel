@@ -1,22 +1,22 @@
 <?php
-// Heading
-$_['heading_title']      = 'SagePay (US)';
+//
+//  Vertaling door: Yellow Melon B.V.
+//  www.nlwebwinkel.org
+//
 
-// Text 
-$_['text_payment']       = 'Betaling'; 
-$_['text_success']       = 'Gelukt: instellingen zijn gewijzigd';
+//  Bijgewerkt: 01-10-2013 18:08:05
 
-// Entry
+$_['entry_geo_zone']     = 'Gebied:';
 $_['entry_merchant_id']  = 'Merchant ID:';
 $_['entry_merchant_key'] = 'Merchant Key:';
-$_['entry_total']        = 'Minimum bedrag:<br /><span class="help">Betaalwijze wordt ingeschakeld vanaf dit bedrag.</span>';
-$_['entry_order_status'] = 'Status na betaling:';
-$_['entry_geo_zone']     = 'Land/gebied:';
-$_['entry_status']       = 'Status:';
+$_['entry_order_status'] = 'Status bestelling:';
 $_['entry_sort_order']   = 'Volgorde:';
+$_['entry_status']       = 'Status:';
+$_['entry_total']        = 'Minimum bedrag:<br /><span class="help">Betaalwijze is alleen beschikbaar voor bedragen hoger dan dit minimum</span>';
+$_['error_merchant_id']  = 'Merchant ID Verplicht';
+$_['error_merchant_key'] = 'Merchant Key Verplicht';
+$_['error_permission']   = 'Je hebt geen rechten deze instellingen te wijzigen';
+$_['heading_title']      = 'Sage Payment Solutions (US)';
+$_['text_payment']       = 'Betaling';
+$_['text_success']       = 'Instellingen gewijzigd';
 
-// Error
-$_['error_permission']   = 'Waarschuwing: je hebt geen rechten om deze gegevens aan te passen';
-$_['error_merchant_id']  = 'Merchant ID is verplicht';
-$_['error_merchant_key'] = 'Merchant Key is verplicht';
-?>

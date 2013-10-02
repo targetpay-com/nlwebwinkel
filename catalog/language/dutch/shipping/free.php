@@ -1,5 +1,11 @@
 <?php
-// Text
-$_['text_title']       = 'Gratis verzending';
-$_['text_description'] = 'Gratis verzending';
-?>
+//
+//  Vertaling door: Yellow Melon B.V.
+//  www.nlwebwinkel.org
+//
+
+//  Bijgewerkt: 01-10-2013 18:08:05
+
+$_['text_description'] = 'Geen verzendkosten';
+$_['text_title']       = 'Gratis bezorging';
+

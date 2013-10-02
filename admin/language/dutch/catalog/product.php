@@ -1,105 +1,81 @@
 <?php
-// Heading
-$_['heading_title']        = 'Producten';
+//
+//  Vertaling door: Yellow Melon B.V.
+//  www.nlwebwinkel.org
+//
 
-// Text  
-$_['text_success']       = 'Gelukt: instellingen gewijzigd';
-$_['text_plus']          = '+';
-$_['text_minus']         = '-';
-$_['text_default']       = 'Hoofdwinkel';
-$_['text_image_manager'] = 'Beheer afbeeldingen';
-$_['text_browse']        = 'Afbeelding zoeken';
-$_['text_clear']         = 'Afbeelding verwijderen';
-$_['text_option']        = 'Optie';
-$_['text_option_value']  = 'Optie waarde';
-$_['text_percent']       = 'Percentage';
-$_['text_amount']        = 'Vast bedrag';
+//  Bijgewerkt: 01-10-2013 18:08:05
 
-// Kolom
-$_['column_name']     = 'Naam';
-$_['column_model']    = 'Model';
-$_['column_image']    = 'Afbeelding';
-$_['column_price']    = 'Prijs';
-$_['column_quantity'] = 'Aantal beschikbaar:';
-$_['column_status']   = 'Status';
-$_['column_action']   = 'Actie';
-
-// Entry
-$_['entry_name']             = 'Naam:';
-$_['entry_meta_keyword'] 	 = 'Meta Tag Zoekwoorden:<br /><span class="help">Geef zoekwoorden tbv. zoekmachines.</span>';
-$_['entry_meta_description'] = 'Meta Tag Omschrijving:<br /><span class="help">Geef een verkorte omschrijving van het product.</span>';
-$_['entry_description']      = 'Omschrijving:<br /><span class="help">Geef een uitgebreide omschrijving van het product.</span>';
-$_['entry_store']            = 'Winkel(s):<br /><span class="help">In welke winkel(s) moet het product zichtbaar zijn.</span>';
-$_['entry_keyword']          = 'SEO productnaam:<br /><span class="help">Unieke Productnaam (gebruikt - of _ tussen losse woorden).</span>';
-$_['entry_model']            = 'Model:<br /><span class="help">Type, model of productnummer.</span>';
-$_['entry_sku']              = 'SKU:<br /><span class="help">Productnummer van de verhandelbare eenheid. Bijvoobeeld; Per fles, doos of pallet.</span>';
-$_['entry_upc']              = 'UPC:<br/><span class="help">Universal Product Code</span>';
-$_['entry_ean']              = 'EAN:<br/><span class="help">Europees artikelnummer</span>';
-$_['entry_jan']              = 'JAN:<br/><span class="help">Japans artikelnummer</span>';
-$_['entry_isbn']             = 'ISBN:<br/><span class="help">Internationaal standaard boeknummer</span>';
-$_['entry_mpn']              = 'MPN:<br/><span class="help">Fabrikant partnummer</span>';
-$_['entry_location']         = 'Locatie:<br /><span class="help">Waar ligt het product in uw magazijn.</span>';
-$_['entry_manufacturer']     = 'Merk:';
-$_['entry_shipping']         = 'Moet verzonden worden:<br /><span class="help">Kan dit product verzonden worden of dient men het te komen afhalen.</span>'; 
-$_['entry_date_available']   = 'Beschikbaar per:<br /><span class="help">Geef de datum wanneer het product (weer) leverbaar is.</span>';
-$_['entry_quantity']         = 'Aantal:<br /><span class="help">Aantal stuks van het product.</span>';
-$_['entry_minimum']          = 'Minimum aantal:<br/><span class="help">Het minimum aantal wat gekocht dient te worden.</span>';
-$_['entry_stock_status']     = 'Niet-op-voorraad status:<br /><span class="help">Status van het product wanneer het niet op voorraad is.</span>';
-$_['entry_price']            = 'Prijs:<br /><span class="help">De prijs van het product excl. BTW.</span>';
-$_['entry_tax_class']        = 'Belastinggroep:<br /><span class="help">Het belastingtarief geldend voor dit product.</span>';
-$_['entry_points']           = 'Spaarpunten:<br/><span class="help">Spaarpunten nodig om dit product te kopen. Indien aankoop met Spaarpunten niet mogelijk moet zijn zet deze op 0.</span>';
-$_['entry_option_points']    = 'Spaarpunten:<br/><span class="help">Spaarpunten die de klant krijgt bij aankoop van dit product.</span>';
-$_['entry_subtract']         = 'Van voorraad:<br /><span class="help">Dient het product bij verkoop van de vooraad te worden afgeschreven.</span>';
-$_['entry_weight_class']     = 'Gewichts-eenheid:';
-$_['entry_weight']           = 'Gewicht:';
-$_['entry_length']           = 'Lengte-eenheid:';
-$_['entry_dimension']        = 'Afmetingen (L x B x H):';
-$_['entry_image']            = 'Afbeelding:';
-$_['entry_customer_group']   = 'Klantgroep:<br /><span class="help">Klantgroep waarop deze van toepassing is.</span>';
-$_['entry_date_start']       = 'Startdatum:';
+$_['column_action']          = 'Actie';
+$_['column_image']           = 'Afbeelding';
+$_['column_model']           = 'Model';
+$_['column_name']            = 'Naam';
+$_['column_price']           = 'Prijs';
+$_['column_quantity']        = 'Aantal';
+$_['column_status']          = 'Status';
+$_['entry_attribute']        = 'Kenmerk:';
+$_['entry_attribute_group']  = 'Kenmerk groep:';
+$_['entry_category']         = 'Categori&euml;n:<br /><span class="help">(Automatisch aanvullen)</span>';
+$_['entry_customer_group']   = 'Klantgroep:';
+$_['entry_date_available']   = 'Beschikbaar vanaf:';
 $_['entry_date_end']         = 'Einddatum:';
-$_['entry_priority']         = 'Prioriteit:';
-$_['entry_attribute']        = 'Attribuut:';
-$_['entry_attribute_group']  = 'Attribuut groep:';
-$_['entry_text']             = 'Tekst:';
-$_['entry_option']           = 'Optie:';
-$_['entry_option_value']     = 'Optiewaarde:';
-$_['entry_required']         = 'Verplicht:';
-$_['entry_status']           = 'Status:';
-$_['entry_sort_order']       = 'Volgorde:<br /><span class="help">Op welke plaats in de categorie is het product zichtbaar.</span>';
-$_['entry_category']         = 'Categorie&euml;n:<br /><span class="help">In welke categorie(&euml;n) moet het product zichtbaar zijn.</span>';
-$_['entry_download']         = 'Downloads:<br /><span class="help">Hoort er bij dit product een download.</span>';
-$_['entry_related']          = 'Gerelateerde Producten:<br /><span class="help">Heeft dit product gerelateerde producten. <b>Let op: </b>Werkt vice versa!</span>';
-$_['entry_tag']              = 'Product Tags:<br /><span class="help">Gebruik een komma als scheidingsteken.</span>';
-$_['entry_reward']           = 'Spaarpunten:<br/><span class="help">Spaarpunten die de klant krijgt bij aankoop dit product.</span>';
-$_['entry_layout']           = 'Layout Override:';
-
-// Error
-$_['error_warning']        = 'Waarschuwing: Controleer of alle verplichte velden volledig zijn ingevuld!';
-$_['error_permission']     = 'Waarschuwing: je hebt geen rechten deze instellingen te wijzigen!';
-$_['error_name']           = 'Waarschuwing: Productnaam dient tussen de 3 en 255 tekens lang te zijn!';
-$_['error_model']          = 'Waarschuwing: Model dient tussen de 3 en 64 tekens lang te zijn!';
-
-// Toegevoegd 23-08-2013 (EvdB)
-
+$_['entry_date_start']       = 'Startdatum:';
+$_['entry_description']      = 'Omschrijving:';
+$_['entry_dimension']        = 'Afmetingen (L x B x H):';
+$_['entry_download']         = 'Downloads:<br /><span class="help">Automatisch aanvullen</span>';
+$_['entry_ean']              = 'EAN:<br/><span class="help">European Article Number</span>';
 $_['entry_filter']           = 'Filters:<br /><span class="help">(Automatisch aanvullen)</span>';
-$_['entry_profile']          = 'Profiel:';
-$_['text_recurring_help']    = 'Abonnementen worden berekend op basis van de basis en frequentie. <br />Bijv. een basis van wekelijks en een frequentie van 2 betekent dat elke twee weken gefactureerd wordt. <br />Aantal is het aantal keer dat er gefactureerd wordt, 0 betekent doorlopend tot wederopzegging.';
-$_['text_recurring_title']   = 'Abonnementen';
-$_['text_recurring_trial']   = 'Proefperiode';
-$_['entry_recurring']        = 'Terugkerende betaling:';
-$_['entry_recurring_price']  = 'Prijs per keer:';
-$_['entry_recurring_freq']   = 'Basis:';
-$_['entry_recurring_cycle']  = 'Frequentie:<span class="help">Hoe vaak per dag/week/... , 1 of meer</span>';
-$_['entry_recurring_length'] = 'Aantal:<span class="help">0 = oneindig tot opzegging</span>';
-$_['entry_trial']            = 'Proefperiode:';
-$_['entry_trial_price']      = 'Prijs proefperiode:';
-$_['entry_trial_freq']       = 'Basis van proefperiode:';
-$_['entry_trial_cycle']      = 'Frequentie proefperiode:<span class="help">Hoe vaak per dag/week/... , 1 of meer</span>';
-$_['entry_trial_length']     = 'Aantal periodes:';
-$_['text_length_day']        = 'Dagelijks';
-$_['text_length_week']       = 'Wekelijks';
-$_['text_length_month']      = 'Maandelijks';
-$_['text_length_month_semi'] = 'Half-maandelijks';
-$_['text_length_year']       = 'Jaarlijks';
-?>
+$_['entry_image']            = 'Afbeelding:';
+$_['entry_isbn']             = 'ISBN:<br/><span class="help">International Standard Book Number</span>';
+$_['entry_jan']              = 'JAN:<br/><span class="help">Japanese Article Number</span>';
+$_['entry_keyword']          = 'SEO zoekwoord:<br /><span class="help">Vervang spaties door - en zorg dat ieder zoekwoord uniek is</span>';
+$_['entry_layout']           = 'Layout gebruiken:';
+$_['entry_length']           = 'Lengtematen:';
+$_['entry_location']         = 'Locatie:';
+$_['entry_manufacturer']     = 'Fabrikant:<br /><span class="help">(automatisch aanvullen)</span>';
+$_['entry_meta_description'] = 'Meta Tag omschrijving:';
+$_['entry_meta_keyword'] 	 = 'Meta Tag zoekwoorden:';
+$_['entry_minimum']          = 'Minimum hoeveelheid:<br/><span class="help">Forceer een minimum afname hoeveelheid</span>';
+$_['entry_model']            = 'Model:';
+$_['entry_mpn']              = 'MPN:<br/><span class="help">Onderdeel nummer fabrikant (Manufacturer Part Number)</span>';
+$_['entry_name']             = 'Productnaam:';
+$_['entry_option']           = 'Optie:';
+$_['entry_option_points']    = 'Punten:';
+$_['entry_option_value']     = 'Optie waarde:';
+$_['entry_points']           = 'Punten:<br/><span class="help">Benodigde spaarpunten voor dit product. Als het niet met spaarpunten gekocht kan worden, gebruik 0</span>';
+$_['entry_price']            = 'Prijs:';
+$_['entry_priority']         = 'Prioriteit:';
+$_['entry_quantity']         = 'Aantal:';
+$_['entry_related']          = 'Vergelijkbare producten:<br /><span class="help">(Automatisch aanvullen)</span>';
+$_['entry_required']         = 'Verplicht:';
+$_['entry_reward']           = 'Spaarpunten:';
+$_['entry_shipping']         = 'Moet verzonden worden:';
+$_['entry_sku']              = 'SKU:<br/><span class="help">Voorraad eenheid (Stock Keeping Unit)</span>';
+$_['entry_sort_order']       = 'Volgorde:';
+$_['entry_status']           = 'Status:';
+$_['entry_stock_status']     = 'Niet op voorraad status:<br /><span class="help">De standaard niet-op-voorraad status</span>';
+$_['entry_store']            = 'Winkels:';
+$_['entry_subtract']         = 'Aftrekken van aantal op voorraad:';
+$_['entry_tag']          	 = 'Tags:<br /><span class="help">komma gescheiden</span>';
+$_['entry_tax_class']        = 'Belasting categorie:';
+$_['entry_text']             = 'Tekst:';
+$_['entry_upc']              = 'UPC:<br/><span class="help">Streepjescode (Universal Product Code)</span>';
+$_['entry_weight']           = 'Gewicht:';
+$_['entry_weight_class']     = 'Gewichtsmaten:';
+$_['error_model']            = 'Product model moet minimaal 3 karakters bevatten';
+$_['error_name']             = 'Product naam moet minimaal 3 karakters bevatten';
+$_['error_permission']       = 'Je hebt geen rechten deze instellingen te wijzigen';
+$_['error_warning']          = 'Controleer het formulier op fouten';
+$_['heading_title']          = 'Producten';
+$_['text_amount']            = 'Vast bedrag';
+$_['text_browse']            = 'Bladeren';
+$_['text_clear']             = 'Klaar';
+$_['text_default']           = 'Standaard';
+$_['text_image_manager']     = 'Afbeelding beheer';
+$_['text_minus']             = '-';
+$_['text_option']            = 'Opties';
+$_['text_option_value']      = 'Optie waarden';
+$_['text_percent']           = 'Percentage';
+$_['text_plus']              = '+';
+$_['text_success']           = 'Instellingen gewijzigd';
+

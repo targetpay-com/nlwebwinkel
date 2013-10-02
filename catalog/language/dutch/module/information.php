@@ -1,8 +1,12 @@
 <?php
-// Heading 
-$_['heading_title'] = 'Informatie';
+//
+//  Vertaling door: Yellow Melon B.V.
+//  www.nlwebwinkel.org
+//
 
-// Text
-$_['text_contact']  = 'Neem contact op';
+//  Bijgewerkt: 01-10-2013 18:08:05
+
+$_['heading_title'] = 'Informatie';
+$_['text_contact']  = 'Contact';
 $_['text_sitemap']  = 'Sitemap';
-?>
+

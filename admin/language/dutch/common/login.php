@@ -1,20 +1,18 @@
 <?php
-// header
-$_['heading_title']  = 'Beheer';
+//
+//  Vertaling door: Yellow Melon B.V.
+//  www.nlwebwinkel.org
+//
 
-// Text
-$_['text_heading']   = 'Beheerder login';
-$_['text_login']     = 'Inloggen';
-$_['text_forgotten'] = 'Wachtwoord vergeten';
+//  Bijgewerkt: 01-10-2013 18:08:05
 
-// Entry
-$_['entry_username'] = 'Gebruikersnaam:';
-$_['entry_password'] = 'Wachtwoord:';
-
-// Button
 $_['button_login']   = 'Inloggen';
+$_['entry_password'] = 'Wachtwoord:';
+$_['entry_username'] = 'Gebruikersnaam:';
+$_['error_login']    = 'Combinatie van gebruikersnaam en wachtwoord is onjuist';
+$_['error_token']    = 'Je sessie is verlopen. Log opnieuw in s.v.p.';
+$_['heading_title']  = 'Administratie';
+$_['text_forgotten'] = 'Wachtwoord vergeten';
+$_['text_heading']   = 'Administratie';
+$_['text_login']     = 'Inloggen';
 
-// Error
-$_['error_login']    = 'Let op: het opgegeven e-mail adres en/of wachtwoord is niet gevonden in onze database, probeer het opnieuw.';
-$_['error_token']    = 'Let op: de sessie is verlopen, log opnieuw in.';
-?>

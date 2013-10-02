@@ -1,26 +1,26 @@
 <?php
-// Heading
-$_['heading_title']     = 'Moneybookers';
+//
+//  Vertaling door: Yellow Melon B.V.
+//  www.nlwebwinkel.org
+//
 
-// Text 
-$_['text_payment']      = 'Betaling';
-$_['text_success']      = 'Gelukt: instellingen gewijzigd';
-$_['text_moneybookers'] = '<a onclick="window.open(\'https://www.moneybookers.com/app/?rid=10111486\');"><img src="view/image/payment/moneybookers.png" align="Moneybookers" title="Moneybookers" style="border: 1px solid #EEEEEE;" /></a>';
-	
-// Entry					
-$_['entry_email']		      = 'E-mail:';
+//  Bijgewerkt: 01-10-2013 18:08:05
+
+$_['entry_canceled_status']   = 'Status bij annuleren:';
+$_['entry_chargeback_status'] = 'Status terugbetaling:';
+$_['entry_email']		      = 'E-Mail:';
+$_['entry_failed_status']     = 'Status bij mislukt:';
+$_['entry_geo_zone']          = 'Gebied:';
+$_['entry_order_status']      = 'Status bestelling:';
+$_['entry_pending_status']    = 'Status in behandeling:';
 $_['entry_secret']		      = 'Secret:';
-$_['entry_total']             = 'Totaal:<br /><span class="help">Het totaal van de bestelling waarop deze betaalmethode zichtbaar wordt.</span>';
-$_['entry_order_status']      = 'Bestelling status:';
-$_['entry_pending_status']    = 'Bestelling status in afwachting:';
-$_['entry_canceled_status']   = 'Bestelling status geannuleerd:';
-$_['entry_failed_status']     = 'Bestelling status mislukt:';
-$_['entry_chargeback_status'] = 'Bestelling status Chargeback:';
-$_['entry_geo_zone']          = 'Land/gebied:';
-$_['entry_status']            = 'Status:';
 $_['entry_sort_order']        = 'Volgorde:';
+$_['entry_status']            = 'Status:';
+$_['entry_total']             = 'Minimum bedrag:<br /><span class="help">Betaalwijze is alleen beschikbaar voor bedragen hoger dan dit minimum</span>';
+$_['error_email']		      = 'E-Mailadres verplicht';
+$_['error_permission']	      = 'Je hebt geen rechten deze instellingen te wijzigen';
+$_['heading_title']		      = 'Moneybookers';
+$_['text_moneybookers']	      = '<a href="https://www.moneybookers.com/partners/?p=OpenCart" target="_blank"><img src="view/image/payment/moneybookers.png" alt="Moneybookers" title="Moneybookers" style="border: 1px solid #EEEEEE;" /></a>';
+$_['text_payment']		      = 'Betaalwijze';
+$_['text_success']		      = 'Instellingen gewijzigd';
 
-// Error
-$_['error_permission'] = 'Waarschuwing: je hebt geen rechten deze instellingen te wijzigen!';
-$_['error_email']      = 'Waarschuwing: E-mail verplicht!';
-?>

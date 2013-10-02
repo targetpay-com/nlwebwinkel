@@ -1,12 +1,16 @@
 <?php
-// Text
-$_['text_title']           = 'Credit Card / Debit Card (SagePay)';
-$_['text_credit_card']     = 'Credit Card Details';
-$_['text_wait']            = 'Even geduld a.u.b.';
+//
+//  Vertaling door: Yellow Melon B.V.
+//  www.nlwebwinkel.org
+//
 
-// Entry
-$_['entry_cc_owner']       = 'Kaart houder:';
-$_['entry_cc_number']      = 'Kaart nummer:';
-$_['entry_cc_expire_date'] = 'Kaart vervaldatum:';
-$_['entry_cc_cvv2']        = 'Kaart veiligheidscode (CVV2):';
-?>
+//  Bijgewerkt: 01-10-2013 18:08:05
+
+$_['entry_cc_cvv2']        = 'Card Security Code (CVV2):';
+$_['entry_cc_expire_date'] = 'Card vervaldatum:';
+$_['entry_cc_number']      = 'Card nummer:';
+$_['entry_cc_owner']       = 'Card houder:';
+$_['text_credit_card']     = 'Credit Card gegevens';
+$_['text_title']           = 'Credit Card / Debit Card (SagePay)';
+$_['text_wait']            = 'Een ogenblik geduld';
+

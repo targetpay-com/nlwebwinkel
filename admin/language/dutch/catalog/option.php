@@ -1,45 +1,39 @@
 <?php
-// Heading
-$_['heading_title']       = 'Opties';
+//
+//  Vertaling door: Yellow Melon B.V.
+//  www.nlwebwinkel.org
+//
 
-// Text
-$_['text_success']        = 'Gelukt: instellingen gewijzigd';
-$_['text_choose']         = 'Kiezen';
-$_['text_select']         = 'Selecteer';
-$_['text_radio']          = 'Radio';
-$_['text_checkbox']       = 'Checkbox';
-$_['text_image']          = 'Afbeelding';
-$_['text_input']          = 'Invoer';
-$_['text_text']           = 'Tekst';
-$_['text_textarea']       = 'Tesktveld';
-$_['text_file']           = 'Bestand';
-$_['text_date']           = 'Datum';
-$_['text_datetime']       = 'Datum &amp; tijd';
-$_['text_time']           = 'Tijd';
-$_['text_image_manager']  = 'Beheer afbeeldingen';
-$_['text_browse']         = 'Afbeelding zoeken';
-$_['text_clear']          = 'Afbeelding verwijderen';
+//  Bijgewerkt: 01-10-2013 18:08:05
 
-// Kolom
+$_['column_action']       = 'Actie';
 $_['column_name']         = 'Naam';
 $_['column_sort_order']   = 'Volgorde';
-$_['column_action']       = 'Actie';
-
-// Entry
-$_['entry_name']         = 'Naam:';
-$_['entry_type']         = 'Type:';
-$_['entry_value']        = 'Optie waarde Naam:';
 $_['entry_image']        = 'Afbeelding:';
+$_['entry_name']         = 'Optie naam:';
+$_['entry_option_value'] = 'Optie waarde naam:';
 $_['entry_sort_order']   = 'Volgorde:';
+$_['entry_type']         = 'Type:';
+$_['error_name']         = 'Optie naam moet minimaal 1 karakter bevatten';
+$_['error_option_value'] = 'Optie naam moet minimaal 1 karakter bevatten';
+$_['error_permission']   = 'Je hebt geen rechten deze instellingen te wijzigen';
+$_['error_product']      = 'Kan deze optie niet verwijderen als deze gekoppeld is aan %s producten';
+$_['error_type']         = 'Waarden zijn verplicht';
+$_['heading_title']       = 'Opties';
+$_['text_browse']         = 'Bladeren';
+$_['text_checkbox']       = 'Checkbox';
+$_['text_choose']         = 'Kies';
+$_['text_clear']          = 'Klaar';
+$_['text_date']           = 'Datum';
+$_['text_datetime']       = 'Datum &amp; tijd';
+$_['text_file']           = 'Bestand';
+$_['text_image']          = 'Afbeelding';
+$_['text_image_manager']  = 'Afbeelding beheer';
+$_['text_input']          = 'Invoer';
+$_['text_radio']          = 'Radio';
+$_['text_select']         = 'Selecteer';
+$_['text_success']        = 'Instellingen gewijzigd';
+$_['text_text']           = 'Tekst';
+$_['text_textarea']       = 'Tekstvak';
+$_['text_time']           = 'Tijd';
 
-// Error
-$_['error_permission']   = 'Waarschuwing: je hebt geen rechten deze instellingen te wijzigen!';
-$_['error_name']         = 'Waarschuwing: Option-naam dient tussen de 1 en 128 tekens lang te zijn!';
-$_['error_type']         = 'Waarschuwing: Optie waarde verplicht!';
-$_['error_option_value'] = 'Waarschuwing: Optie waarde naam dient tussen de 1 en 128 tekens lang te zijn!';
-$_['error_product']      = 'Waarschuwing: De optie kan niet worden verwijderd want hisj is gekoppeld aan %s product(en)!';
-
-// Toegevoegd 23-08-2013 (EvdB)
-
-$_['entry_option_value']   = 'Optie waarde naam:';
-?>

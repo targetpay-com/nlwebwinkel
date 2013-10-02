@@ -1,10 +1,14 @@
-<?
+<?php
+//
+//  Vertaling door: Yellow Melon B.V.
+//  www.nlwebwinkel.org
+//
 
-// Toegevoegd 23-08-2013 (EvdB)
+//  Bijgewerkt: 01-10-2013 18:08:05
 
-$_['heading_title']        = 'Extensie beheer';
-$_['text_success']         = 'Gelukt: je hebt de extensie ge&iuml;stalleerd!';
-$_['error_permission']     = 'Waarschuwing: je hebt geen rechten voor extensie beheer!';
-$_['error_upload']         = 'Upload is verplicht!';
-$_['error_filetype']       = 'Ongeldig bestandstype!';
-?>
+$_['error_filetype']   = 'Ongeldig bestandstype';
+$_['error_permission'] = 'Je hebt geen rechten deze instellingen te wijzigen';
+$_['error_upload']     = 'Upload verplicht';
+$_['heading_title']    = 'Extensie beheer';
+$_['text_success']     = 'Instellingen gewijzigd';
+

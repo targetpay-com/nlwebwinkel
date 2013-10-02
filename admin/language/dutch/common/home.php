@@ -1,44 +1,42 @@
 <?php
-// Heading
-$_['heading_title']                = 'Dashboard';
+//
+//  Vertaling door: Yellow Melon B.V.
+//  www.nlwebwinkel.org
+//
 
-// Text
+//  Bijgewerkt: 01-10-2013 18:08:05
+
+$_['column_action']                 = 'Actie';
+$_['column_customer']               = 'Klant';
+$_['column_date_added']             = 'Toegevoegd';
+$_['column_firstname']              = 'Voornaam';
+$_['column_lastname']               = 'Achternaam';
+$_['column_order']                  = 'Bestelnummer';
+$_['column_status']                 = 'Status';
+$_['column_total']                  = 'Totaal';
+$_['entry_range']                   = 'Bereik:';
+$_['error_cache']                   = 'Cache map %s is niet schrijfbaar';
+$_['error_download']                = 'Download map is niet overschrijfbaar';
+$_['error_image']                   = 'Afbeelding map is niet schrijfbaar';
+$_['error_image_cache']             = 'Afbeeldingsmap is niet beschrijbaar';
+$_['error_install']                 = 'Vergeet niet de installatiemap te verwijderen: /install';
+$_['error_logs']                    = 'Log map %s is not beschrijfbaar';
+$_['heading_title']                 = 'Dashboard';
+$_['text_customer']                 = 'Aantal klanten';
+$_['text_day']                      = 'Vandaag';
+$_['text_latest_10_orders']         = 'Laatste 10 bestellingen';
+$_['text_month']                    = 'Deze Maand';
+$_['text_order']                    = 'Totaal bestellingen';
 $_['text_overview']                 = 'Overzicht';
 $_['text_statistics']               = 'Statistieken';
-$_['text_latest_10_orders']         = 'Laatste 10 bestellingen';
-$_['text_total_sale']               = 'Totaal verkopen:';
+$_['text_total_affiliate']          = 'Affiliates:';
+$_['text_total_affiliate_approval'] = 'Affiliates wachtend op goedkeuring:';
+$_['text_total_customer']           = 'Klanten:';
+$_['text_total_customer_approval']  = 'Klanten wachtend op goedkeuring:';
+$_['text_total_order']              = 'Bestellingen:';
+$_['text_total_review_approval']    = 'Beoordelingen wachtend op goedkeuring:';
+$_['text_total_sale']               = 'Verkopen:';
 $_['text_total_sale_year']          = 'Verkopen dit jaar:';
-$_['text_total_order']              = 'Totaal aantal bestellingen:';
-$_['text_total_customer']           = 'Totaal aantal klanten:';
-$_['text_total_customer_approval']  = 'Klanten wachtend op akkoord:';
-$_['text_total_review_approval']    = 'Beoordelingen wachtend op akkoord:';
-$_['text_total_affiliate']          = 'Totaal aantal affiliates:';
-$_['text_total_affiliate_approval'] = 'Affiliates wachtend op akkoord:';
-$_['text_day']                      = 'Laatste 24 uur';
-$_['text_week']                     = 'Laatste 7 dagen';
-$_['text_month']                    = 'Laatste maand';
-$_['text_year']                     = 'Laatste jaar';
-$_['text_order']                    = 'Totaal aantal bestellingen';
-$_['text_customer']                 = 'Totaal aantal klanten';
+$_['text_week']                     = 'Deze Week';
+$_['text_year']                     = 'Dit Jaar';
 
-// Kolom 
-$_['column_order']                 = 'Bestelnummer';
-$_['column_customer']              = 'Klantnaam';
-$_['column_status']                = 'Status';
-$_['column_date_added']            = 'Registratiedatum';
-$_['column_total']                 = 'Totaal';
-$_['column_firstname']             = 'Voornaam';
-$_['column_lastname']              = 'Achternaam';
-$_['column_action']                = 'Actie';
-
-// Entry
-$_['entry_range']                  = 'Selecteer interval:';
-
-// Error
-$_['error_install']                 = 'Waarschuwing: installatiemap bestaat nog!';
-$_['error_image']                   = 'Waarschuwing: Image directory %s heeft geen schrijfrechten!';
-$_['error_image_cache']             = 'Waarschuwing: Image cache directory %s heeft geen schrijfrechten!';
-$_['error_cache']                   = 'Waarschuwing: Cache directory %s heeft geen schrijfrechten!';
-$_['error_download']                = 'Waarschuwing: Download directory %s heeft geen schrijfrechten!';
-$_['error_logs']                    = 'Waarschuwing: Log directory %s heeft geen schrijfrechten!';
-?>

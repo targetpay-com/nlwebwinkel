@@ -49,22 +49,7 @@
       <td><input type="text" name="tax_id" value="" class="large-field" /></td>
     </tr>
     <?php } ?>
-    <tr>
-      <td><span class="required">*</span> <?php echo $entry_address_1; ?></td>
-      <td><input type="text" name="address_1" value="" class="large-field" /></td>
-    </tr>
-    <tr>
-      <td><?php echo $entry_address_2; ?></td>
-      <td><input type="text" name="address_2" value="" class="large-field" /></td>
-    </tr>
-    <tr>
-      <td><span class="required">*</span> <?php echo $entry_city; ?></td>
-      <td><input type="text" name="city" value="" class="large-field" /></td>
-    </tr>
-    <tr>
-      <td><span id="payment-postcode-required" class="required">*</span> <?php echo $entry_postcode; ?></td>
-      <td><input type="text" name="postcode" value="" class="large-field" /></td>
-    </tr>
+
     <tr>
       <td><span class="required">*</span> <?php echo $entry_country; ?></td>
       <td><select name="country_id" class="large-field">
@@ -77,6 +62,27 @@
           <?php } ?>
           <?php } ?>
         </select></td>
+    </tr>
+    <tr>
+      <td><span id="payment-postcode-required" class="required">*</span> <?php echo $entry_postcode; ?></td>
+      <td><input type="text" name="postcode" value="" class="large-field" /></td>
+    </tr>
+    <div class="payment-housenumber" style="display: none">
+    <tr>
+    <td><span class="required">*</span> Huisnummer:</td>
+    <td><input type="text" name="housenumber" value="" class="large-field" /></d>
+    </tr>
+    </div>
+    <tr>
+      <td><span class="required">*</span> <?php echo $entry_address_1; ?></td>
+      <td><input type="text" name="address_1" value="" class="large-field" /></td>
+    </tr>
+    <!-- FormFix -->
+    <input type="hidden" name="address_2" value="<?php echo $address_2; ?>">
+    <!-- /FormFix -->
+    <tr>
+      <td><span class="required">*</span> <?php echo $entry_city; ?></td>
+      <td><input type="text" name="city" value="" class="large-field" /></td>
     </tr>
     <tr>
       <td><span class="required">*</span> <?php echo $entry_zone; ?></td>
@@ -92,6 +98,39 @@
   </div>
 </div>
 <script type="text/javascript"><!--
+
+/* FormFix */
+
+function get_address(waitmode) {
+	var postcode = $('input[name=\'postcode\']').val();
+	var nr = $('input[name=\'housenumber\']').val();
+	if (postcode.length < 4) {
+		}else{
+		if (nr.length < 1) {
+			}else{
+			jQuery.ajax({
+				type: "POST",
+				url: "index.php?route=module/formfix/lookup",
+				data: 'postcode='+postcode+'&nr='+nr,
+				cache: false,
+	            async: waitmode,
+				success: function(response){
+						var result = $.parseJSON(response);
+						$('input[name=\'address_1\']').val(result.street);
+						$('input[name=\'city\']').val(result.city);
+						$('select[name=\'zone_id\']').val(result.province);
+					}
+		   		});
+			}
+		}
+    }
+$('input[name=\'housenumber\']').bind('change', function() { get_address(true); });
+$('input[name=\'postcode\']').bind('change', function() { get_address(true); });
+$('input[type=\'submit\']').click(function() { get_address(false); });
+
+
+/* FormFix */
+
 $('#payment-address input[name=\'payment_address\']').live('change', function() {
 	if (this.value == 'new') {
 		$('#payment-existing').hide();
@@ -101,10 +140,27 @@ $('#payment-address input[name=\'payment_address\']').live('change', function() 
 		$('#payment-new').hide();
 	}
 });
-//--></script> 
+//--></script>
 <script type="text/javascript"><!--
 $('#payment-address select[name=\'country_id\']').bind('change', function() {
 	if (this.value == '') return;
+
+    /* FormFix */
+
+    if (this.value==150) {
+        $('.payment-housenumber').show();
+        $('input[name=\'address_1\']').attr('disabled', 'disabled');
+        $('input[name=\'city\']').attr('disabled', 'disabled');
+        $('select[name=\'zone_id\']').attr('disabled', 'disabled');
+        } else {
+        $('.payment-housenumber').hide();
+        $('input[name=\'address_1\']').removeAttr('disabled');
+        $('input[name=\'city\']').removeAttr('disabled');
+        $('select[name=\'zone_id\']').removeAttr('disabled');
+        }
+
+    /* /FormFix */
+
 	$.ajax({
 		url: 'index.php?route=checkout/checkout/country&country_id=' + this.value,
 		dataType: 'json',

@@ -1,28 +1,26 @@
 <?php
-// Heading
-$_['heading_title']  = 'Neem contact op';
+//
+//  Vertaling door: Yellow Melon B.V.
+//  www.nlwebwinkel.org
+//
 
-// Text 
-$_['text_location']  = 'Onze bedrijfsgegevens';
-$_['text_contact']   = 'Contactformulier';
-$_['text_address']   = 'Adres:';
-$_['text_email']     = 'E-mail adres:';
-$_['text_telephone'] = 'Telefoon:';
-$_['text_fax']       = 'Fax:';
-$_['text_message']   = '<p>Je vraag of opmerking is verstuurd!</p>';
+//  Bijgewerkt: 01-10-2013 18:08:05
 
-// Entry Fields
-$_['entry_name']     = 'Je naam:';
-$_['entry_email']    = 'Je e-mail adres:';
-$_['entry_enquiry']  = 'Je vraag:';
-$_['entry_captcha']  = 'Voer de onderstaande code in:';
-
-// Email
 $_['email_subject']  = 'Vraag %s';
+$_['entry_captcha']  = 'Voer de code hieronder in:';
+$_['entry_email']    = 'E-Mail:';
+$_['entry_enquiry']  = 'Vraag:';
+$_['entry_name']     = 'Voornaam:';
+$_['error_captcha']  = 'Verificatie code (captcha) komt niet overeen met de afbeelding';
+$_['error_email']    = 'E-Mailadres bestaat niet';
+$_['error_enquiry']  = 'Aanvraag moet minimaal 10 karakters bevatten';
+$_['error_name']     = 'Naam moet minimaal 3 karakters bevatten';
+$_['heading_title']  = 'Neem contact op';
+$_['text_address']   = 'Adres:';
+$_['text_contact']   = 'Contact';
+$_['text_email']     = 'E-Mail:';
+$_['text_fax']       = 'Fax:';
+$_['text_location']  = 'Onze gegevens';
+$_['text_message']   = '<p>Je aanvraag is succesvol verzonden naar de eigenaar van de winkel!</p>';
+$_['text_telephone'] = 'Telefoon:';
 
-// Errors
-$_['error_name']     = 'Naam dient tussen de 3 en 32 tekens lang te zijn!';
-$_['error_email']    = 'Ongeldig e-mail adres!';
-$_['error_enquiry']  = 'Vraag of opmerking dient tussen de 10 en 3000 tekens lang te zijn!';
-$_['error_captcha']  = 'De verificatiecode klopt niet!';
-?>

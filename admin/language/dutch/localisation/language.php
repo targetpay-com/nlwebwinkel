@@ -1,36 +1,34 @@
 <?php
-// Heading
-$_['heading_title']     = 'Talen';
+//
+//  Vertaling door: Yellow Melon B.V.
+//  www.nlwebwinkel.org
+//
 
-// Text
-$_['text_success']      = 'Gelukt: instellingen gewijzigd';
+//  Bijgewerkt: 01-10-2013 18:08:05
 
-// Kolom
-$_['column_name']       = 'Taal';
-$_['column_code']       = 'ISO Code';
-$_['column_sort_order'] = 'Volgorde';
 $_['column_action']     = 'Actie';
-
-// Entry
-$_['entry_name']        = 'Taal:<br /><span class="help">De naam van de taal in de taal (bv. Nederlands).</span>';
-$_['entry_code']        = 'ISO Code:<br /><span class="help">De standaard ISO landcode voor deze taal (bv. nl).<br /><b>Let op:</b> Niet veranderen wanneer deze de Default taal is!</span>';
-$_['entry_locale']      = 'Locale:<br /><span class="help">bv: nl_NL.ISO_8859-1,nl_NL,nl_NL,dutch</span><br /><b>Let op:</b> Niet veranderen wanneer deze de Default taal is!</span>';
-$_['entry_image']       = 'Afbeelding:<br /><span class="help">De vlag behorende bij het land/taal (bv. nl.png).</span>';
-$_['entry_directory']   = 'Directorie:<br /><span class="help">De directorie naam waarin de taalbestanden staan (bv. dutch).<br /><b>Let op:</b> Niet veranderen wanneer deze de Default taal is!</span>';
-$_['entry_filename']    = 'Bestandsnaam:<br /><span class="help">De naam van het taalbestand (bv. dutch.php).<br /><b>Let op:</b> Niet veranderen wanneer deze de Default taal is!</span>';
-$_['entry_status']      = 'Status:<br /><span class="help">Is de taal in de shop actief.<br /><b>Let op:</b> Niet veranderen wanneer deze de Default taal is!</span>';
+$_['column_code']       = 'Code';
+$_['column_name']       = 'Naam';
+$_['column_sort_order'] = 'Volgorde';
+$_['entry_code']        = 'Code:<br /><span class="help">Bijv. nl. Verander dit niet als het je standaardtaal is</span>';
+$_['entry_directory']   = 'Map:<br /><span class="help">Map met taalbestanden (hoofdletter gevoelig)</span>';
+$_['entry_filename']    = 'Bestandsnaam:<br /><span class="help">Hoofd-taalbestand zonder extensie</span>';
+$_['entry_image']       = 'Afbeelding:<br /><span class="help">bijv. nl.png</span>';
+$_['entry_locale']      = 'Landinstellingen:<br /><span class="help">Bijv.: en_US.UTF-8,en_US,en-gb,en_gb,english</span>';
+$_['entry_name']        = 'Taal naam:';
 $_['entry_sort_order']  = 'Volgorde:';
+$_['entry_status']      = 'Status:<br /><span class="help">Verberg/toon in taalkeuze</span>';
+$_['error_admin']       = 'Kan taal niet verwijderen';
+$_['error_code']        = 'Taal Code moet minimaal 2 karakters bevatten';
+$_['error_default']     = 'Kan taal niet verwijderen';
+$_['error_directory']   = 'Map verplicht';
+$_['error_filename']    = 'Bestandsnaam moet minimaal 3 karakters bevatten';
+$_['error_image']       = 'Afbeeldingsnaam moet minimaal 3 karakters bevatten';
+$_['error_locale']      = 'Landinstelling is verplicht';
+$_['error_name']        = 'Taal naam moet minimaal 3 karakters bevatten';
+$_['error_order']       = 'Taal kan niet worden verwijderd';
+$_['error_permission']  = 'Je hebt geen rechten deze instellingen te wijzigen';
+$_['error_store']       = 'Kan taal niet verwijderen als deze gekoppeld is aan %s producten';
+$_['heading_title']     = 'Talen';
+$_['text_success']      = 'Instellingen gewijzigd';
 
-// Error
-$_['error_permission']  = 'Waarschuwing: je hebt geen rechten deze instellingen te wijzigen!';
-$_['error_name']        = 'Waarschuwing: taal dient tussen de 3 en 32 tekens lang te zijn!';
-$_['error_code']        = 'Waarschuwing: taalcode dient minimaal 2 tekens lang te zijn!';
-$_['error_locale']      = 'Waarschuwing: taalinstellingen verplicht!';
-$_['error_image']       = 'Waarschuwing: afbeelding bestandsnaam dient tussen de 3 en 64 tekens lang te zijn!';
-$_['error_directory']   = 'Waarschuwing: map verplicht!';
-$_['error_filename']    = 'Waarschuwing: bestandsnaam moet dient tussen de 3 en 64 tekens lang te zijn!';
-$_['error_default']     = 'Waarschuwing: deze taal kan niet worden verwijderd omdat deze is ingesteld als standaardtaal voor de winkel!';
-$_['error_admin']       = 'Waarschuwing: deze taal kan niet worden verwijderd omdat deze is ingesteld als standaardtaal voor de administratie!';
-$_['error_store']       = 'Waarschuwing: deze taal kan niet worden verwijderd omdat deze is gekoppeld aan %s winkel(s)!';
-$_['error_order']       = 'Waarschuwing: deze taal kan niet worden verwijderd omdat deze is gekoppeld aan %s bestelling(en)!';
-?>

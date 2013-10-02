@@ -1,31 +1,31 @@
-<?php  
-// Heading
-$_['heading_title']    = 'E-mail manager';
+<?php
+//
+//  Vertaling door: Yellow Melon B.V.
+//  www.nlwebwinkel.org
+//
 
-// Text
-$_['text_success']        = 'Je bericht is verzonden!';
-$_['text_sent']           = 'Je bericht is verzonden aan %s van de %s affiliates!';
-$_['text_default']        = 'Standaard';
-$_['text_newsletter']     = 'Alle nieuwsbrief-abonnees';
-$_['text_customer_all']   = 'Alle klanten';
-$_['text_customer_group'] = 'Klantgroep';
-$_['text_customer']       = 'Klanten';
-$_['text_affiliate_all']  = 'Alle affiliates';
-$_['text_affiliate']      = 'Affiliates';
-$_['text_product']        = 'Producten';
+//  Bijgewerkt: 01-10-2013 18:08:05
 
-// Entry
-$_['entry_store']          = 'Van winkel:';
-$_['entry_to']             = 'Aan:';
+$_['entry_affiliate']      = 'Affiliate:<br /><span class="help">Automatisch aanvullen</span>';
+$_['entry_customer']       = 'Klant:<br /><span class="help">Automatisch aanvullen</span>';
 $_['entry_customer_group'] = 'Klantgroep:';
-$_['entry_customer']       = 'Klant:';
-$_['entry_affiliate']      = 'Affiliate:';
-$_['entry_product']        = 'Aan klanten met openstaande bestellingen:';
-$_['entry_subject']        = 'Onderwerp:<br /><span class="help">Titel van de e-mail</span>';
-$_['entry_message']        = 'Bericht:<br /><span class="help">Inhoud (content) van deze e-mail</span>';
+$_['entry_message']        = 'Bericht:';
+$_['entry_product']        = 'Producten:<br /><span class="help">Stuur alleen naar klanten in de lijst die wat kochten (Automatisch aanvullen)</span>';
+$_['entry_store']          = 'Van:';
+$_['entry_subject']        = 'Onderwerp:';
+$_['entry_to']             = 'Aan:';
+$_['error_message']        = 'E-Mail Bericht verplicht';
+$_['error_permission']     = 'Je hebt geen rechten deze instellingen te wijzigen';
+$_['error_subject']        = 'E-Mail onderwerp verplicht';
+$_['heading_title']        = 'Mail';
+$_['text_affiliate']       = 'Affiliates';
+$_['text_affiliate_all']   = 'Alle Affiliates';
+$_['text_customer']        = 'Klanten';
+$_['text_customer_all']    = 'Alle Klanten';
+$_['text_customer_group']  = 'Klantgroepen';
+$_['text_default']         = 'Standaard';
+$_['text_newsletter']      = 'Alle nieuwsbrief leden';
+$_['text_product']         = 'Producten';
+$_['text_sent']            = 'Bericht verstuurd naar %s van de %s ontvangers';
+$_['text_success']         = 'Je bericht is verzonden';
 
-// Error
-$_['error_permission'] = 'Waarschuwing: je hebt geen rechten deze instellingen te wijzigen!';
-$_['error_subject']    = 'Waarschuwing: onderwerp is verplicht!';
-$_['error_message']    = 'Waarschuwing: bericht is verplicht!';
-?>

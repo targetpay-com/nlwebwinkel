@@ -1,23 +1,27 @@
 <?php
-// Heading
-$_['heading_title']     = 'Producten vergelijken';
+//
+//  Vertaling door: Yellow Melon B.V.
+//  www.nlwebwinkel.org
+//
 
-// Text
-$_['text_product']      = 'Details';
-$_['text_name']         = 'Product';
-$_['text_image']        = 'Afbeelding';
-$_['text_price']        = 'Prijs';
-$_['text_model']        = 'Model';
-$_['text_manufacturer'] = 'Merk';
+//  Bijgewerkt: 01-10-2013 18:08:05
+
+$_['heading_title']     = 'Productvergelijking';
 $_['text_availability'] = 'Beschikbaarheid';
-$_['text_instock']      = 'Voorraad';
-$_['text_rating']       = 'Beoordelingen';
-$_['text_reviews']      = 'Gebaseerd op %s beoordeling(en).';
-$_['text_summary']      = 'Overzicht';
+$_['text_compare']      = 'Productvergelijking (%s)';
+$_['text_dimension']    = 'Afmetingen (L x W x H)';
+$_['text_empty']        = 'Je hebt geen producten gekozen om te vergelijken';
+$_['text_image']        = 'Afbeelding';
+$_['text_instock']      = 'Op voorraad';
+$_['text_manufacturer'] = 'Merk';
+$_['text_model']        = 'Model';
+$_['text_name']         = 'Product';
+$_['text_price']        = 'Prijs';
+$_['text_product']      = 'Productbeschrijving';
+$_['text_rating']       = 'Waardering';
+$_['text_remove']       = 'Productvergelijking aangepast';
+$_['text_reviews']      = 'Gebaseerd op %s beoordelingen';
+$_['text_success']      = '<a href="%s">%s</a> toegevoegd aan de <a href="%s">productvergelijking</a>';
+$_['text_summary']      = 'Samenvatting';
 $_['text_weight']       = 'Gewicht';
-$_['text_dimension']    = 'Afmeting (L x B x H)';
-$_['text_compare']      = 'Vergelijken (%s)';
-$_['text_success']      = '<a href="%s">%s</a> is toegevoegd aan de <a href="%s">productvergelijking</a>';
-$_['text_remove']       = '<a href="%s">%s</a> is verwijderd uit de <a href="%s">productvergelijking</a>';
-$_['text_empty']        = 'Geen producten om te vergelijken.';
-?>
+

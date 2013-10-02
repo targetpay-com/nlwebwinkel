@@ -1,28 +1,26 @@
 <?php
-// Heading
-$_['heading_title']          = 'Zones';
+//
+//  Vertaling door: Yellow Melon B.V.
+//  www.nlwebwinkel.org
+//
 
-// Text
-$_['text_success']           = 'Gelukt: instellingen gewijzigd';
+//  Bijgewerkt: 01-10-2013 18:08:05
 
-// Kolom
-$_['column_name']            = 'Zonenaam';
-$_['column_code']            = 'Zonecode';
-$_['column_country']         = 'Land';
 $_['column_action']          = 'Actie';
-
-// Entry
-$_['entry_status']           = 'Zone status:';
-$_['entry_name']             = 'Zonenaam:';
-$_['entry_code']             = 'Zonecode:';
+$_['column_code']            = 'Regiocode';
+$_['column_country']         = 'Land';
+$_['column_name']            = 'Naam';
+$_['entry_code']             = 'Regiocode:';
 $_['entry_country']          = 'Land:';
+$_['entry_name']             = 'Regio/staat:';
+$_['entry_status']           = 'Status regio/staat:';
+$_['error_address']          = 'Deze regio kan niet worden verwijderd';
+$_['error_affiliate']        = 'Kan regio niet verwijderen';
+$_['error_default']          = 'Kan regio niet verwijderen';
+$_['error_name']             = 'Regio naam moet minimaal 3 karakters bevatten';
+$_['error_permission']       = 'Je hebt geen rechten deze instellingen te wijzigen';
+$_['error_store']            = 'Kan regio niet verwijderen als deze gekoppeld is aan %s producten';
+$_['error_zone_to_geo_zone'] = 'Land kan niet worden verwijderd als deze is toegewezen aan %s gebieden';
+$_['heading_title']          = 'Regio\'s/staten';
+$_['text_success']           = 'Instellingen gewijzigd';
 
-// Error
-$_['error_permission']       = 'Waarschuwing: je hebt geen rechten deze instellingen te wijzigen!';
-$_['error_name']             = 'Waarschuwing: zonenaam dient tussen de 3 en 128 tekens lang te zijn!';
-$_['error_default']          = 'Waarschuwing: deze zone kan niet worden verwijderd omdat deze is ingesteld als standaard zone!';
-$_['error_store']            = 'Waarschuwing: deze zone kan niet worden verwijderd omdat deze is gekoppeld aan %s winkel(s)!';
-$_['error_address']          = 'Waarschuwing: deze zone kan niet worden verwijderd omdat deze gekoppeld is aan %s adres(sen)!';
-$_['error_affiliate']        = 'Waarschuwing: deze zone kan niet worden verwijderd omdat deze gekoppeld is aan %s affiliate(s)!';
-$_['error_zone_to_geo_zone'] = 'Waarschuwing: deze zone kan niet worden verwijderd omdat deze gekoppeld is aan %s zone/geozone combinatie(s)!';
-?>

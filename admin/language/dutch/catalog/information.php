@@ -1,33 +1,31 @@
 <?php
-// Heading
-$_['heading_title']     = 'Informatiepagina\'s';
+//
+//  Vertaling door: Yellow Melon B.V.
+//  www.nlwebwinkel.org
+//
 
-// Text
-$_['text_success']      = 'Gelukt: instellingen gewijzigd';
-$_['text_default']      = 'Hoofdwinkel';
+//  Bijgewerkt: 01-10-2013 18:08:05
 
-// Kolom
-$_['column_title']      = 'Pagina';
-$_['column_sort_order'] = 'Volgorde';
 $_['column_action']     = 'Actie';
-
-// Entry
-$_['entry_title']       = 'Onderwerp:<br /><span class="help">Naam van de pagina, weergegeven in de winkel.</span>';
-$_['entry_description'] = 'Inhoud:<br /><span class="help">Inhoud van de pagina zoals deze wordt weergegeven in de winkel.</span>';
-$_['entry_store']       = 'Winkel(s):<br /><span class="help">Zichtbaar in de volgende winkels.</span>';
-$_['entry_keyword']     = 'Meta Tag Zoekwoorden:<br /><span class="help">Zoekwoorden tbv. zoekmachines.</span>';
-$_['entry_bottom']      = 'Footer:<br/><span class="help">Weergeven in footer.</span>';
-$_['entry_status']      = 'Status:';
+$_['column_sort_order']	= 'Volgorde';
+$_['column_title']      = 'Titel';
+$_['entry_bottom']      = 'Onderkant pagina:<br/><span class="help">Weergeven in de footer</span>';
+$_['entry_description'] = 'Omschrijving:';
+$_['entry_keyword']     = 'SEO zoekwoord:<br /><span class="help">Vervang spaties door - en zorg dat ieder zoekwoord uniek is</span>';
+$_['entry_layout']      = 'Layout Overschrijven:';
 $_['entry_sort_order']  = 'Volgorde:';
-$_['entry_layout']      = 'Forceer layout:';
+$_['entry_status']      = 'Status:';
+$_['entry_store']       = 'Winkels:';
+$_['entry_title']       = 'Informatie titel:';
+$_['error_account']     = 'Informatie pagina kan niet worden verwijderd';
+$_['error_affiliate']   = 'Kan informatie pagina niet verwijderen';
+$_['error_checkout']    = 'Kan informatie pagina niet verwijderen';
+$_['error_description'] = 'Beschrijving moet tussen de 3 en 255 karakter bevatten';
+$_['error_permission']  = 'Je hebt geen rechten deze instellingen te wijzigen';
+$_['error_store']       = 'Kan informatie pagina niet verwijderen als deze gekoppeld is aan %s producten';
+$_['error_title']       = 'Informatie naam moet 3 en 64 tekens lang zijn';
+$_['error_warning']     = 'Controleer het formulier op fouten';
+$_['heading_title']     = 'Informatie';
+$_['text_default']      = 'Standaard';
+$_['text_success']      = 'Instellingen gewijzigd';
 
-// Error
-$_['error_warning']     = 'Waarschuwing: controleer of alle verplichte velden volledig zijn ingevuld!';
-$_['error_permission']  = 'Waarschuwing: je hebt geen rechten deze instellingen te wijzigen!';
-$_['error_title']       = 'Waarschuwing: paginanaam dient tussen de 3 en 64 tekens lang te zijn!';
-$_['error_description'] = 'Waarschuwing: Omschrijving dient dient minimaal 3 tekens lang te zijn!';
-$_['error_account']     = 'Waarschuwing: Deze pagina kan niet verwijderd worden omdat deze is ingesteld als de standaard Account voorwaarden!';
-$_['error_checkout']    = 'Waarschuwing: Deze pagina kan niet verwijderd worden omdat deze is ingesteld als de stadaard Algemene voorwaarden!';
-$_['error_affiliate']   = 'Waarschuwing: Deze pagina kan niet verwijderd worden omdat deze wordt gebruikt als Affiliate voorwaarden!';
-$_['error_store']       = 'Waarschuwing: Deze pagina kan niet verwijderd worden omdat deze door %s winkel(s) wordt gebruikt!';
-?>

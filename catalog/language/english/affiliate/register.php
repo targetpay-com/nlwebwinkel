@@ -27,6 +27,7 @@ $_['entry_website']             = 'Web Site:';
 $_['entry_address_1']           = 'Address 1:';
 $_['entry_address_2']           = 'Address 2:';
 $_['entry_postcode']            = 'Post Code:';
+$_['entry_housenumber']         = 'Housenumber:';
 $_['entry_city']                = 'City:';
 $_['entry_country']             = 'Country:';
 $_['entry_zone']                = 'Region / State:';
@@ -56,4 +57,6 @@ $_['error_country']             = 'Please select a country!';
 $_['error_zone']                = 'Please select a region / state!';
 $_['error_postcode']            = 'Postcode must be between 2 and 10 characters!';
 $_['error_agree']               = 'Warning: You must agree to the %s!';
+
+$_['error_housenumber']         = 'Enter housenumber and optional extension (example: 52 or 550a)';
 ?>

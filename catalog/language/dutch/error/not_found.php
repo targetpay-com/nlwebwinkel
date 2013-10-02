@@ -1,7 +1,11 @@
 <?php
-// Heading
-$_['heading_title'] = 'Pagina niet gevonden!';
+//
+//  Vertaling door: Yellow Melon B.V.
+//  www.nlwebwinkel.org
+//
 
-// Text
-$_['text_error']    = 'De gevraagde pagina is niet gevonden. Mogelijk is de pagina komen te vervallen of verwijderd.';
-?>
+//  Bijgewerkt: 01-10-2013 18:08:05
+
+$_['heading_title'] = 'De opgevraagde pagina kan niet worden gevonden';
+$_['text_error']    = 'Pagina niet gevonden';
+

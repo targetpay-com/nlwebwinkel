@@ -1,5 +1,9 @@
 <div class="left">
   <h2><?php echo $text_your_details; ?></h2>
+  <?php echo $entry_company; ?><br />
+  <input type="text" name="company" value="" class="large-field" />
+  <br />
+  <br />  
   <span class="required">*</span> <?php echo $entry_firstname; ?><br />
   <input type="text" name="firstname" value="" class="large-field" />
   <br />
@@ -16,10 +20,11 @@
   <input type="text" name="telephone" value="" class="large-field" />
   <br />
   <br />
-  <?php echo $entry_fax; ?><br />
-  <input type="text" name="fax" value="" class="large-field" />
-  <br />
-  <br />
+
+  <!-- FormFix -->
+  <input type="hidden" name="fax" value="">
+  <!-- /FormFix -->
+
   <h2><?php echo $text_your_password; ?></h2>
   <span class="required">*</span> <?php echo $entry_password; ?><br />
   <input type="password" name="password" value="" class="large-field" />
@@ -33,10 +38,7 @@
 </div>
 <div class="right">
   <h2><?php echo $text_your_address; ?></h2>
-  <?php echo $entry_company; ?><br />
-  <input type="text" name="company" value="" class="large-field" />
-  <br />
-  <br />
+
   <div style="display: <?php echo (count($customer_groups) > 1 ? 'table-row' : 'none'); ?>;">
   <?php echo $entry_customer_group; ?><br />
   <?php foreach ($customer_groups as $customer_group) { ?>
@@ -52,32 +54,7 @@
   <?php } ?>
   <br />
 </div>
-<div id="company-id-display"><span id="company-id-required" class="required">*</span> <?php echo $entry_company_id; ?><br />
-  <input type="text" name="company_id" value="" class="large-field" />
-  <br />
-  <br />
-</div>
-<div id="tax-id-display"><span id="tax-id-required" class="required">*</span> <?php echo $entry_tax_id; ?><br />
-  <input type="text" name="tax_id" value="" class="large-field" />
-  <br />
-  <br />
-</div>
-<span class="required">*</span> <?php echo $entry_address_1; ?><br />
-<input type="text" name="address_1" value="" class="large-field" />
-<br />
-<br />
-<?php echo $entry_address_2; ?><br />
-<input type="text" name="address_2" value="" class="large-field" />
-<br />
-<br />
-<span class="required">*</span> <?php echo $entry_city; ?><br />
-<input type="text" name="city" value="" class="large-field" />
-<br />
-<br />
-<span id="payment-postcode-required" class="required">*</span> <?php echo $entry_postcode; ?><br />
-<input type="text" name="postcode" value="<?php echo $postcode; ?>" class="large-field" />
-<br />
-<br />
+
 <span class="required">*</span> <?php echo $entry_country; ?><br />
 <select name="country_id" class="large-field">
   <option value=""><?php echo $text_select; ?></option>
@@ -91,11 +68,47 @@
 </select>
 <br />
 <br />
+
+<span id="payment-postcode-required" class="required">*</span> <?php echo $entry_postcode; ?><br />
+<input type="text" name="postcode" value="<?php echo $postcode; ?>" class="large-field" />
+<br />
+<br />
+
+<div class="payment-housenumber" style="display: none">
+<span class="required">*</span> Huisnummer<br />
+<input type="text" name="housenumber" value="" class="large-field" />
+<br />
+<br />
+</div>
+
+<span class="required">*</span> <?php echo $entry_address_1; ?><br />
+<input type="text" name="address_1" value="" class="large-field" />
+<br />
+<br />
+<!-- FormFix -->
+<input type="hidden" name="address_2" value="">
+<!-- /FormFix -->
+<span class="required">*</span> <?php echo $entry_city; ?><br />
+<input type="text" name="city" value="" class="large-field" />
+<br />
+<br />
+
 <span class="required">*</span> <?php echo $entry_zone; ?><br />
 <select name="zone_id" class="large-field">
 </select>
 <br />
 <br />
+
+<div id="company-id-display"><span id="company-id-required" class="required">*</span> <?php echo $entry_company_id; ?><br />
+  <input type="text" name="company_id" value="" class="large-field" />
+  <br />
+  <br />
+</div>
+<div id="tax-id-display"><span id="tax-id-required" class="required">*</span> <?php echo $entry_tax_id; ?><br />
+  <input type="text" name="tax_id" value="" class="large-field" />
+  <br />
+  <br />
+</div>
 <br />
 </div>
 <div style="clear: both; padding-top: 15px; border-top: 1px solid #EEEEEE;">
@@ -125,6 +138,38 @@
 </div>
 <?php } ?>
 <script type="text/javascript"><!--
+
+/* FormFix */
+
+function get_address(waitmode) {
+	var postcode = $('input[name=\'postcode\']').val();
+	var nr = $('input[name=\'housenumber\']').val();
+	if (postcode.length < 4) {
+		}else{
+		if (nr.length < 1) {
+			}else{
+			jQuery.ajax({
+				type: "POST",
+				url: "index.php?route=module/formfix/lookup",
+				data: 'postcode='+postcode+'&nr='+nr,
+				cache: false,
+	            async: waitmode,
+				success: function(response){
+						var result = $.parseJSON(response);
+						$('input[name=\'address_1\']').val(result.street);
+						$('input[name=\'city\']').val(result.city);
+						$('select[name=\'zone_id\']').val(result.province);
+					}
+		   		});
+			}
+		}
+    }
+$('input[name=\'housenumber\']').bind('change', function() { get_address(true); });
+$('input[name=\'postcode\']').bind('change', function() { get_address(true); });
+$('input[type=\'submit\']').click(function() { get_address(false); });
+
+/* FormFix */
+
 $('#payment-address input[name=\'customer_group_id\']:checked').live('change', function() {
 	var customer_group = [];
 	
@@ -168,6 +213,23 @@ $('#payment-address input[name=\'customer_group_id\']:checked').trigger('change'
 <script type="text/javascript"><!--
 $('#payment-address select[name=\'country_id\']').bind('change', function() {
 	if (this.value == '') return;
+
+    /* FormFix */
+
+    if (this.value==150) {
+        $('.payment-housenumber').show();
+        $('input[name=\'address_1\']').attr('disabled', 'disabled');
+        $('input[name=\'city\']').attr('disabled', 'disabled');
+        $('select[name=\'zone_id\']').attr('disabled', 'disabled');
+        } else {
+        $('.payment-housenumber').hide();
+        $('input[name=\'address_1\']').removeAttr('disabled');
+        $('input[name=\'city\']').removeAttr('disabled');
+        $('select[name=\'zone_id\']').removeAttr('disabled');
+        }
+
+    /* /FormFix */
+
 	$.ajax({
 		url: 'index.php?route=checkout/checkout/country&country_id=' + this.value,
 		dataType: 'json',

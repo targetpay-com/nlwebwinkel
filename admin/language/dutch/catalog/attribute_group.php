@@ -1,22 +1,20 @@
 <?php
-// Heading
-$_['heading_title']     = 'Kenmerkgroepen';
+//
+//  Vertaling door: Yellow Melon B.V.
+//  www.nlwebwinkel.org
+//
 
-// Text
-$_['text_success']      = 'Gelukt: instellingen gewijzigd';
+//  Bijgewerkt: 01-10-2013 18:08:05
 
-// Kolom
-$_['column_name']       = 'Groep';
-$_['column_sort_order'] = 'Volgorde';
 $_['column_action']     = 'Actie';
-
-// Entry
-$_['entry_name']        = 'Groep:';
+$_['column_name']       = 'Naam';
+$_['column_sort_order'] = 'Volgorde';
+$_['entry_name']        = 'Naam kenmerkgroep:';
 $_['entry_sort_order']  = 'Volgorde:';
+$_['error_attribute']   = 'Kan kenmerkgroep niet verwijderen';
+$_['error_name']        = 'Kenmerk groep moet minimaal 3 karakters bevatten';
+$_['error_permission']  = 'Je hebt geen rechten deze instellingen te wijzigen';
+$_['error_product']     = 'Kan deze kenmerken niet verwijderen als deze gekoppeld zijn aan %s producten';
+$_['heading_title']     = 'Kenmerkgroepen';
+$_['text_success']      = 'Instellingen gewijzigd';
 
-// Error
-$_['error_permission']  = 'Waarschuwing: je hebt geen rechten deze instellingen te wijzigen!';
-$_['error_name']        = 'Waarschuwing: kenmerkgroep dient tussen de 3 en 64 tekens lang te zijn!';
-$_['error_attribute']   = 'Waarschuwing: Deze groep kan niet worden verwijderd omdat hij gekoppeld is aan %s kenmerken!';
-$_['error_product']     = 'Waarschuwing: Deze groep kan niet worden verwijderd omdat hij gekoppeld is aan %s product(en)!';
-?>

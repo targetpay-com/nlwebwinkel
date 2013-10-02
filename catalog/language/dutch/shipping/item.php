@@ -1,5 +1,11 @@
 <?php
-// Text
-$_['text_title']       = 'Per product';
-$_['text_description'] = 'Verzendkosten per product';
-?>
+//
+//  Vertaling door: Yellow Melon B.V.
+//  www.nlwebwinkel.org
+//
+
+//  Bijgewerkt: 01-10-2013 18:08:05
+
+$_['text_description'] = 'Verzendkosten per stuk';
+$_['text_title']       = 'Per Item';
+

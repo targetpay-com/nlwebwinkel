@@ -1,29 +1,33 @@
 <?php
-// Text
-$_['text_for']          = '%s cadeaubon voor %s';
-$_['text_success']      = 'Het totaal van je bestelling is aangepast';
+//
+//  Vertaling door: Yellow Melon B.V.
+//  www.nlwebwinkel.org
+//
 
-// Error
-$_['error_warning']     = 'Controleer of alle verplichte velden volledig zijn ingevuld';
-$_['error_permission']  = 'Je hebt geen toegang tot deze pagina';
-$_['error_customer']    = 'Klant niet gevonden';
-$_['error_email']       = 'E-mail adres lijkt ongeldig';
-$_['error_postcode']    = 'Postcode dient tussen de 2 en 10 tekens lang te zijn';
-$_['error_country']     = 'Keuze van land is verplicht';
-$_['error_zone']        = 'Keuze van een regio is verplicht';
-$_['error_stock']       = 'Producten met een *** zijn niet beschikbaar in de gewenste hoeveelheid';
-$_['error_minimum']     = 'Minimaal te bestellen aantal voor %s is %s';
+//  Bijgewerkt: 01-10-2013 18:08:05
+
+$_['error_amount']      = 'Bedrag moet tussen %s en %s liggen';
+$_['error_country']     = 'Selecteer een land';
+$_['error_coupon']      = 'Kortingsbon is ongeldig';
+$_['error_customer']    = 'Kan geselecteerde klant niet vinden';
+$_['error_email']       = 'E-Mailadres is ongeldig';
+$_['error_from_name']   = 'Voornaam moet minimaal 1 karakter bevatten';
+$_['error_maximum']     = 'Het aantal punten dat kan worden toegevoegd is %s';
+$_['error_minimum']     = 'minimale order bedrag is tussen %s en de %s';
+$_['error_no_payment']  = 'Geen betaalmogelijkheden beschikbaar';
+$_['error_no_shipping'] = 'Geen verzendmogelijkheden beschikbaar';
+$_['error_payment']     = 'Kies een betalingsmogelijkheid';
+$_['error_permission']  = 'Je hebt geen rechten deze instellingen te wijzigen';
+$_['error_points']      = 'Je hebt niet genoeg spaarpunten';
+$_['error_postcode']    = 'Postcode bevat 4 cijfers en 2 letters';
 $_['error_required']    = '%s verplicht';
-$_['error_shipping']    = 'Geen verzendmethode geselecteerd';
-$_['error_no_shipping'] = 'Verzendmethode is niet beschikbaar';
-$_['error_payment']     = 'Geen betaalmethode geselecteerd';
-$_['error_no_payment']  = 'Betaalmethode is niet beschikbaar';
-$_['error_coupon']      = 'Je kortingsbon is niet (meer) geldig, volledig verbruikt of de code is niet correct';
-$_['error_voucher']     = 'Je cadeaubon is niet (meer) geldig, volledig verbruikt of de code is niet correct';
-$_['error_reward']      = 'Geef het aantal te gebruiken spaarpunten op';
-$_['error_points']      = 'Je hebt niet de benodigde %s spaarpunten';
-$_['error_maximum']     = 'Het maximaal te gebruiken spaarpunten is %s';
-$_['error_to_name']     = 'Naam ontvanger dient tussen de  1 en 64 tekens lang te zijn';
-$_['error_from_name']   = 'Je naam dient tussen de  1 en 64 tekens lang te zijn';
-$_['error_amount']      = 'Verplichte waarde tussen de %s en %s euro';
-?>
+$_['error_reward']      = 'Vul het aantal spaarpunten in';
+$_['error_shipping']    = 'Bezorgwijze verplicht';
+$_['error_stock']       = 'Producten met *** zijn niet op voorraad';
+$_['error_to_name']     = 'Naam ontvanger moet 1 tot 64 tekens lang zijn';
+$_['error_voucher']     = 'Cadeaubon is ongeldig';
+$_['error_warning']     = 'Controleer het formulier op fouten';
+$_['error_zone']        = 'Selecteer een regio/staat';
+$_['text_for']          = '%s Gift Certificate voor %s';
+$_['text_success']      = 'Je bestelling is herberekend';
+

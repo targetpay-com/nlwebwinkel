@@ -1,15 +1,17 @@
 <?php
-// Heading
-$_['heading_title']    = 'Kortingsbonnen Rapport';
+//
+//  Vertaling door: Yellow Melon B.V.
+//  www.nlwebwinkel.org
+//
 
-// Kolom
-$_['column_name']      = 'Kortingsbon naam';
+//  Bijgewerkt: 01-10-2013 18:08:05
+
+$_['column_action']    = 'Actie';
 $_['column_code']      = 'Code';
+$_['column_name']      = 'Naam';
 $_['column_orders']    = 'Bestellingen';
 $_['column_total']     = 'Totaal';
-$_['column_action']    = 'Actie';
-
-// Entry
-$_['entry_date_start'] = 'Begindatum:';
 $_['entry_date_end']   = 'Einddatum:';
-?>
+$_['entry_date_start'] = 'Startdatum:';
+$_['heading_title']    = 'Verkooprapport kortingsbonnen';
+

@@ -1,25 +1,25 @@
 <?php
-// Heading
-$_['heading_title']     = 'Verkooprapport';
+//
+//  Vertaling door: Yellow Melon B.V.
+//  www.nlwebwinkel.org
+//
 
-// Text
-$_['text_year']         = 'Jaren';
+//  Bijgewerkt: 01-10-2013 18:08:05
+
+$_['column_date_end']   = 'Einddatum';
+$_['column_date_start'] = 'Startdatum';
+$_['column_orders']     = 'Bestellingen';
+$_['column_products']   = 'Producten';
+$_['column_tax']        = 'Belasting';
+$_['column_total']      = 'Totaal';
+$_['entry_date_end']    = 'Einddatum:';
+$_['entry_date_start']  = 'Startdatum:';
+$_['entry_group']       = 'Groepeer:';
+$_['entry_status']      = 'Bestelstatus:';
+$_['heading_title']     = 'Verkooprapport bestellingen';
+$_['text_all_status']   = 'Alle statussen';
+$_['text_day']          = 'Dagen';
 $_['text_month']        = 'Maanden';
 $_['text_week']         = 'Weken';
-$_['text_day']          = 'Dagen';
-$_['text_all_status']   = 'Alle Statussen';
+$_['text_year']         = 'Jaren';
 
-// Kolom
-$_['column_date_start'] = 'Begindatum';
-$_['column_date_end']   = 'Einddatum';
-$_['column_orders']     = 'Aantal bestellingen';
-$_['column_products']   = 'Aantal producten';
-$_['column_tax']        = 'BTW';
-$_['column_total']      = 'Totaal';
-
-// Entry
-$_['entry_date_start']  = 'Begindatum:';
-$_['entry_date_end']    = 'Eindatum:';
-$_['entry_group']       = 'Sorteren op:';
-$_['entry_status']      = 'Status:';
-?>

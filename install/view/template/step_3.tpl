@@ -105,6 +105,23 @@
         </tr>
       </table>
     </fieldset>
+    
+    <p>4. Postcodes opzoeken</p>
+    <p>Ga naar <a href="http://www.postcode.nl" target="_blank">www.postcode.nl</a> (opent in nieuw venster) en leg een account aan 
+    voor het automatisch opzoeken van straat- en plaatsnaam bij postcodes. Je krijgt een API key en secret, vul deze hieronder in. 
+    Je mag deze stap overslaan en later bij Extensies &gt; Modules de API key en secret invullen:</p> 
+    <fieldset>
+      <table class="form">
+        <tr>
+          <td>API Key:</td>
+          <td><input type="text" name="formfix_key" value="<?php echo $formfix_key; ?>" /></td>
+        </tr>
+        <tr>
+          <td>API Secret:</td>
+          <td><input type="text" name="formfix_secret" value="<?php echo $formfix_secret; ?>" /></td>
+        </tr>
+      </table>
+    </fieldset>    
         
     <div class="buttons">
       <div class="left"><a href="<?php echo $back; ?>" class="button">Terug</a></div>

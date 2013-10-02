@@ -1,40 +1,58 @@
 <?php
-// Heading
-$_['heading_title']         = 'United States Postal Service';
+//
+//  Vertaling door: Yellow Melon B.V.
+//  www.nlwebwinkel.org
+//
 
-// Text
-$_['text_shipping']         = 'Verzending';
-$_['text_success']          = 'Gelukt: instellingen zijn gewijzigd';
+//  Bijgewerkt: 01-10-2013 18:08:05
+
+$_['entry_container']       = 'Container:';
+$_['entry_debug']      		= 'Debug Mode:<br/><span class="help">Schrijf extra informatie weg in de systeemlog</span>';
+$_['entry_dimension']       = 'Afmetingen (L x B x H):<br/><span class="help">Gemiddelde afmeting van het pakket voor verzending. Wordt op dit moment niet gebruikt bij de verzending</span>';
+$_['entry_display_time']    = 'Levertijd vermelden:<br /><span class="help">Wil je de levertijd vermelden? (bijv. verzending duurt 3 tot 5 dagen)</span>';
+$_['entry_display_weight']  = 'Gewicht vermelden:<br /><span class="help">Wil je het gewicht van het pakket vermelden? (bijv. gewicht: 2.7674 kg)</span>';
+$_['entry_domestic']        = 'Binnenland:';
+$_['entry_geo_zone']        = 'Gebied:';
+$_['entry_international']   = 'Internationaal:';
+$_['entry_machinable']      = 'Machinable:';
+$_['entry_postcode']        = 'Postcode:';
+$_['entry_size']            = 'Grootte:';
+$_['entry_sort_order']      = 'Volgorde:';
+$_['entry_status']          = 'Status:';
+$_['entry_tax']             = 'Belasting categorie:';
+$_['entry_user_id']         = 'User ID:';
+$_['entry_weight_class']    = 'Gewichtsmaten:<span class="help">Kilogram of pond</span>';
+$_['error_girth']        	= 'Omtrek verplicht';
+$_['error_height']        	= 'Hoogte verplicht';
+$_['error_length']        	= 'Lengte verplicht';
+$_['error_permission']      = 'Je hebt geen rechten deze instellingen te wijzigen';
+$_['error_postcode']        = 'Postcode verplicht';
+$_['error_user_id']         = 'User ID verplicht';
+$_['error_width']        	= 'Width verplicht';
+$_['heading_title']         = 'United States Postal Service';
 $_['text_domestic_00']      = 'First-Class Mail Parcel';
 $_['text_domestic_01']      = 'First-Class Mail Large Envelope';
 $_['text_domestic_02']      = 'First-Class Mail Letter';
 $_['text_domestic_03']      = 'First-Class Mail Postcards';
 $_['text_domestic_1']       = 'Priority Mail';
-$_['text_domestic_2']       = 'Express Mail Hold for Pickup';
-$_['text_domestic_3']       = 'Express Mail';
-$_['text_domestic_4']       = 'Parcel Post';
-$_['text_domestic_5']       = 'Bound Printed Matter';
-$_['text_domestic_6']       = 'Media Mail';
-$_['text_domestic_7']       = 'Library';
 $_['text_domestic_12']      = 'First-Class Postcard Stamped';
 $_['text_domestic_13']      = 'Express Mail Flat-Rate Envelope';
 $_['text_domestic_16']      = 'Priority Mail Flat-Rate Envelope';
 $_['text_domestic_17']      = 'Priority Mail Regular Flat-Rate Box';
 $_['text_domestic_18']      = 'Priority Mail Keys and IDs';
 $_['text_domestic_19']      = 'First-Class Keys and IDs';
+$_['text_domestic_2']       = 'Express Mail Hold for Pickup';
 $_['text_domestic_22']      = 'Priority Mail Flat-Rate Large Box';
 $_['text_domestic_23']      = 'Express Mail Sunday/Holiday';
 $_['text_domestic_25']      = 'Express Mail Flat-Rate Envelope Sunday/Holiday';
 $_['text_domestic_27']      = 'Express Mail Flat-Rate Envelope Hold For Pickup';
 $_['text_domestic_28']      = 'Priority Mail Small Flat-Rate Box';
+$_['text_domestic_3']       = 'Express Mail';
+$_['text_domestic_4']       = 'Parcel Post';
+$_['text_domestic_5']       = 'Bound Printed Matter';
+$_['text_domestic_6']       = 'Media Mail';
+$_['text_domestic_7']       = 'Library';
 $_['text_international_1']  = 'Express Mail International';
-$_['text_international_2']  = 'Priority Mail International';
-$_['text_international_4']  = 'Global Express Guaranteed (Document and Non-document)';
-$_['text_international_5']  = 'Global Express Guaranteed Document used';
-$_['text_international_6']  = 'Global Express Guaranteed Non-Document Rectangular shape';
-$_['text_international_7']  = 'Global Express Guaranteed Non-Document Non-Rectangular';
-$_['text_international_8']  = 'Priority Mail Flat Rate Envelope';
-$_['text_international_9']  = 'Priority Mail Flat Rate Box';
 $_['text_international_10'] = 'Express Mail International Flat Rate Envelope';
 $_['text_international_11'] = 'Priority Mail Flat Rate Large Box';
 $_['text_international_12'] = 'Global Express Guaranteed Envelope';
@@ -42,38 +60,19 @@ $_['text_international_13'] = 'First Class Mail International Letters';
 $_['text_international_14'] = 'First Class Mail International Flats';
 $_['text_international_15'] = 'First Class Mail International Parcels';
 $_['text_international_16'] = 'Priority Mail Flat Rate Small Box';
+$_['text_international_2']  = 'Priority Mail International';
 $_['text_international_21'] = 'Postcards';
-$_['text_regular']          = 'Normaal';
+$_['text_international_4']  = 'Global Express Guaranteed (Document and Non-document)';
+$_['text_international_5']  = 'Global Express Guaranteed Document used';
+$_['text_international_6']  = 'Global Express Guaranteed Non-Document Rectangular shape';
+$_['text_international_7']  = 'Global Express Guaranteed Non-Document Non-Rectangular';
+$_['text_international_8']  = 'Priority Mail Flat Rate Envelope';
+$_['text_international_9']  = 'Priority Mail Flat Rate Box';
 $_['text_large']            = 'Groot';
-$_['text_rectangular']      = 'Rechthoekig';
 $_['text_non_rectangular']  = 'Niet rechthoekig';
+$_['text_rectangular']      = 'Rectangular';
+$_['text_regular']          = 'Regular';
+$_['text_shipping']         = 'Verzendwijzen';
+$_['text_success']          = 'Instellingen gewijzigd';
 $_['text_variable']         = 'Variabel';
 
-// Entry
-$_['entry_user_id']         = 'User ID:';
-$_['entry_postcode']        = 'Zipcode:';
-$_['entry_domestic']        = 'Binnenlandse dienst:';
-$_['entry_international']   = 'Internationale dienst:';
-$_['entry_size']            = 'Grootte:';
-$_['entry_container']       = 'Container:';
-$_['entry_machinable']      = 'Machinaal:';
-$_['entry_dimension']		= 'Afmetingen (L x W x H):<br /><span class="help">Dit is de gemiddelde afmeting. Individuele afmetingen worden niet ondersteund, dus vermeld een gemiddelde.</span>';
-
-$_['entry_display_time']    = 'Levertijd vermelden:<br /><span class="help">Wil je de levertijd vermelden? (wordt geleverd binnen 3 tot 5 dagen)</span>';
-$_['entry_display_weight']  = 'Vermeld aflever gewicht:<br /><span class="help">Wil je het aflevergewicht vermelden? </span>';
-$_['entry_weight_class']    = 'Gewichtsklasse:<br /><span class="help">Moet in pond</span>';
-$_['entry_tax']             = 'Belastingcategorie:';
-$_['entry_geo_zone']        = 'Land/gebied:';
-$_['entry_status']          = 'Status:';
-$_['entry_sort_order']      = 'Volgorde:';
-$_['entry_debug']      		= 'Debug Mode:<br /><span class="help">Sla alle ontvangen/verzonden data op in de foutlog</span>';
-
-// Error
-$_['error_permission']      = 'Waarschuwing: je hebt geen rechten om deze gegevens aan te passen';
-$_['error_user_id']         = 'User ID is verplicht';
-$_['error_postcode']        = 'ZIP is verplicht';
-$_['error_width']        	= 'Breedte is verplicht';
-$_['error_length']        	= 'Lengte is verplicht';
-$_['error_height']        	= 'Hoogte is verplicht';
-$_['error_girth']        	= 'Omtrek is verplicht';
-?>

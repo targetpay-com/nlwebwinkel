@@ -1,12 +1,16 @@
 <?php
-// Heading
-$_['heading_title']     = 'Bedankt voor het winkelen bij %s .... ';
+//
+//  Vertaling door: Yellow Melon B.V.
+//  www.nlwebwinkel.org
+//
 
-// Text
-$_['text_title']        = 'Credit Card / Debit Card (PayPoint)';
+//  Bijgewerkt: 01-10-2013 18:08:05
+
+$_['heading_title']     = 'Bedankt voor het winkelen bij %s .... ';
+$_['text_failure']      = '... Je betaling is geannuleerd';
+$_['text_failure_wait'] = '<b><span style="color: #FF0000">Even geduld...</span></b><br>Je wordt automatisch doorgestuurd in 10 seconden, zo niet <a href="%s">klik hier</a>.';
 $_['text_response']     = 'Antwoord van PayPoint:';
-$_['text_success']      = '... je betaling was verwerkt.';
-$_['text_success_wait'] = '<b><span style="color: #FF0000">Even geduld a.u.b.</span></b> Je bestelling wordt nu verwerkt<br>Als je niet binnen 10 seconden wordt doorverwezen, <a href="%s">klik hier</a>.';
-$_['text_failure']      = '... je betaling is geannuleerd!';
-$_['text_failure_wait'] = '<b><span style="color: #FF0000">Even geduld a.u.b.</span></b><br>Als je niet binnen 10 seconden wordt doorverwezen, <a href="%s">klik hier</a>.';
-?>
+$_['text_success']      = '... je betaling is ontvangen.';
+$_['text_success_wait'] = '<b><span style="color: #FF0000">Even Geduld...</span></b> terwijl we je bestelling verwerken. <br> Als je niet automatisch wordt doorgestuurd in 10 seconden, klik dan <a href="%s">hier</a>.';
+$_['text_title']        = 'Credit Card / Debit Card (PayPoint)';
+

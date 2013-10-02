@@ -1,17 +1,17 @@
 <?php
-// Heading
-$_['heading_title']    = 'Backup/herstel';
+//
+//  Vertaling door: Yellow Melon B.V.
+//  www.nlwebwinkel.org
+//
 
-// Text
-$_['text_backup']      = 'Download backup';
-$_['text_success']     = 'Gelukt: database is ge&iuml;mporteerd!';
+//  Bijgewerkt: 01-10-2013 18:08:05
 
-// Entry
-$_['entry_restore']    = 'Backup terugzetten:';
 $_['entry_backup']     = 'Backup:';
+$_['entry_restore']    = 'Backup terugzetten:';
+$_['error_backup']     = 'Je moet minimaal 1 tabel selecteren om een backup te maken';
+$_['error_empty']      = 'Upgeload bestand is leeg';
+$_['error_permission'] = 'Je hebt geen rechten deze instellingen te wijzigen';
+$_['heading_title']    = 'Backup/Herstel';
+$_['text_backup']      = 'Download backup';
+$_['text_success']     = 'Instellingen gewijzigd';
 
-// Error
-$_['error_permission'] = 'Waarschuwing: je hebt geen rechten deze instellingen te wijzigen';
-$_['error_backup']     = 'Waarschuwing: minimaal 1 tabel selecteren om te backuppen';
-$_['error_empty']      = 'Waarschuwing: de backup die u terug wilt zetten is leeg';
-?>

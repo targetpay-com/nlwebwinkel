@@ -1,23 +1,23 @@
 <?php
-// Heading
-$_['heading_title']      = 'Australia Post';
+//
+//  Vertaling door: Yellow Melon B.V.
+//  www.nlwebwinkel.org
+//
 
-// Text
-$_['text_shipping']      = 'Verzending';
-$_['text_success']       = 'Gelukt: instellingen zijn gewijzigd';
+//  Bijgewerkt: 01-10-2013 18:08:05
 
-// Entry
+$_['entry_display_time'] = 'Levertijd vermelden:<br /><span class="help">Wil je de levertijd vermelden? (bijv. verzending duurt 3 tot 5 dagen)</span>';
+$_['entry_express']      = 'Snelservice (Express Postage):';
+$_['entry_geo_zone']     = 'Gebied:';
 $_['entry_postcode']     = 'Postcode:';
-$_['entry_express']      = 'Express postage:';
-$_['entry_standard']     = 'Standard postage:';
-$_['entry_display_time'] = 'Toon verzendtijd:<br /><span class="help">Wil je de verzendtijd opnemen? (bijv. verzending binnen 3 tot 5 dagen)</span>';
-$_['entry_weight_class'] = 'Gewichtsklasse:<span class="help">Zet op gram</span>';
-$_['entry_tax_class']    = 'Belastingcategorie:';
-$_['entry_geo_zone']     = 'Land/gebied:';
-$_['entry_status']       = 'Status:';
 $_['entry_sort_order']   = 'Volgorde:';
+$_['entry_standard']     = 'Standaard verzending:';
+$_['entry_status']       = 'Status:';
+$_['entry_tax_class']    = 'Belasting categorie:';
+$_['entry_weight_class'] = 'Gewichtsmaat:<span class="help">Zet op gram</span>';
+$_['error_permission']   = 'Je hebt geen rechten deze instellingen te wijzigen';
+$_['error_postcode']     = 'Postcode bevat 4 cijfers en 2 letters';
+$_['heading_title']      = 'Australia Post';
+$_['text_shipping']      = 'Verzendwijzen';
+$_['text_success']       = 'Instellingen gewijzigd';
 
-// Error
-$_['error_permission']   = 'Waarschuwing: je hebt geen rechten om deze gegevens aan te passen';
-$_['error_postcode']     = 'Postcode moet 4 tekens zijn';
-?>

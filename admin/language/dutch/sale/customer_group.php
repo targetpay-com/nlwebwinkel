@@ -1,29 +1,27 @@
 <?php
-// Heading
-$_['heading_title']    = 'Klantgroepen';
+//
+//  Vertaling door: Yellow Melon B.V.
+//  www.nlwebwinkel.org
+//
 
-// Text
-$_['text_success']     = 'Gelukt: instellingen gewijzigd';
+//  Bijgewerkt: 01-10-2013 18:08:05
 
-// Kolom
-$_['column_name']       = 'Naam';
-$_['column_sort_order'] = 'Volgorde';
-$_['column_action']     = 'Actie';
-
-// Entry
-$_['entry_name']                = 'Naam:';
+$_['column_action']             = 'Actie';
+$_['column_name']               = 'Naam';
+$_['column_sort_order']         = 'Volgorde';
+$_['entry_approval']            = 'Nieuwe klanten goedkeuren:<br /><span class="help">Nieuwe klanten moeten eerst door een beheerder goedgekeurd worden</span>';
+$_['entry_company_id_display']  = 'KvK nummer:<br /><span class="help">Vraag om een KvK nummer (of vergelijkbaar)</span>';
+$_['entry_company_id_required'] = 'KvK verplicht:<br /><span class="help">Moet een KvK nummer ingevuld zijn om af te mogen rekenen?</span>';
 $_['entry_description']         = 'Omschrijving:';
-$_['entry_approval']            = 'Bevestig nieuwe klanten:<br /><span class="help">Nieuwe klanten kunnen pas inloggen nadat ze zijn goedgekeurd.</span>';
-$_['entry_company_id_display']  = 'KvK nummer weergeven:<br /><span class="help">KvK nr. veld zichtbaar</span>';
-$_['entry_company_id_required'] = 'KvK nummer verplicht voor:<br /><span class="help">Geef aan welke klantgroep(en) een KvK nummer dienen in te vullen bij het afrekenen</span>';
-$_['entry_tax_id_display']      = 'BTW nummer weergeven:<br /><span class="help">BTW nr. veld zichtbaar</span>';
-$_['entry_tax_id_required']     = 'BTW nummer verplicht voor:<br /><span class="help">Geef aan welke klantgroep(en) een BTW nummer dienen in te vullen bij het afrekenen</span>';
+$_['entry_name']                = 'Naam klantgroep:';
 $_['entry_sort_order']          = 'Volgorde:';
+$_['entry_tax_id_display']      = 'Toon BTW nummer:<br /><span class="help">Laat een BTW nummer invullen bij het factuuradres</span>';
+$_['entry_tax_id_required']     = 'BTW nummer verplicht:<br /><span class="help">Welke klantgroep moet een BTW nummer invullen?</span>';
+$_['error_customer']            = 'Kan klant niet verwijderen';
+$_['error_default']             = 'Kan klant groep niet verwijderen';
+$_['error_name']                = 'Klant groep moet minimaal 3 karakters bevatten';
+$_['error_permission']          = 'Je hebt geen rechten deze instellingen te wijzigen';
+$_['error_store']               = 'Kan klanten groep niet verwijderen als deze gekoppeld is aan %s producten';
+$_['heading_title']             = 'Klantgroepen';
+$_['text_success']              = 'Instellingen gewijzigd';
 
-// Error
-$_['error_permission'] = 'Waarschuwing: je hebt geen rechten deze instellingen te wijzigen!';
-$_['error_name']       = 'Waarschuwing: naam klantgroep dient tussen de 3 en 64 tekens lang te zijn!';
-$_['error_default']    = 'Waarschuwing: deze klantgroep kan niet worden verwijderd, omdat deze momenteel is ingesteld als de standaard klanten-groep!';
-$_['error_store']      = 'Waarschuwing: deze klantgroep kan niet worden verwijderd, omdat deze momenteel is toegekend aan % winkel(s)!';
-$_['error_customer']   = 'Waarschuwing: deze klantgroep kan niet worden verwijderd, omdat deze momenteel is toegekend aan %s klant(en)!';
-?>

@@ -1,15 +1,19 @@
 <?php
-// Heading 
-$_['heading_title']        = 'Mijn Affiliate Account';
+//
+//  Vertaling door: Yellow Melon B.V.
+//  www.nlwebwinkel.org
+//
 
-// Text
+//  Bijgewerkt: 01-10-2013 18:08:05
+
+$_['heading_title']        = 'Mijn affiliate Account';
 $_['text_account']         = 'Account';
-$_['text_my_account']      = 'Affiliate Account';
-$_['text_my_tracking']     = 'Tracking Informatie';
-$_['text_my_transactions'] = 'Transacties';
-$_['text_edit']            = 'Gegevens wijzigen';
+$_['text_edit']            = 'Account gegevens aanpassen';
+$_['text_my_account']      = 'Mijn affiliate account';
+$_['text_my_tracking']     = 'Mijn tracking informatie';
+$_['text_my_transactions'] = 'Mijn transacties';
 $_['text_password']        = 'Wachtwoord wijzigen';
-$_['text_payment']         = 'Betaalgegevens wijzigen';
-$_['text_tracking']        = 'Affiliate Tracking Code';
-$_['text_transaction']     = 'Transactie geschiedenis';
-?>
+$_['text_payment']         = 'Pas betaalvoorkeuren aan';
+$_['text_tracking']        = 'Gebruik Affiliate Tracking Code';
+$_['text_transaction']     = 'Bekijk transactie-geschiedenis';
+

@@ -64,6 +64,7 @@ $_['entry_tax_id']                   = 'Tax ID:';
 $_['entry_address_1']                = 'Address 1:';
 $_['entry_address_2']                = 'Address 2:';
 $_['entry_postcode']                 = 'Post Code:';
+$_['entry_housenumber']    			 = 'Housenumber + optional extension:';
 $_['entry_city']                     = 'City:';
 $_['entry_country']                  = 'Country:';
 $_['entry_zone']                     = 'Region / State:';
@@ -95,6 +96,7 @@ $_['error_shipping']                 = 'Warning: Shipping method required!';
 $_['error_no_shipping']              = 'Warning: No Shipping options are available. Please <a href="%s">contact us</a> for assistance!';
 $_['error_payment']                  = 'Warning: Payment method required!';
 $_['error_no_payment']               = 'Warning: No Payment options are available. Please <a href="%s">contact us</a> for assistance!';
+$_['error_housenumber']    			 = 'Enter housenumber and optional extension (example: 52 or 550a)';
 
 $_['text_trial']                    = '%s every %s %s for %s payments then ';
 $_['text_recurring']                = '%s every %s %s';

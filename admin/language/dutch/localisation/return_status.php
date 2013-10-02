@@ -1,20 +1,18 @@
 <?php
-// Heading
-$_['heading_title']    = 'Retour status';
+//
+//  Vertaling door: Yellow Melon B.V.
+//  www.nlwebwinkel.org
+//
 
-// Text
-$_['text_success']     = 'Gelukt: instellingen gewijzigd';
+//  Bijgewerkt: 01-10-2013 18:08:05
 
-// Kolom
-$_['column_name']      = 'Naam';
 $_['column_action']    = 'Actie';
+$_['column_name']      = 'Name';
+$_['entry_name']       = 'Retour status naam:';
+$_['error_default']    = 'Kan retour status niet verwijderen';
+$_['error_name']       = 'Retour status moet minimaal 3 karakters bevatten';
+$_['error_permission'] = 'Je hebt geen rechten deze instellingen te wijzigen';
+$_['error_return']     = 'Deze retour status kan niet worden verwijderd want deze is gekoppeld aan %s retourzending(en)';
+$_['heading_title']    = 'Retourstatussen';
+$_['text_success']     = 'Instellingen gewijzigd';
 
-// Entry
-$_['entry_name']       = 'Naam:';
-
-// Error
-$_['error_permission'] = 'Waarschuwing: je hebt geen rechten deze instellingen te wijzigen!';
-$_['error_name']       = 'Waarschuwing: naam dient tussen de 3 en 32 tekens lang te zijn!';
-$_['error_default']    = 'Waarschuwing: deze retour status kan niet worden verwijderd want het is de standaard status van de winkel!';
-$_['error_return']     = 'Waarschuwing: deze retour status kan niet worden verwijderd want het is gekoppeld aan %s retourzending(en)!';
-?>

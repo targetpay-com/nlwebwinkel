@@ -1,9 +1,13 @@
 <?php
-// Heading 
-$_['heading_title'] = 'Account uitloggen';
+//
+//  Vertaling door: Yellow Melon B.V.
+//  www.nlwebwinkel.org
+//
 
-// Text
-$_['text_message']  = '<p>Je bent uitgelogd.</p><p>De inhoud van het winkelwagentje is weer beschikbaar als je opnieuw inlogt.</p>';
+//  Bijgewerkt: 01-10-2013 18:08:05
+
+$_['heading_title'] = 'Uitloggen';
 $_['text_account']  = 'Account';
 $_['text_logout']   = 'Uitloggen';
-?>
+$_['text_message']  = '<p>Je bent uitgelogd</p>';
+

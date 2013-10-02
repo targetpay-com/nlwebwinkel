@@ -1,19 +1,17 @@
 <?php
-// Heading
-$_['heading_title']    = 'Voorraadstatussen';
+//
+//  Vertaling door: Yellow Melon B.V.
+//  www.nlwebwinkel.org
+//
 
-// Text
-$_['text_success']     = 'Gelukt: instellingen gewijzigd';
+//  Bijgewerkt: 01-10-2013 18:08:05
 
-// Kolom
-$_['column_name']      = 'Voorraadstatus';
 $_['column_action']    = 'Actie';
+$_['column_name']      = 'Name';
+$_['entry_name']       = 'Voorraad status naam:';
+$_['error_name']       = 'Voorraad status moet minimaal 3 karakters bevatten';
+$_['error_permission'] = 'Je hebt geen rechten deze instellingen te wijzigen';
+$_['error_product']    = 'Kan voorraadstatus niet verwijderen als deze gekoppeld is aan %s producten';
+$_['heading_title']    = 'Voorraadstatussen';
+$_['text_success']     = 'Instellingen gewijzigd';
 
-// Entry
-$_['entry_name']       = 'Voorraadstatus:';
-
-// Error
-$_['error_permission'] = 'Waarschuwing: je hebt geen rechten deze instellingen te wijzigen!';
-$_['error_name']       = 'Waarschuwing: naam voorraadstatus dient tussen de 3 en 32 tekens lang te zijn!';
-$_['error_product']    = 'Waarschuwing: deze voorraadstatus kan niet worden verwijderd omdat deze is gekoppeld aan %s product(en)!';
-?>

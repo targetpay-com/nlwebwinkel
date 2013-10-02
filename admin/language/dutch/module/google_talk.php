@@ -1,23 +1,23 @@
 <?php
-// Heading
-$_['heading_title']    = 'Google Talk';
+//
+//  Vertaling door: Yellow Melon B.V.
+//  www.nlwebwinkel.org
+//
 
-// Text
+//  Bijgewerkt: 01-10-2013 18:08:05
+
+$_['entry_code']          = 'Google Talk Code:<br /><span class="help">Leg aan op <a href="http://www.google.com/talk/service/badge/New" target="_blank"><u>Google Talk</u></a> en plak de gegenereerde code hieronder</span>';
+$_['entry_layout']        = 'Layout:';
+$_['entry_position']      = 'Plaats:';
+$_['entry_sort_order']    = 'Volgorde:';
+$_['entry_status']        = 'Status:';
+$_['error_code']          = 'Code verplicht';
+$_['error_permission']    = 'Je hebt geen rechten deze instellingen te wijzigen';
+$_['heading_title']       = 'Google Talk';
+$_['text_column_left']    = 'Kolom Links';
+$_['text_column_right']   = 'Kolom Rechts';
+$_['text_content_bottom'] = 'Onderaan';
+$_['text_content_top']    = 'Bovenaan';
 $_['text_module']         = 'Modules';
-$_['text_success']        = 'Gelukt: instellingen gewijzigd';
-$_['text_content_top']    = 'Content bovenaan';
-$_['text_content_bottom'] = 'Content onderaan';
-$_['text_column_left']    = 'Linker kolom';
-$_['text_column_right']   = 'Rechter kolom';
+$_['text_success']        = 'Instellingen gewijzigd';
 
-// Entry
-$_['entry_code']       = 'Code:<br /><span class="help">Ga naar <a onclick="window.open(\'http://www.google.com/talk/service/badge/New\');"><u>Create a Google Talk chatback badge</u></a> en kopieer en plak hier de code.</span>';
-$_['entry_layout']     = 'Layout:';
-$_['entry_position']   = 'Positie:';
-$_['entry_status']     = 'Status:';
-$_['entry_sort_order'] = 'Volgorde:';
-
-// Error
-$_['error_permission'] = 'Waarschuwing: je hebt geen rechten deze instellingen te wijzigen!';
-$_['error_code']       = 'Waarschuwing: Code verplicht!';
-?>

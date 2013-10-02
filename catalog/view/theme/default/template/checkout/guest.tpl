@@ -1,28 +1,5 @@
 <div class="left">
   <h2><?php echo $text_your_details; ?></h2>
-  <span class="required">*</span> <?php echo $entry_firstname; ?><br />
-  <input type="text" name="firstname" value="<?php echo $firstname; ?>" class="large-field" />
-  <br />
-  <br />
-  <span class="required">*</span> <?php echo $entry_lastname; ?><br />
-  <input type="text" name="lastname" value="<?php echo $lastname; ?>" class="large-field" />
-  <br />
-  <br />
-  <span class="required">*</span> <?php echo $entry_email; ?><br />
-  <input type="text" name="email" value="<?php echo $email; ?>" class="large-field" />
-  <br />
-  <br />
-  <span class="required">*</span> <?php echo $entry_telephone; ?><br />
-  <input type="text" name="telephone" value="<?php echo $telephone; ?>" class="large-field" />
-  <br />
-  <br />
-  <?php echo $entry_fax; ?><br />
-  <input type="text" name="fax" value="<?php echo $fax; ?>" class="large-field" />
-  <br />
-  <br />
-</div>
-<div class="right">
-  <h2><?php echo $text_your_address; ?></h2>
   <?php echo $entry_company; ?><br />
   <input type="text" name="company" value="<?php echo $company; ?>" class="large-field" />
   <br />
@@ -41,32 +18,30 @@
     <?php } ?>
     <br />
   </div>
-  <div id="company-id-display"><span id="company-id-required" class="required">*</span> <?php echo $entry_company_id; ?><br />
-    <input type="text" name="company_id" value="<?php echo $company_id; ?>" class="large-field" />
-    <br />
-    <br />
-  </div>
-  <div id="tax-id-display"><span id="tax-id-required" class="required">*</span> <?php echo $entry_tax_id; ?><br />
-    <input type="text" name="tax_id" value="<?php echo $tax_id; ?>" class="large-field" />
-    <br />
-    <br />
-  </div>
-  <span class="required">*</span> <?php echo $entry_address_1; ?><br />
-  <input type="text" name="address_1" value="<?php echo $address_1; ?>" class="large-field" />
+
+  <span class="required">*</span> <?php echo $entry_firstname; ?><br />
+  <input type="text" name="firstname" value="<?php echo $firstname; ?>" class="large-field" />
   <br />
   <br />
-  <?php echo $entry_address_2; ?><br />
-  <input type="text" name="address_2" value="<?php echo $address_2; ?>" class="large-field" />
+  <span class="required">*</span> <?php echo $entry_lastname; ?><br />
+  <input type="text" name="lastname" value="<?php echo $lastname; ?>" class="large-field" />
   <br />
   <br />
-  <span class="required">*</span> <?php echo $entry_city; ?><br />
-  <input type="text" name="city" value="<?php echo $city; ?>" class="large-field" />
+  <span class="required">*</span> <?php echo $entry_email; ?><br />
+  <input type="text" name="email" value="<?php echo $email; ?>" class="large-field" />
   <br />
   <br />
-  <span id="payment-postcode-required" class="required">*</span> <?php echo $entry_postcode; ?><br />
-  <input type="text" name="postcode" value="<?php echo $postcode; ?>" class="large-field" />
+  <span class="required">*</span> <?php echo $entry_telephone; ?><br />
+  <input type="text" name="telephone" value="<?php echo $telephone; ?>" class="large-field" />
   <br />
   <br />
+  <!-- FormFix -->
+  <input type="hidden" name="fax" value="<?php echo $fax; ?>">
+  <!-- /FormFix -->
+</div>
+<div class="right">
+  <h2><?php echo $text_your_address; ?></h2>
+
   <span class="required">*</span> <?php echo $entry_country; ?><br />
   <select name="country_id" class="large-field">
     <option value=""><?php echo $text_select; ?></option>
@@ -80,11 +55,52 @@
   </select>
   <br />
   <br />
+
+  <span id="payment-postcode-required" class="required">*</span> <?php echo $entry_postcode; ?><br />
+  <input type="text" name="postcode" value="<?php echo $postcode; ?>" class="large-field" />
+  <br />
+  <br />
+
+  <div class="payment-housenumber" style="display: none">
+  <span class="required">*</span> Huisnummer:<br />
+  <input type="text" name="housenumber" value="" class="large-field" />
+  <br />
+  <br />
+  </div>
+
+  <span class="required">*</span> <?php echo $entry_address_1; ?><br />
+  <input type="text" name="address_1" value="<?php echo $address_1; ?>" class="large-field" disabled />
+  <br />
+  <br />
+
+  <!-- FormFix -->
+  <input type="hidden" name="address_2" value="<?php echo $address_2; ?>">
+  <!-- /FormFix -->
+
+  <span class="required">*</span> <?php echo $entry_city; ?><br />
+  <input type="text" name="city" value="<?php echo $city; ?>" class="large-field" disabled />
+  <br />
+  <br />
+
   <span class="required">*</span> <?php echo $entry_zone; ?><br />
-  <select name="zone_id" class="large-field">
+  <select name="zone_id" class="large-field" disabled>
   </select>
   <br />
   <br />
+  
+  <div id="company-id-display"><span id="company-id-required" class="required">*</span> <?php echo $entry_company_id; ?><br />
+    <input type="text" name="company_id" value="<?php echo $company_id; ?>" class="large-field" />
+    <br />
+    <br />
+  </div>  
+  
+  <div id="tax-id-display"><span id="tax-id-required" class="required">*</span> <?php echo $entry_tax_id; ?><br />
+    <input type="text" name="tax_id" value="<?php echo $tax_id; ?>" class="large-field" />
+    <br />
+    <br />
+  </div>
+
+
   <br />
 </div>
 <?php if ($shipping_required) { ?>
@@ -147,8 +163,58 @@ $('#payment-address input[name=\'customer_group_id\']:checked').live('change', f
 $('#payment-address input[name=\'customer_group_id\']:checked').trigger('change');
 //--></script> 
 <script type="text/javascript"><!--
+
+/* FormFix */
+
+function get_address(waitmode) {
+	var postcode = $('input[name=\'postcode\']').val();
+	var nr = $('input[name=\'housenumber\']').val();
+	if (postcode.length < 4) {
+		}else{
+		if (nr.length < 1) {
+			}else{
+			jQuery.ajax({
+				type: "POST",
+				url: "index.php?route=module/formfix/lookup",
+				data: 'postcode='+postcode+'&nr='+nr,
+				cache: false,
+	            async: waitmode,
+				success: function(response){
+						var result = $.parseJSON(response);
+						$('input[name=\'address_1\']').val(result.street);
+						$('input[name=\'city\']').val(result.city);
+						$('select[name=\'zone_id\']').val(result.province);
+					}
+		   		});
+			}
+		}
+    }
+$('input[name=\'housenumber\']').bind('change', function() { get_address(true); });
+$('input[name=\'postcode\']').bind('change', function() { get_address(true); });
+$('input[type=\'submit\']').click(function() { get_address(false); });
+
+
+/* FormFix */
+
 $('#payment-address select[name=\'country_id\']').bind('change', function() {
 	if (this.value == '') return;
+
+    /* FormFix */
+
+    if (this.value==150) {
+        $('.payment-housenumber').show();
+        $('input[name=\'address_1\']').attr('disabled', 'disabled');
+        $('input[name=\'city\']').attr('disabled', 'disabled');
+        $('select[name=\'zone_id\']').attr('disabled', 'disabled');
+        } else {
+        $('.payment-housenumber').hide();
+        $('input[name=\'address_1\']').removeAttr('disabled');
+        $('input[name=\'city\']').removeAttr('disabled');
+        $('select[name=\'zone_id\']').removeAttr('disabled');
+        }
+
+    /* /FormFix */
+
 	$.ajax({
 		url: 'index.php?route=checkout/checkout/country&country_id=' + this.value,
 		dataType: 'json',
@@ -161,10 +227,10 @@ $('#payment-address select[name=\'country_id\']').bind('change', function() {
 		success: function(json) {
 			if (json['postcode_required'] == '1') {
 				$('#payment-postcode-required').show();
-			} else {
+				} else {
 				$('#payment-postcode-required').hide();
 			}
-			
+
 			html = '<option value=""><?php echo $text_select; ?></option>';
 			
 			if (json['zone'] != '') {

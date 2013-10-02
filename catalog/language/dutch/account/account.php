@@ -1,22 +1,24 @@
 <?php
-// Heading 
-$_['heading_title']      = 'Mijn account';
+//
+//  Vertaling door: Yellow Melon B.V.
+//  www.nlwebwinkel.org
+//
 
-// Text
+//  Bijgewerkt: 01-10-2013 18:08:05
+
+$_['heading_title']      = 'Mijn account';
 $_['text_account']       = 'Account';
-$_['text_my_account']    = 'Persoonlijke gegevens';
-$_['text_my_orders']     = 'Mijn bestellingen';
+$_['text_address']       = 'Adres wijzigen';
+$_['text_download']      = 'Downloads';
+$_['text_edit']          = 'Account gegevens aanpassen';
+$_['text_my_account']    = 'Mijn account';
 $_['text_my_newsletter'] = 'Nieuwsbrief';
-$_['text_edit']  		 = 'Gegevens wijzigen';
+$_['text_my_orders']     = 'Mijn bestellingen';
+$_['text_newsletter']    = 'In- en uitschrijven van de nieuwsbrief';
+$_['text_order']         = 'Bekijk bestelgeschiedenis';
 $_['text_password']      = 'Wachtwoord wijzigen';
-$_['text_address']       = 'Adressen wijzigen';
-$_['text_wishlist']      = 'Verlanglijst aanpassen';
-$_['text_order']         = 'Mijn bestellingen';
-$_['text_download']      = 'Mijn downloads';
-$_['text_reward']        = 'Mijn spaarpunten'; 
-$_['text_return']        = 'Mijn retouraanvragen'; 
-$_['text_transaction']   = 'Mijn transacties'; 
-$_['text_newsletter']    = 'Aan/afmelden nieuwsbrief';
-$_['text_recurring']       = 'Abonnementen';
-$_['text_transactions']    = 'Transacties';
-?>
+$_['text_return']        = 'Bekijk je retouraanvragen';
+$_['text_reward']        = 'Jouw Spaarpunten';
+$_['text_transaction']   = 'Jouw transacties';
+$_['text_wishlist']      = 'Wijzig verlanglijstje';
+

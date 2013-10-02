@@ -1,7 +1,11 @@
 <?php
-// Heading 
-$_['heading_title'] = 'Aanbevolen';
+//
+//  Vertaling door: Yellow Melon B.V.
+//  www.nlwebwinkel.org
+//
 
-// Text
-$_['text_reviews']  = 'Gebaseerd op %s beoordeling(en).';
-?>
+//  Bijgewerkt: 01-10-2013 18:08:05
+
+$_['heading_title'] = 'Aanbevolen';
+$_['text_reviews']  = 'Gebaseerd op %s beoordelingen.';
+

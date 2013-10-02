@@ -4,7 +4,7 @@ $_['heading_title']      = 'iDEAL';
 
 // Text
 $_['text_payment']       = 'Betaling';
-$_['text_success']       = 'Uw gegevens zijn bijgewerkt!';
+$_['text_success']       = 'Je gegevens zijn bijgewerkt!';
 $_['text_ideal']		 = '<a href="https://www.targetpay.com/signup?p_actiecode=YM3R2A" target="_blank"><img src="view/image/payment/ideal.png" alt="iDEAL via TargetPay" title="iDEAL via TargetPay" style="border: none;" /></a>';
 $_['text_sale']          = 'Verkoop';
 

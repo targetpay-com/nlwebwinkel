@@ -1,15 +1,15 @@
 <?php
-// Heading
-$_['heading_title']    = 'Google Base';
+//
+//  Vertaling door: Yellow Melon B.V.
+//  www.nlwebwinkel.org
+//
 
-// Text   
-$_['text_feed']        = 'Product feed';
-$_['text_success']     = 'Gelukt: Google Base is bijgewerkt!';
+//  Bijgewerkt: 01-10-2013 18:08:05
 
-// Entry
+$_['entry_data_feed']  = 'Data Feed Url:';
 $_['entry_status']     = 'Status:';
-$_['entry_data_feed']  = 'Data feed url:';
+$_['error_permission'] = 'Je hebt geen rechten deze instellingen te wijzigen';
+$_['heading_title']    = 'Google base';
+$_['text_feed']        = 'Productfeed';
+$_['text_success']     = 'Instellingen gewijzigd';
 
-// Error
-$_['error_permission'] = 'Waarschuwing: je bent niet gemachtigd om de Google Base feed aan te passen!';
-?>
