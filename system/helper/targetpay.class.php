@@ -4,12 +4,13 @@
  * @file	 Provides support for TargetPay iDEAL, Mister Cash and Sofort Banking
  * @author	 Yellow Melon B.V.
  * @url		 http://www.idealplugins.nl
- * @release	 27-06-2013
- * @ver		 2.1
+ * @release	 03-10-2013
+ * @ver		 2.2
  *
  * Changes:
  *
- * v2.1 	Cancel url added 
+ * v2.1 	Cancel url added
+ * v2.2     Verify Peer disabled, too many problems with this
  */
 
 /**
@@ -294,6 +295,7 @@ class TargetPayCore
 		curl_setopt($ch, CURLOPT_HEADER, 0);
 		curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 		curl_setopt($ch, CURLOPT_TIMEOUT, 10);
+        curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
         if ($method=="POST") {
 			curl_setopt($ch, CURLOPT_POST, 1);
             }

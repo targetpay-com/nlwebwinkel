@@ -399,7 +399,7 @@ INSERT INTO `oc_category_description` (`category_id`, `language_id`, `name`, `de
 (26, 1, 'PC', '', '', ''),
 (17, 1, 'Software', '', '', ''),
 (25, 1, 'Components', '', '', ''),
-(24, 1, 'Phones &amp; PDAs', '', '', ''),
+(24, 1, 'Phones &amp; PDA\'s', '', '', ''),
 (20, 1, 'Desktops', '&lt;p&gt;\r\n	Example of category description text&lt;/p&gt;\r\n', 'Example of category description', ''),
 (35, 1, 'test 1', '', '', ''),
 (36, 1, 'test 2', '', '', ''),
@@ -7497,25 +7497,100 @@ UPDATE `oc_setting` SET `value` = '2338' WHERE `key` = 'config_zone_id';
 
 INSERT IGNORE INTO `oc_language` (`language_id`, `name`, `code`, `locale`, `image`, `directory`, `filename`, `sort_order`, `status`) VALUES (2, 'Nederlands', 'nl', 'nl_NL', 'nl.png', 'dutch', 'dutch', 0, 1);
 
--- 		Omnummeren naar Nederlands
+--
+--      Toevoegen Nederlandse taal in tabellen
+--
 
-UPDATE `oc_attribute_description` SET `language_id`='2';
-UPDATE `oc_attribute_group_description` SET `language_id`='2';
-UPDATE `oc_banner_image_description` SET `language_id`='2';
-UPDATE `oc_category_description` SET `language_id`='2';
-UPDATE `oc_customer_group_description` SET `language_id`='2';
-UPDATE `oc_custom_field_description` SET `language_id`='2';
-UPDATE `oc_custom_field_value_description` SET `language_id`='2';
-UPDATE `oc_download_description` SET `language_id`='2';
-UPDATE `oc_filter_group_description` SET `language_id`='2';
-UPDATE `oc_filter_description` SET `language_id`='2';
-UPDATE `oc_length_class_description` SET `language_id`='2';
-UPDATE `oc_order` SET `language_id`='2';
-UPDATE `oc_product_attribute` SET `language_id`='2';
-UPDATE `oc_product_description` SET `language_id`='2';
-UPDATE `oc_weight_class_description` SET `language_id`='2';
+INSERT IGNORE INTO `oc_attribute_description` (`attribute_id`, `language_id`, `name`) VALUES
+    (1, 2, 'Omschrijving'),
+    (2, 2, 'Aantal processorkernen'),
+    (4, 2, 'Intern geheugen'),
+    (5, 2, 'Test 2'),
+    (6, 2, 'Test 3'),
+    (7, 2, 'Test 4'),
+    (8, 2, 'Test 5'),
+    (9, 2, 'Test 6'),
+    (10, 2, 'Test 7'),
+    (11, 2, 'Test 8'),
+    (3, 2, 'Kloksnelheid');
 
--- 		Echt toevoegen (mag in vorige lijst niet voorkomen)
+INSERT IGNORE INTO `oc_attribute_group_description` (`attribute_group_id`, `language_id`, `name`) VALUES
+    (3, 2, 'Geheugen'),
+    (4, 2, 'Technisch'),
+    (5, 2, 'Moederbord'),
+    (6, 2, 'Processor');
+
+INSERT INTO `oc_banner_image_description` (`banner_image_id`, `language_id`, `banner_id`, `title`) VALUES
+    (54, 2, 7, 'Samsung Tab 10.1'),
+    (77, 2, 6, 'HP Banner'),
+    (75, 2, 8, 'HTC'),
+    (74, 2, 8, 'Canon'),
+    (73, 2, 8, 'Apple'),
+    (72, 2, 8, 'Palm'),
+    (71, 2, 8, 'Sony'),
+    (76, 2, 8, 'Hewlett-Packard');
+
+INSERT IGNORE INTO `oc_customer_group_description` (`customer_group_id`, `language_id`, `name`, `description`) VALUES
+    (1, 2, 'Standaardwaarde', 'Test');
+
+INSERT IGNORE INTO `oc_category_description` (`category_id`, `language_id`, `name`, `description`, `meta_description`, `meta_keyword`) VALUES
+    (28, 2, 'Monitoren', '', '', ''),
+    (33, 2, 'Camera\'s', '', '', ''),
+    (32, 2, 'Webcams', '', '', ''),
+    (31, 2, 'Scanners', '', '', ''),
+    (30, 2, 'Printers', '', '', ''),
+    (29, 2, 'Muizen en trackballs', '', '', ''),
+    (27, 2, 'Mac', '', '', ''),
+    (26, 2, 'PC', '', '', ''),
+    (17, 2, 'Software', '', '', ''),
+    (25, 2, 'Componenten', '', '', ''),
+    (24, 2, 'Telefoons &amp; PDAs', '', '', ''),
+    (20, 2, 'Desktop PC\'s', '&lt;p&gt;\r\n	Voorbeeld van een categorie omschrijving&lt;/p&gt;\r\n', 'Voorbeeld categorie omschrijving', ''),
+    (34, 2, 'MP3 spelers', '', '', ''),
+    (18, 2, 'Laptops &amp; notebooks', '', '', ''),
+    (45, 2, 'Windows', '', '', ''),
+    (46, 2, 'Macs', '', '', ''),
+    (57, 2, 'Tablets', '', '', '');
+
+INSERT IGNORE INTO `oc_information_description` (`information_id`, `language_id`, `title`, `description`) VALUES
+    (4, 2, 'Over ons...', '&lt;p&gt;\r\n	Over ons...&lt;/p&gt;\r\n'),
+    (5, 2, 'Algemene Voorwaarden', '&lt;p&gt;\r\n	Algemene Voorwaarden&lt;/p&gt;\r\n'),
+    (3, 2, 'Privacy Policy', '&lt;p&gt;\r\n	Privacy Policy&lt;/p&gt;\r\n'),
+    (6, 2, 'Bezorginformatie', '&lt;p&gt;\r\n	Bezorginformatie&lt;/p&gt;\r\n');
+
+INSERT IGNORE INTO `oc_length_class_description` (`length_class_id`, `language_id`, `title`, `unit`) VALUES
+    (21, 2, 'Centimeter', 'cm'),
+    (22, 2, 'Millimeter', 'mm'),
+    (23, 2, 'Inch', 'in');
+
+INSERT IGNORE INTO `oc_option_description` (`option_id`, `language_id`, `name`) VALUES
+    (1, 2, 'Radio'),
+    (2, 2, 'Vinkje'),
+    (4, 2, 'Tekst'),
+    (6, 2, 'Tekstbox'),
+    (8, 2, 'Datum'),
+    (7, 2, 'Bestand'),
+    (5, 2, 'Selectie'),
+    (9, 2, 'Tijd'),
+    (10, 2, 'Datum &amp; Tijd'),
+    (12, 2, 'Bezorgdatum'),
+    (11, 2, 'Grootte');
+
+INSERT IGNORE INTO `oc_option_value_description` (`option_value_id`, `language_id`, `option_id`, `name`) VALUES
+    (43, 2, 1, 'Groot'),
+    (32, 2, 1, 'Klein'),
+    (45, 2, 2, 'Checkbox 4'),
+    (44, 2, 2, 'Checkbox 3'),
+    (31, 2, 1, 'Medium'),
+    (42, 2, 5, 'Geel'),
+    (41, 2, 5, 'Groen'),
+    (39, 2, 5, 'Rood'),
+    (40, 2, 5, 'Blauw'),
+    (23, 2, 2, 'Checkbox 1'),
+    (24, 2, 2, 'Checkbox 2'),
+    (48, 2, 11, 'Groot'),
+    (47, 2, 11, 'Medium'),
+    (46, 2, 11, 'Klein');
 
 INSERT IGNORE INTO `oc_order_status` (`order_status_id`, `language_id`, `name`) VALUES
 	(1, 2, 'In behandeling (Pending)'),
@@ -7533,69 +7608,86 @@ INSERT IGNORE INTO `oc_order_status` (`order_status_id`, `language_id`, `name`) 
 	(15, 2, 'Verwerkt (Processed)'),
 	(14, 2, 'Verlopen (Expired)');
 
-INSERT IGNORE INTO `oc_information_description` (`information_id`, `language_id`, `title`, `description`) VALUES
-(4, 2, 'Over ons...', '&lt;p&gt;\r\n	Over ons...&lt;/p&gt;\r\n'),
-(5, 2, 'Algemene Voorwaarden', '&lt;p&gt;\r\n	Algemene Voorwaarden&lt;/p&gt;\r\n'),
-(3, 2, 'Privacy Policy', '&lt;p&gt;\r\n	Privacy Policy&lt;/p&gt;\r\n'),
-(6, 2, 'Bezorginformatie', '&lt;p&gt;\r\n	Bezorginformatie&lt;/p&gt;\r\n');
+INSERT IGNORE INTO `oc_product_attribute` (`product_id`, `attribute_id`, `language_id`, `text`) VALUES
+    (43, 2, 2, '1'),
+    (47, 4, 2, '16GB'),
+    (43, 4, 2, '8gb'),
+    (42, 3, 2, '100mhz'),
+    (47, 2, 2, '4');
 
 
-INSERT IGNORE INTO `oc_option_description` (`option_id`, `language_id`, `name`) VALUES
-(1, 2, 'Radio'),
-(2, 2, 'Vinkje'),
-(4, 2, 'Tekst'),
-(6, 2, 'Tekstbox'),
-(8, 2, 'Datum'),
-(7, 2, 'Bestand'),
-(5, 2, 'Selectie'),
-(9, 2, 'Tijd'),
-(10, 2, 'Datum &amp; Tijd'),
-(12, 2, 'Bezorgdatum'),
-(11, 2, 'Grootte');
-
-INSERT IGNORE INTO `oc_option_value_description` (`option_value_id`, `language_id`, `option_id`, `name`) VALUES
-(43, 2, 1, 'Groot'),
-(32, 2, 1, 'Klein'),
-(45, 2, 2, 'Checkbox 4'),
-(44, 2, 2, 'Checkbox 3'),
-(31, 2, 1, 'Medium'),
-(42, 2, 5, 'Geel'),
-(41, 2, 5, 'Groen'),
-(39, 2, 5, 'Rood'),
-(40, 2, 5, 'Blauw'),
-(23, 2, 2, 'Checkbox 1'),
-(24, 2, 2, 'Checkbox 2'),
-(48, 2, 11, 'Groot'),
-(47, 2, 11, 'Medium'),
-(46, 2, 11, 'Klein');
+INSERT IGNORE INTO `oc_product_description` (`product_id`, `language_id`, `name`, `description`, `meta_description`, `meta_keyword`) VALUES
+    (35, 2, 'Product 8', '&lt;p&gt;\r\n	Product 8&lt;/p&gt;\r\n', '', ''),
+    (48, 2, 'iPod Classic', '&lt;div class=&quot;cpt_product_description &quot;&gt;\r\n	&lt;div&gt;\r\n		&lt;p&gt;\r\n			&lt;strong&gt;Meer speelruimte&lt;/strong&gt;&lt;/p&gt;\r\n		&lt;p&gt;\r\n			Met 80GB of 160GB opslagruimte en tot wel 40 uur batterijduur laat de nieuwe iPod classic je genieten tot wel 40.000 muzieknummers of 200 uur video.&lt;/p&gt;\r\n	 &lt;/div&gt;\r\n&lt;/div&gt;\r\n&lt;!-- cpt_container_end --&gt;', '', ''),
+    (40, 2, 'iPhone', '&lt;p class=&quot;intro&quot;&gt;\r\n	De iPhone is een revolutionaire nieuwe telefoon die het mogelijk maakt om iemand te bellen door simpelweg op de naam of foto te drukken. De iPhone synchroniseert ook alle contactpersonen met een PC of Mac. Het beluisteren van een voicemail is net zo eenvoudig als het lezen van een e-mail.&lt;/p&gt;\r\n', '', ''),
+    (28, 2, 'HTC Touch HD', '&lt;p&gt;\r\n	HTC Touch - in High Definition. Bekijk muziek en streaming audio in High Definition kwaliteit. De HTC touch is dun en biedt de nieuwste beleving qua mobiele telefoons. Volledig ge&iuml;ntegreerd met Windows Mobile Professional 6.1, ultrasnel 3.5G, GPS, 5 megapixel camera en nog veel meer. Dit alles op een onvoorstelbaar scherp 3.8 inch WVGA touchscreen.&lt;/p&gt;\r\n&lt;p&gt;\r\n	&lt;strong&gt;Technische specificaties&lt;/strong&gt;&lt;/p&gt;\r\n&lt;ul&gt;\r\n	&lt;li&gt;\r\n		Processor Qualcomm&amp;reg; MSM 7201A&amp;trade; 528 MHz&lt;/li&gt;\r\n	&lt;li&gt;\r\n		Windows Mobile&amp;reg; 6.1 Professional Operating System&lt;/li&gt;\r\n	&lt;li&gt;\r\n		Geheugen: 512 MB ROM, 288 MB RAM&lt;/li&gt;\r\n	&lt;li&gt;\r\n		Afmetingen: 115 mm x 62.8 mm x 12 mm / 146.4 gram&lt;/li&gt;\r\n	&lt;li&gt;\r\n		3.8-inch TFT-LCD, 480 x 800 WVGA resolutie&lt;/li&gt;\r\n	&lt;li&gt;\r\n		HSDPA/WCDMA: Europa/Asi&euml;: 900/2100 MHz; Tot aan 2 Mbps up-link en 7.2 Mbps down-link snelheid&lt;/li&gt;\r\n	&lt;li&gt;\r\n		Quad-band GSM/GPRS/EDGE: Europa/Asi&euml;: 850/900/1800/1900 MHz (HSDPA beschikbaar, snelheden afhankelijk van de operator)&lt;/li&gt;\r\n	&lt;li&gt;\r\n		GPS en A-GPS geschikt&lt;/li&gt;\r\n	&lt;li&gt;\r\n		Bluetooth&amp;reg; 2.0 met Enhanced Data Rate en A2DP voor draadloze stereo headsets&lt;/li&gt;\r\n	&lt;li&gt;\r\n		Wi-Fi&amp;reg;: IEEE 802.11 b/g&lt;/li&gt;\r\n	&lt;li&gt;\r\n		HTC ExtUSB&amp;trade; (11-pin mini-USB 2.0)&lt;/li&gt;\r\n	&lt;li&gt;\r\n		5 megapixel kleurencamera met auto focus&lt;/li&gt;\r\n	&lt;li&gt;\r\n		VGA CMOS kleurencamera&lt;/li&gt;\r\n	&lt;li&gt;\r\n		Ingebouwde 3.5 mm audio aansluiting, microfoon, speaker, en FM radio&lt;/li&gt;\r\n	&lt;li&gt;\r\n		Ring tone formaten: AAC, AAC+, eAAC+, AMR-NB, AMR-WB, QCP, MP3, WMA, WAV&lt;/li&gt;\r\n	&lt;li&gt;\r\n		40 polyfone en standaard MIDI formaat 0 en 1 (SMF)/SP MIDI&lt;/li&gt;\r\n	&lt;li&gt;\r\n		Oplaadbare Lithium-ion of Lithium-ion polymeer 1350 mAh accu&lt;/li&gt;\r\n	&lt;li&gt;\r\n		Kaartlezer: microSD&amp;trade; geheugenkaart (SD 2.0 compatible)&lt;/li&gt;\r\n	&lt;li&gt;\r\n		AC Adapter voltage: 100 ~ 240V AC, 50/60 Hz DC output: 5V en 1A&lt;/li&gt;\r\n	&lt;li&gt;\r\n		Speciale opties: FM Radio, G-Sensor&lt;/li&gt;\r\n&lt;/ul&gt;\r\n', '', ''),
+    (44, 2, 'MacBook Air', '&lt;div&gt;\r\n	MacBook Air is ultradun, ultra-draagbaar en eigenlijk \'ultra alles\'. De MacBook Air is het resultaat van opnieuw nadenken over bestaande conventies. Hiermee is mobiel werken de nieuwe standaard geworden.&lt;/div&gt;\r\n', '', ''),
+    (45, 2, 'MacBook Pro', '', '', ''),
+    (29, 2, 'Palm Treo Pro', '&lt;p&gt;\r\n	Begin je werkdag helemaal anders met de Palm Treo Pro smartphone. Perfect in balans zodat je goed kan reageren op alle persoonlijke en zakelijke e-mail&lt;/p&gt;', '', ''),
+    (36, 2, 'iPod Nano', '&lt;div&gt;\r\n	&lt;p&gt;\r\n		&lt;strong&gt;Video in je binnenzak&lt;/strong&gt;&lt;/p&gt;\r\n	&lt;p&gt;\r\n		De kleine iPod maar met een groots idee: video. \'s-Werelds kleinste audio en videospeler laat je genieten van films, TV series en nog veel meer op een 2 inch scherm dat nu 65% helderder is.&lt;/p&gt;\r\n&lt;/div&gt;\r\n', '', ''),
+    (46, 2, 'Sony VAIO', '&lt;div&gt;\r\n	Ongekende kracht. De nieuwe generatie van rekenkracht is gearriveerd. &lt;/div&gt;\r\n', '', ''),
+    (47, 2, 'HP LP3065', '&lt;p&gt;\r\n	Geef je collega\'s het nakijken met dit geweldige 30 inch scherm. Je vergeet bijna dat je op kantoor bent!&lt;/p&gt;\r\n', '', ''),
+    (32, 2, 'iPod Touch', '&lt;p&gt;\r\n	&lt;strong&gt;Revolutionair multi-touch interface.&lt;/strong&gt;&lt;br /&gt;\r\n	De iPod touch heeft dezelfde multi-touch technologie als de iPhone. &lt;/p&gt;\r\n', '', ''),
+    (41, 2, 'iMac', '&lt;div&gt;\r\n	Net wanneer je dacht dat de iMac alles al had, kan hij nog veel meer. De iMac is alles-in-een en neemt weinig ruimte in beslag.&lt;/div&gt;\r\n', '', ''),
+    (33, 2, 'Samsung SyncMaster 941BW', '&lt;div&gt;\r\n	Stel je eens voor: alle voordelen van groot, maar zonder dat het langzamer wordt. De grote 19 inch 941BW monitor combineert een grote inkijkhoek met een ongekend grote verversingssnelheid. &lt;/div&gt;\r\n', '', ''),
+    (34, 2, 'iPod Shuffle', '', '', ''),
+    (43, 2, 'MacBook', '&lt;div&gt;\r\n	&lt;p&gt;\r\n		&lt;b&gt;Intel Core 2 Duo processor&lt;/b&gt;&lt;/p&gt;\r\n	&lt;p&gt;\r\n Gevoed door een Intel Core 2 Duo Processor op snelheden tot aan 2.16 Ghz is de nieuwe MacBook de snelste ooit!&lt;/p&gt;\r\n	&lt;p&gt;\r\n		&lt;b&gt;1GB geheugen, grote harde schijf&lt;/b&gt;&lt;/p&gt;\r\n	&lt;p&gt;\r\n		De nieuwe MacBook komt nu met standaard 1GB geheugen en grotere harde schijf&lt;/p&gt;\r\n	&lt;/div&gt;\r\n', '', ''),
+    (31, 2, 'Nikon D300', '', '', ''),
+    (49, 2, 'Samsung Galaxy Tab 10.1', '&lt;p&gt;\r\n	Samsung Galaxy Tab 10.1, \'s-werelds dunste tablet. De Galaxy Tab meet slechts 8.6 mm dikte, draait op Android 3.0 Honeycomb OS met een 1GHz dual-core Tegra 2 processor. ', '', ''),
+    (42, 2, 'Apple Cinema 30&quot;', '&lt;p&gt;\r\n	De 30-inch Apple Cinema HD levert een onwaarschijnlijke 2560 x 1600 pixel resolutie. Speciaal ontworpen voor de creatieve professional. \r\n&lt;/p&gt;', '', ''),
+    (30, 2, 'Canon EOS 5D', '', '', '');
 
 INSERT IGNORE INTO `oc_return_action` (`return_action_id`, `language_id`, `name`) VALUES
-(1, 2, 'Geld teruggegeven'),
-(2, 2, 'Creditnota opgemaakt'),
-(3, 2, 'Omgeruild');
+    (1, 2, 'Geld teruggegeven'),
+    (2, 2, 'Creditnota opgemaakt'),
+    (3, 2, 'Omgeruild');
 
 INSERT IGNORE INTO `oc_return_reason` (`return_reason_id`, `language_id`, `name`) VALUES
-(1, 2, 'Werkte niet bij ontvangst'),
-(2, 2, 'Verkeerd product ontvangen'),
-(3, 2, 'Fout bij de bestelling'),
-(4, 2, 'Functioneert niet, vermeld details s.v.p.'),
-(5, 2, 'Anders, omschrijf het probleem s.v.p.');
+    (1, 2, 'Werkte niet bij ontvangst'),
+    (2, 2, 'Verkeerd product ontvangen'),
+    (3, 2, 'Fout bij de bestelling'),
+    (4, 2, 'Functioneert niet, vermeld details s.v.p.'),
+    (5, 2, 'Anders, omschrijf het probleem s.v.p.');
 
 INSERT IGNORE INTO `oc_return_status` (`return_status_id`, `language_id`, `name`) VALUES
-(1, 2, 'In behandeling'),
-(3, 2, 'Afgerond'),
-(2, 2, 'Wacht op producten');
+    (1, 2, 'In behandeling'),
+    (3, 2, 'Afgerond'),
+    (2, 2, 'Wacht op producten');
 
 INSERT IGNORE INTO `oc_stock_status` (`stock_status_id`, `language_id`, `name`) VALUES
-(7, 2, 'Op voorraad'),
-(8, 2, 'Reserveer'),
-(5, 2, 'Uitverkocht'),
-(6, 2, '2 - 3 dagen');
+    (7, 2, 'Op voorraad'),
+    (8, 2, 'Pre-order'),
+    (5, 2, 'Uitverkocht'),
+    (6, 2, '2 - 3 dagen');
 
 INSERT IGNORE INTO `oc_voucher_theme_description` (`voucher_theme_id`, `language_id`, `name`) VALUES
-(6, 2, 'Kerst'),
-(7, 2, 'Verjaardag'),
-(8, 2, 'Algemeen');
+    (6, 2, 'Kerst'),
+    (7, 2, 'Verjaardag'),
+    (8, 2, 'Algemeen');
+
+INSERT IGNORE INTO `oc_weight_class_description` (`weight_class_id`, `language_id`, `title`, `unit`) VALUES
+    (21, 2, 'Kilogram', 'kg'),
+    (22, 2, 'Gram', 'g'),
+    (25, 2, 'Pond', 'lb'),
+    (26, 2, 'Ounce', 'oz');
+
+--
+--      Overschrijven
+--
+
+TRUNCATE TABLE `oc_layout`;
+INSERT INTO `oc_layout` (`layout_id`, `name`) VALUES
+    (1, 'Voorpagina'),
+    (2, 'Product'),
+    (3, 'Categorie'),
+    (4, 'Standaard'),
+    (5, 'Fabrikant'),
+    (6, 'Account'),
+    (7, 'Afrekenen'),
+    (8, 'Contact'),
+    (9, 'Sitemap'),
+    (10, 'Affiliate'),
+    (11, 'Informatie');
 
 -- 		Land specifieke aanpassingen (zoals BTW)
 
